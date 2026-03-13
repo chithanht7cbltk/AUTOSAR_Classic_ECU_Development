@@ -1,0 +1,86 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "HW Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "gdbPath": "arm-none-eabi-gdb",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/FIRMWARE.elf",
+            "device": "STM32F103C8T6",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "svdFile": "${workspaceFolder}/platform/debug/STM32F103.svd",
+            "runToEntryPoint": "main",
+            "stopAtEntry": true,
+            "postLaunchCommands": [
+                "monitor reset halt",
+                "load"
+            ],
+            "postRestartCommands": [
+                "monitor reset halt",
+                "load"
+            ],
+            "showDevDebugOutput": "none",
+            "liveWatch": {
+                "enabled": false
+            },
+            "preLaunchTask": "Make: build",
+            "svdAddrGapThreshold": 16,
+            "registers": [
+                "r0",
+                "r1",
+                "r2",
+                "r3",
+                "r12",
+                "lr",
+                "pc",
+                "xPSR",
+                "sp",
+                "msp",
+                "psp"
+            ]
+        },
+        {
+            "name": "Renode Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "external",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/FIRMWARE.elf",
+            "device": "STM32F103C8T6",
+            "gdbPath": "arm-none-eabi-gdb",
+            "gdbTarget": "localhost:3333",
+            "runToEntryPoint": "main",
+            "stopAtEntry": false,
+            "postLaunchCommands": [
+                "monitor reset",
+                "monitor start"
+            ],
+            "showDevDebugOutput": "none",
+            "liveWatch": {
+                "enabled": false
+            },
+            "preLaunchTask": "Renode: prepare",
+            "postDebugTask": "Renode: cleanup",
+            "svdAddrGapThreshold": 16,
+            "registers": [
+                "r0",
+                "r1",
+                "r2",
+                "r3",
+                "r12",
+                "lr",
+                "pc",
+                "xPSR",
+                "sp",
+                "msp",
+                "psp"
+            ]
+        }
+    ]
+}

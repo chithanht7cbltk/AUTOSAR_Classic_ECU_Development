@@ -1,0 +1,37 @@
+:name: STM32F103 Sample Debug
+:description: Script chay Sample tren Renode
+
+$elf_path ?= @build/FIRMWARE.elf
+
+# 1. Tao may ao
+mach create "stm32"
+
+# 2. Nap cau hinh phan cung STM32F103
+machine LoadPlatformDescription @platform/debug/stm32f103_full.repl
+
+# 3. Log file
+logFile @gpio_log.txt
+
+# 4. Console
+showAnalyzer sysbus.usart1
+
+# 5. Button PA0 (Input Pull-up, Active Low)
+machine LoadPlatformDescriptionFromString "userButtonPA0: Miscellaneous.Button @ gpioPortA 0 { invert: true; -> gpioPortA@0 }"
+
+# 6. LED PC13 (Active Low)
+machine LoadPlatformDescriptionFromString "ledPC13: Miscellaneous.LED @ gpioPortC 13 { invert: true }; gpioPortC: { 13 -> ledPC13@0 }"
+
+# 7. Nap file ELF
+sysbus LoadELF $elf_path
+
+# 8. Alias
+alias btn_down "sysbus.gpioPortA.userButtonPA0 Press"
+alias btn_up   "sysbus.gpioPortA.userButtonPA0 Release"
+alias led_check "sysbus.gpioPortC.ledPC13 State"
+
+# 9. GDB Server
+machine StartGdbServer 3333
+mach set "stm32"
+
+logLevel 3 sysbus
+echo "Renode ready for GDB connection on port 3333. Use 'start' to begin simulation."
