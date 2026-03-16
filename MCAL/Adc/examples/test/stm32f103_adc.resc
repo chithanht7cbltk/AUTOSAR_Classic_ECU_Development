@@ -1,0 +1,18 @@
+# Renode script for STM32F103 ADC testing
+
+using sysbus
+mach create "STM32F103"
+machine LoadPlatformDescription @platforms/cpus/stm32f103.repl
+
+# We can provide a custom repl if we want to add specific stimulus
+# machine LoadPlatformDescription @adc_stimulus.repl
+
+showAnalyzer sysbus.usart1
+
+macro reset
+"""
+    sysbus LoadELF @examples/main_dma.elf
+"""
+
+runMacro $reset
+# start

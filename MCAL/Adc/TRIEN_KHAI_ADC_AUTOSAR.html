@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài X: Triển Khai ADC Ngắt & Callback Theo Phong Cách AUTOSAR</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230f5ea8'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='30' font-family='Times New Roman' fill='white'%3EH%3C/text%3E%3C/svg%3E">
+    <style>
+        @page {
+            size: A4;
+            margin: 2.4cm 1.9cm;
+            @top-left { content: "HALA Academy"; font-size: 9pt; color: #0f5ea8; }
+            @top-right { content: "MCAL AUTOSAR CLASSIC"; font-size: 9pt; color: #4b5563; }
+            @bottom-center { content: counter(page); font-size: 9pt; color: #374151; }
+        }
+
+        :root {
+            --brand: #0f5ea8;
+            --brand-dark: #0a3d74;
+            --brand-soft: #eef6ff;
+            --ink: #111827;
+            --muted: #4b5563;
+            --line: #cbd5e1;
+            --panel: #f8fbff;
+            --warning-bg: #fff6db;
+            --warning-line: #e0aa00;
+            --success-bg: #edf7ee;
+            --success-line: #2f855a;
+            --code-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Georgia, serif;
+            font-size: 11pt;
+            line-height: 1.72;
+            color: var(--ink);
+            background: #ffffff;
+        }
+
+        .page-shell {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 0 24px 48px;
+        }
+
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 5cm 0 4cm;
+            page-break-after: always;
+        }
+
+        .cover img {
+            width: 160px;
+            max-width: 36vw;
+            margin-bottom: 1.2cm;
+        }
+
+        .course-name {
+            font-size: 14pt;
+            letter-spacing: 1.6px;
+            color: var(--brand);
+            text-transform: uppercase;
+            margin-bottom: 0.35cm;
+        }
+
+        .lesson-title {
+            width: 100%;
+            max-width: 720px;
+            font-size: 23pt;
+            font-weight: 700;
+            color: #000;
+            margin: 0.7cm 0 0.5cm;
+            padding: 0.55cm 0;
+            border-top: 2px solid var(--brand);
+            border-bottom: 2px solid var(--brand);
+        }
+
+        .lesson-subtitle {
+            font-size: 11pt;
+            color: var(--muted);
+            letter-spacing: 0.2px;
+        }
+
+        .author {
+            margin-top: 3.6cm;
+            font-size: 11pt;
+            color: #374151;
+        }
+
+        .institution {
+            margin-top: 0.45cm;
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--brand);
+        }
+
+        .front-matter {
+            page-break-after: always;
+            margin-bottom: 1.4cm;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin: 20px 0 22px;
+        }
+
+        .meta-card {
+            background: linear-gradient(180deg, #ffffff 0%, var(--panel) 100%);
+            border: 1px solid #b9d6f2;
+            border-top: 3px solid var(--brand);
+            padding: 14px 16px;
+        }
+
+        .meta-card .label {
+            display: block;
+            font-size: 9.5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--brand);
+            margin-bottom: 6px;
+        }
+
+        .meta-card .value {
+            font-size: 11pt;
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        h1, h2, h3, h4 {
+            page-break-after: avoid;
+        }
+
+        h1 {
+            font-size: 16pt;
+            color: var(--brand);
+            border-bottom: 1px solid var(--brand);
+            padding-bottom: 5px;
+            margin-top: 1.35cm;
+            margin-bottom: 0.45cm;
+        }
+
+        h2 {
+            font-size: 14pt;
+            color: var(--brand);
+            border-bottom: 1px solid #c7def5;
+            padding-bottom: 4px;
+            margin-top: 1cm;
+            margin-bottom: 0.35cm;
+        }
+
+        h3 {
+            font-size: 11.3pt;
+            color: #1f2937;
+            font-weight: 700;
+            margin-top: 0.55cm;
+            margin-bottom: 0.2cm;
+        }
+
+        p {
+            margin: 0.3cm 0;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 8px 0 12px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin: 4px 0;
+        }
+
+        a {
+            color: var(--brand);
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 14px 0;
+            font-size: 10pt;
+            border: 2px solid var(--brand-dark);
+        }
+
+        th, td {
+            border: 1px solid #94a3b8;
+            padding: 8px 10px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        th {
+            background: var(--brand);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        tr:nth-child(even) {
+            background: #f8fbff;
+        }
+
+        pre {
+            background: var(--code-bg);
+            border: 1px solid #b9d6f2;
+            border-left: 4px solid var(--brand);
+            padding: 12px 15px;
+            margin: 12px 0;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 9pt;
+            line-height: 1.52;
+            color: #1f2937;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        code {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 9pt;
+            background: #eff6ff;
+            border: 1px solid #cfe2ff;
+            padding: 1px 4px;
+            border-radius: 2px;
+        }
+
+        pre code {
+            background: none;
+            border: none;
+            padding: 0;
+            border-radius: 0;
+        }
+
+        blockquote {
+            margin: 14px 0;
+            padding: 10px 16px;
+            background: var(--brand-soft);
+            border-left: 3px solid var(--brand);
+            color: #23334a;
+        }
+
+        .box {
+            padding: 15px 18px;
+            margin: 15px 0;
+            border: 1px solid #cbd5e1;
+            background: #fff;
+        }
+
+        .box h1, .box h2, .box h3 {
+            margin-top: 0;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .objectives {
+            border: 1px solid #8fb8e1;
+            background: linear-gradient(180deg, #ffffff 0%, #f5faff 100%);
+        }
+
+        .reference-box {
+            border-left: 4px solid var(--brand);
+            background: #f7fbff;
+        }
+
+        .toc {
+            border: 1px solid #cbd5e1;
+            background: #fafcff;
+            padding: 16px 18px;
+            margin: 18px 0;
+        }
+
+        .toc-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 8px;
+        }
+
+        .toc ol {
+            margin: 0;
+            padding-left: 22px;
+            column-count: 2;
+            column-gap: 28px;
+        }
+
+        .toc li {
+            break-inside: avoid;
+            margin: 5px 0;
+        }
+
+        .note {
+            background: var(--brand-soft);
+            border-left: 3px solid var(--brand);
+            padding: 10px 15px;
+            margin: 12px 0;
+            font-size: 10pt;
+        }
+
+        .warning {
+            background: var(--warning-bg);
+            border-left: 3px solid var(--warning-line);
+            padding: 10px 15px;
+            margin: 12px 0;
+            font-size: 10pt;
+        }
+
+        .success {
+            background: var(--success-bg);
+            border-left: 3px solid var(--success-line);
+            padding: 10px 15px;
+            margin: 12px 0;
+            font-size: 10pt;
+        }
+
+        .mermaid-wrap {
+            margin: 18px 0;
+            padding: 12px;
+            border: 1px solid #d8e6f4;
+            background: #fbfdff;
+        }
+
+        .mermaid-title {
+            font-size: 10pt;
+            color: #475569;
+            margin-bottom: 8px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .mermaid {
+            text-align: center;
+            overflow-x: auto;
+        }
+
+        .teaching-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            margin: 18px 0 22px;
+        }
+
+        .teaching-card,
+        .keyword-card,
+        .concept-card,
+        .example-card {
+            border: 1px solid #d7e6f6;
+            border-radius: 18px;
+            background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+            padding: 16px 17px;
+            box-shadow: 0 10px 24px rgba(15, 94, 168, 0.05);
+        }
+
+        .teaching-card .eyebrow,
+        .keyword-card .eyebrow,
+        .example-card .eyebrow {
+            display: inline-block;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 8.6pt;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+
+        .teaching-card .title,
+        .keyword-card .term,
+        .concept-card .title,
+        .example-card .title {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 8px;
+        }
+
+        .teaching-card p,
+        .keyword-card p,
+        .concept-card p,
+        .example-card p {
+            margin: 0;
+            font-size: 10.2pt;
+            color: #223246;
+            text-align: left;
+        }
+
+        .teaching-card ul,
+        .example-card ul {
+            margin: 10px 0 0;
+            padding-left: 18px;
+        }
+
+        .keyword-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            margin: 18px 0 24px;
+        }
+
+        .keyword-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .keyword-card::after {
+            content: "";
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(15, 94, 168, 0.12) 0%, rgba(15, 94, 168, 0) 70%);
+            pointer-events: none;
+        }
+
+        .keyword-card .translation {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 9pt;
+            color: #516274;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .keyword-card .detail {
+            font-size: 10pt;
+            color: #203041;
+            text-align: left;
+        }
+
+        .concept-flow {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+            margin: 18px 0 24px;
+        }
+
+        .concept-card {
+            position: relative;
+            border-top: 4px solid var(--brand);
+            padding-top: 14px;
+        }
+
+        .concept-card:not(:last-child)::after {
+            content: "\2192";
+            position: absolute;
+            right: -12px;
+            top: 46%;
+            transform: translateY(-50%);
+            color: var(--brand);
+            font-size: 20pt;
+            font-weight: 700;
+        }
+
+        .concept-card .step {
+            display: inline-flex;
+            width: 28px;
+            height: 28px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: var(--brand);
+            color: #fff;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 9.2pt;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .example-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+            margin: 18px 0 24px;
+        }
+
+        .pedagogy-panel {
+            margin: 18px 0;
+            border-radius: 20px;
+            border: 1px solid #d7e6f6;
+            background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+            padding: 18px 20px;
+            box-shadow: 0 12px 26px rgba(15, 94, 168, 0.05);
+        }
+
+        .pedagogy-panel .panel-title {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 8px;
+        }
+
+        .pedagogy-panel .panel-subtitle {
+            margin-bottom: 12px;
+            color: #425466;
+            font-size: 10pt;
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 999px;
+            background: #eef6ff;
+            border: 1px solid #c8dff8;
+            color: var(--brand-dark);
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .compare-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            margin-top: 12px;
+        }
+
+        .compare-card {
+            border-radius: 18px;
+            padding: 15px 16px;
+            border: 1px solid #dbe6f2;
+            background: #ffffff;
+        }
+
+        .compare-card .compare-title {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 8px;
+        }
+
+        .compare-card ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .diagram-card {
+            margin: 18px 0;
+            border-radius: 22px;
+            border: 1px solid #d7e6f6;
+            background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+            padding: 16px;
+            overflow: hidden;
+            box-shadow: 0 12px 30px rgba(15, 94, 168, 0.06);
+        }
+
+        .diagram-title {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 4px;
+        }
+
+        .diagram-subtitle,
+        .diagram-caption,
+        .diagram-note {
+            font-size: 10pt;
+            color: #526172;
+        }
+
+        .diagram-caption {
+            margin-top: 10px;
+        }
+
+        .svg-wrap {
+            width: 100%;
+            overflow-x: auto;
+            margin-top: 12px;
+        }
+
+        .memory-map {
+            margin: 18px 0;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #d7e6f6;
+            background: #ffffff;
+            box-shadow: 0 12px 24px rgba(15, 94, 168, 0.05);
+        }
+
+        .memory-map-header,
+        .memory-map-row {
+            display: grid;
+            grid-template-columns: 170px 150px 1fr;
+        }
+
+        .memory-map-header {
+            background: linear-gradient(90deg, var(--brand-dark) 0%, var(--brand) 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 8.8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 700;
+        }
+
+        .memory-map-header div,
+        .memory-map-row div {
+            padding: 11px 12px;
+            border-bottom: 1px solid #e4edf7;
+        }
+
+        .memory-map-row:nth-child(even) {
+            background: #f9fcff;
+        }
+
+        .memory-map-row:last-child div {
+            border-bottom: none;
+        }
+
+        .segment-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 82px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 8.6pt;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+        }
+
+        .segment-badge.sw {
+            background: #e9f3ff;
+            color: #0d4b86;
+        }
+
+        .segment-badge.hw {
+            background: #ecfdf3;
+            color: #12653f;
+        }
+
+        .memory-map-footer {
+            padding: 14px 16px;
+            background: #f8fbff;
+            border-top: 1px solid #dde8f3;
+            color: #334155;
+            font-size: 10pt;
+        }
+
+        .architecture-figure {
+            display: grid;
+            grid-template-columns: 1fr 180px 1fr;
+            gap: 16px;
+            align-items: stretch;
+            margin: 18px 0;
+        }
+
+        .stack-panel {
+            border-radius: 18px;
+            border: 1px solid #d7e6f6;
+            background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+            padding: 14px;
+        }
+
+        .stack-title {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11.2pt;
+            font-weight: 700;
+            color: var(--brand-dark);
+            margin-bottom: 10px;
+        }
+
+        .stack-subtitle {
+            margin-bottom: 12px;
+            color: #526172;
+            font-size: 10pt;
+        }
+
+        .stack-block {
+            border-radius: 14px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            font-size: 9.8pt;
+            border: 1px solid #d5e4f4;
+        }
+
+        .stack-block strong {
+            display: block;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            color: #17324d;
+            margin-bottom: 3px;
+        }
+
+        .stack-block.sw {
+            background: #eef6ff;
+        }
+
+        .stack-block.hw {
+            background: #edfdf3;
+        }
+
+        .stack-block.kernel {
+            background: #fff6db;
+        }
+
+        .architecture-middle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+            border-radius: 18px;
+            border: 1px dashed #b7d0ea;
+            background: linear-gradient(180deg, #f7fbff 0%, #edf5ff 100%);
+            color: var(--brand-dark);
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            font-weight: 700;
+        }
+
+        .raw-fallback {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .footer {
+            margin-top: 2cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #6b7280;
+            border-top: 1px solid #d1d5db;
+            padding-top: 10px;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .print-hint {
+            font-size: 10pt;
+            color: #4b5563;
+            text-align: center;
+            margin: 10px 0 2px;
+        }
+
+        @media screen {
+            body {
+                background: linear-gradient(180deg, #edf5ff 0%, #ffffff 220px);
+            }
+
+            .page-shell {
+                background: #fff;
+                box-shadow: 0 18px 48px rgba(15, 94, 168, 0.08);
+                margin-top: 24px;
+                margin-bottom: 24px;
+            }
+        }
+
+        @media print {
+            html,
+            body {
+                background: #ffffff;
+            }
+
+            .page-shell {
+                max-width: none;
+                padding: 0;
+                box-shadow: none;
+            }
+
+            .print-hint {
+                display: none;
+            }
+
+            h1, h2, h3, h4,
+            .panel-title,
+            .diagram-title,
+            .stack-title,
+            .compare-title,
+            .memory-map-header {
+                break-after: avoid-page;
+                page-break-after: avoid;
+            }
+
+            p, li {
+                orphans: 3;
+                widows: 3;
+            }
+
+            .pedagogy-panel,
+            .diagram-card,
+            .memory-map,
+            .compare-card,
+            .stack-panel,
+            .teaching-card,
+            .keyword-card,
+            .concept-card,
+            .example-card,
+            .mermaid-wrap,
+            pre,
+            table,
+            blockquote {
+                break-inside: avoid-page;
+                page-break-inside: avoid;
+            }
+
+            .teaching-grid,
+            .keyword-grid,
+            .compare-grid,
+            .example-grid,
+            .concept-flow,
+            .architecture-figure {
+                display: block;
+            }
+
+            .teaching-card,
+            .keyword-card,
+            .concept-card,
+            .example-card,
+            .compare-card,
+            .stack-panel {
+                margin-bottom: 12px;
+            }
+
+            .concept-card:not(:last-child)::after {
+                display: none;
+            }
+
+            .pedagogy-panel,
+            .diagram-card,
+            .memory-map,
+            .teaching-card,
+            .keyword-card,
+            .concept-card,
+            .example-card,
+            .compare-card,
+            .stack-panel,
+            .mermaid-wrap {
+                border-radius: 10px;
+                box-shadow: none;
+            }
+
+            .pedagogy-panel,
+            .diagram-card,
+            .memory-map {
+                margin: 12px 0 16px;
+                padding: 14px 16px;
+            }
+
+            .compare-grid,
+            .architecture-figure {
+                margin-top: 10px;
+            }
+
+            .pill-row {
+                gap: 6px;
+            }
+
+            .pill {
+                padding: 4px 8px;
+            }
+
+            .memory-map {
+                overflow: visible;
+            }
+
+            .memory-map-header,
+            .memory-map-row {
+                grid-template-columns: 150px 120px 1fr;
+            }
+
+            .svg-wrap {
+                overflow: visible;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-shell {
+                padding: 0 14px 28px;
+            }
+
+            .meta-grid,
+            .keyword-grid,
+            .compare-grid,
+            .architecture-figure {
+                grid-template-columns: 1fr;
+            }
+
+            .toc ol {
+                column-count: 1;
+            }
+
+            .lesson-title {
+                font-size: 18pt;
+            }
+
+            .teaching-grid,
+            .example-grid,
+            .concept-flow {
+                grid-template-columns: 1fr;
+            }
+
+            .concept-card:not(:last-child)::after {
+                content: "\2193";
+                right: auto;
+                left: 50%;
+                bottom: -18px;
+                top: auto;
+                transform: translateX(-50%);
+            }
+
+            .memory-map-header,
+            .memory-map-row {
+                grid-template-columns: 120px 120px 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+        <section class="cover">
+            <img src="./assets/hala_logo.png" alt="HALA Academy">
+            <div class="course-name">MCAL AUTOSAR CLASSIC</div>
+            <div class="lesson-title" id="cover-title">Bài X: Triển Khai ADC Ngắt & Callback Theo Phong Cách AUTOSAR</div>
+            <div class="lesson-subtitle">STM32F103 SPL, Driver Handler, Triggers, DMA, Callbacks</div>
+            <div class="author">Biên soạn: <strong>Phạm Văn Vũ</strong></div>
+            <div class="institution">HALA Academy</div>
+        </section>
+
+        <section class="front-matter">
+            <div class="meta-grid">
+                <div class="meta-card">
+                    <span class="label">Bài học</span>
+                    <div class="value">Triển Khai ADC Ngắt & Callback Theo Phong Cách AUTOSAR</div>
+                </div>
+                <div class="meta-card">
+                    <span class="label">Mục tiêu chuyên môn</span>
+                    <div class="value">Hiểu kiến trúc phân tầng AUTOSAR ADC, cấu hình nhóm kênh và ISR Callback</div>
+                </div>
+            </div>
+
+            <h1>Mục tiêu Bài học</h1>
+            <div class="box objectives" id="objectives-box"></div>
+
+            <h1>Ba Câu Hỏi Xương Sống</h1>
+            <div class="teaching-grid" id="question-board"></div>
+
+            <h1>Từ Khóa Tiếng Anh Bắt Buộc</h1>
+            <div class="keyword-grid" id="keyword-grid"></div>
+
+            <h1>Lộ Trình Tư Duy Của Bài</h1>
+            <div class="concept-flow" id="concept-flow"></div>
+
+            <h1>Tình Huống Dẫn Nhập</h1>
+            <div class="example-grid" id="scenario-board"></div>
+
+            <h1>Source Đối Chiếu Chính</h1>
+            <div class="box reference-box" id="source-box"></div>
+
+            <div class="toc">
+                <div class="toc-title">Cấu trúc Bài 1</div>
+                <ol id="toc-list"></ol>
+            </div>
+        </section>
+
+        <main id="lesson-body"></main>
+
+        <div class="footer">HALA Academy | MCAL AUTOSAR | Bài X: Triển Khai ADC Ngắt & Callback Theo Phong Cách AUTOSAR</div>
+    </div>
+
+    <textarea id="md-source" hidden>
+# Bài X - Triển Khai ADC Ngắt & Callback Theo Phong Cách AUTOSAR
+
+## 1. Mục tiêu của bài này
+- Hiểu kiến trúc cơ bản của ADC Driver trên STM32F103 (SPL) tuân theo một phần chuẩn AUTOSAR MCAL.
+- Tách bạch vai trò: ISR entry chỉ gọi handler của driver, không chứa logic ứng dụng.
+- Hiểu cách Driver handler lặp qua bảng cấu hình (`Adc_GroupConfigType`), tự động kiểm tra, đọc kết quả, xóa cờ ngắt và gọi callback do ứng dụng đăng ký.
+- Cho phép Ứng dụng chỉ cần khởi tạo, gọi callback và dùng các API enable/trigger thay vì trực tiếp thao tác thanh ghi.
+
+## 2. Giới thiệu
+Tài liệu này hướng dẫn bạn triển khai ADC Driver trên STM32F103 (SPL, Standard Peripheral Library) theo kiến trúc mô phỏng AUTOSAR:
+
+- Ngắt (ISR) từ vector table (`startup.s`) trỏ vào một entry siêu nhẹ (`Adc_Cfg.c`), sau đó gọi thẳng vào Driver Handler gốc (`Adc.c`).
+- Tại Handler, thay vì hardcode cho một mục đích cố định, driver sẽ check toàn bộ các Group được cấu hình xem Group nào phát sinh ngắt, cờ nào bật, sau đó xử lý cờ và tự động đẩy dữ liệu về buffer ứng dụng. Cuối cùng, nó gọi một hàm con trỏ Callback Notification.
+- Ở phía trên (Ứng dụng/App logic), người dùng chỉ gọi API như `Adc_Init()`, `Adc_SetupResultBuffer()`, `Adc_EnableGroupNotification()` và viết ruột cho hàm Notification Callback.
+
+Kiến trúc này đảm bảo tính đóng gói, dễ dùng lại và mở rộng cực tốt (như việc thêm Group DMA mà không phải viết lại hàm ISR quá nhiều).
+
+## 3. Source cần đọc
+- `Adc.h`: File header chứa các Macro, API tiêu chuẩn MCAL.
+- `Adc_Types.h`: Chứa định nghĩa các Type, Enum phục vụ cấu hình ADC và DMA.
+- `Adc_Cfg.h` / `Adc_Cfg.c`: Nơi khai báo và định nghĩa mảng cấu hình `Adc_GroupConfig[]` cùng con trỏ hàm Callback.
+- `Adc.c`: Driver cốt lõi, khởi tạo thanh ghi và xử lý ngắt (`Adc_IsrHandler`, `Adc_DmaIsrHandler`).
+- `main.c` (Hoặc file App tùy chỉnh): Nơi khởi tạo, gọi API và triển khai Callback function.
+
+## 4. Sơ đồ tổng quan luồng xử lý (Ngắt EOC)
+Logic thực thi từ lúc có ngắt phần cứng đến lúc callback người dùng được thực thi chạy qua nhiều tầng. Việc tách lớp này đảm bảo chuẩn AUTOSAR.
+
+```mermaid
+sequenceDiagram
+    participant HW as Hardware (ADC EOC)
+    participant Vector as Vector Table (startup.s)
+    participant Cfg as ISR Config (Adc_Cfg.c)
+    participant Driver as ADC Driver (Adc.c)
+    participant App as Ứng dụng (main.c)
+
+    Note over HW, Vector: Chuyển đổi xong, cờ EOC bật lên
+    HW->>Vector: Ngắt IRQ kích hoạt
+    Vector->>Cfg: Gọi ADC1_2_IRQHandler()
+    Cfg->>Driver: Gọi Adc_IsrHandler(ADC1)
+    
+    activate Driver
+    Driver->>Driver: Lặp qua bảng config[]
+    Driver->>Driver: Clear cờ ngắt EOC
+    Driver->>Driver: Đọc ADC_GetConversionValue
+    Driver->>Driver: Lưu vào Buffer
+    Driver->>App: Gọi NotificationCb()
+    
+    activate App
+    App-->>App: Xử lý kết quả (VD: Toggle LED)
+    App-->>Driver: Return
+    deactivate App
+    
+    deactivate Driver
+```
+
+Tóm tắt ý nghĩa sơ đồ:
+1. `Hardware HW` sinh ngắt.
+2. `Vector Table` rẽ nhánh vào ISR `ADC1_2_IRQHandler` do ta định nghĩa trong `Adc_Cfg.c` hoặc đè tên `.weak` trong file `startup.s`.
+3. ISR này lập tức chuyển trách nhiệm xuống API lõi của Driver là `Adc_IsrHandler(ADC_TypeDef* ADCx)`.
+4. Driver xử lý cờ ngắt chuyên sâu, lấy xong dữ liệu thì gọi hàm Notification Callback thuộc về Ứng dụng (`App`).
+
+## 5. Các bước triển khai cấu trúc File
+Để đạt được kiến trúc, mã nguồn phải được phân bổ đúng chức năng.
+
+### Bước 1: Đăng ký ISR trong startup (startup.s)
+Code Assembly khởi tạo sẽ có các biểu tượng (symbol) dạng `.weak` như `ADC1_2_IRQHandler`. 
+Biểu tượng `.weak` cho phép bạn định nghĩa lại một hàm `void ADC1_2_IRQHandler(void)` bằng C ở một file khác mà không báo lỗi "Multiple definition".
+
+```asm
+    .weak   ADC1_2_IRQHandler
+    .long   ADC1_2_IRQHandler    /* [18] ADC1 & ADC2 global interrupt */
+```
+
+### Bước 2: Định nghĩa cấu trúc cấu hình và Group (Adc_Cfg.h)
+File `Adc_Cfg.h` khai báo cấu trúc chứa "tất cả tham số để vận hành 1 nhóm ADC" và hàm callback.
+
+```c
+#ifndef ADC_CFG_H
+#define ADC_CFG_H
+
+#include "Adc.h"
+
+// Kiểu con trỏ hàm Callback
+typedef void (*Adc_NotificationCbType)(void);
+
+typedef struct {
+    ADC_TypeDef*             ADCx;           // ADC instance (ADC1/ADC2)
+    Adc_GroupType            groupId;        // Group numeric ID
+    uint8_t                  channelCount;   // Số kênh trong group
+    Adc_TriggerType          triggerType;    // Software, EOC_INT, DMA, v.v.
+    const Adc_DmaConfigType* dmaConfig;      // Cấu hình DMA (nếu dùng)
+    Adc_ChannelConfigType    channels[8];    // Mảng cấu hình các kênh con
+    Adc_NotificationCbType   NotificationCb; // Callback gọi khi xong
+} Adc_GroupConfigType;
+
+// Mảng cấu hình cho toàn bộ dự án
+extern const Adc_GroupConfigType AdcGroupConfig[];
+#define ADC_NUM_GROUPS  (sizeof(AdcGroupConfig)/sizeof(AdcGroupConfig[0]))
+
+// Các ISR nguyên bản được khai báo để file Adc_Cfg.c triển khai
+void ADC1_2_IRQHandler(void);
+
+#endif
+```
+
+### Bước 3: Điền bảng cấu hình và Link Handler (Adc_Cfg.c)
+Bảng cấu hình tạo ra bức tranh "Phần cứng được dùng như thế nào". Tùy dự án, bảng này thay đổi nhưng Driver lõi không cần sửa chữa.
+
+```c
+#include "Adc_Cfg.h"
+#include "stm32f10x_adc.h"
+
+// Ứng dụng sẽ tự khai báo hàm này, tạm thời khai báo extern tại đây
+extern void MyAdcGroup0_Notification(void);
+
+/* Định nghĩa lại hàm ngắt mặc định của Vector Table */
+void ADC1_2_IRQHandler(void)
+{
+    extern void Adc_IsrHandler(ADC_TypeDef* ADCx);
+    // Truyền HW Instance xuống cho Driver xử lý
+    Adc_IsrHandler(ADC1);
+}
+
+/* Biến Mảng cấu hình toàn cục */
+const Adc_GroupConfigType AdcGroupConfig[ADC_NUM_GROUPS] = {
+    { 
+        .ADCx = ADC1, 
+        .groupId = 0, 
+        .channelCount = 1, 
+        .triggerType = ADC_TRIGGER_EOC_INT,
+        .dmaConfig = NULL,
+        .channels = { {ADC_Channel_0, ADC_SAMPLETIME_55CYCLES_5, 1} },
+        .NotificationCb = MyAdcGroup0_Notification
+    }
+    // Có thể thêm Group khác (vd: Group DMA)
+};
+```
+
+### Bước 4: Khai báo API chuẩn AUTOSAR (Adc.h)
+Driver cung cấp danh sách API theo chuẩn MCAL 8.3.1 - 8.3.17, dùng để giao tiếp với bộ Driver, thay vì giao tiếp thẳng với SPL.
+
+```c
+#ifndef ADC_H
+#define ADC_H
+
+#include "Std_Types.h"
+#include "stm32f10x.h"
+#include "Adc_Types.h"
+
+void Adc_Init(const Adc_ConfigType* ConfigPtr);
+Std_ReturnType Adc_SetupResultBuffer(Adc_GroupType Group, Adc_ValueGroupType* DataBufferPtr);
+void Adc_DeInit(void);
+void Adc_StartGroupConversion(Adc_GroupType Group);
+void Adc_StopGroupConversion(Adc_GroupType Group);
+Std_ReturnType Adc_ReadGroup(Adc_GroupType Group, Adc_ValueGroupType* DataBufferPtr);
+
+void Adc_EnableHardwareTrigger(Adc_GroupType Group);
+void Adc_DisableHardwareTrigger(Adc_GroupType Group);
+void Adc_EnableGroupNotification(Adc_GroupType Group);
+void Adc_DisableGroupNotification(Adc_GroupType Group);
+
+Adc_StatusType Adc_GetGroupStatus(Adc_GroupType Group);
+Std_ReturnType Adc_GetStreamLastPointer(Adc_GroupType Group, Adc_ValueGroupType** Ptr);
+void Adc_GetVersionInfo(Std_VersionInfoType* versioninfo);
+
+#endif
+```
+
+### Bước 5: Cài đặt Driver Handler lõi (Adc.c)
+Logic xử lý ngắt trong Driver được thực hiện trong hàm `Adc_IsrHandler`. Đây là trái tim của cơ chế Callback:
+
+```c
+void Adc_IsrHandler(ADC_TypeDef* ADCx)
+{
+    // Duyệt qua toàn bộ các nhóm cấu hình
+    for (uint8_t i = 0; i < ADC_NUM_GROUPS; i++) {
+        const Adc_GroupConfigType* cfg = &AdcGroupConfig[i];
+        
+        // Skip nếu Group đó không dùng phần cứng sinh ngắt
+        if (cfg->ADCx != ADCx) continue;
+        
+        // Kiểm tra đúng cờ ngắt EOC 
+        if (ADC_GetITStatus(ADCx, ADC_IT_EOC)) {
+            uint16_t val = ADC_GetConversionValue(ADCx);
+            
+            // Xóa cờ ngắt
+            ADC_ClearITPendingBit(ADCx, ADC_IT_EOC);
+            
+            // Đẩy giá trị vào Buffer nếu có
+            if (Adc_ResultBuffers[i] != NULL) {
+                Adc_ResultBuffers[i][0] = val; 
+            }
+            Adc_GroupStatuses[i] = ADC_COMPLETED;
+            
+            // Gọi con trỏ hàm Callback lên Application Layer
+            if (cfg->NotificationCb) {
+                cfg->NotificationCb(); 
+            }
+        }
+    }
+}
+```
+
+Và cơ chế Enable Notification (Bật ngắt):
+```c
+void Adc_EnableGroupNotification(Adc_GroupType Group)
+{
+    if (Group >= ADC_NUM_GROUPS) return;
+    const Adc_GroupConfigType* cfg = &AdcGroupConfig[Group];
+    
+    // Bật cờ ngắt cấp ngoại vi
+    ADC_ITConfig(cfg->ADCx, ADC_IT_EOC, ENABLE);
+    
+    // Bật ngắt cấp NVIC dựa trên HW Interrupt Line chung (có thể mở rộng theo cấu trúc)
+    NVIC_EnableIRQ(ADC1_2_IRQn);
+}
+```
+
+### Bước 6: Viết luồng chính cho Application (main.c)
+Toàn bộ mã phía trên cung cấp một nền tảng (Foundation) để viết thân Application cực kỳ mạch lạc và ngắn gọn, không một dòng Register / HW SPL nào lẫn lộn.
+
+```c
+#include "Adc.h"
+#include "Adc_Cfg.h"
+#include "stm32f10x.h"
+
+Adc_ValueGroupType myGroup0Buffer[1];
+
+// Callback đích - sẽ được kích hoạt từ đáy Handler
+void MyAdcGroup0_Notification(void)
+{
+    // Cứ khi nào ADC chuyển đổi xong, LED đổi trạng thái
+    GPIOC->ODR ^= GPIO_Pin_13;
+    
+    // Đọc giá trị từ buffer nếu cần
+    // uint16_t adc_val = myGroup0Buffer[0];
+}
+
+int main(void)
+{
+    // Cấu hình Clock, GPIO ... (PortInit)
+    // ...
+    
+    // 1. Phân bổ và Khởi tạo Hệ thống ADC tổng quan
+    Adc_Init(NULL);
+    
+    // 2. Set Memory đích cho phép Driver tự động điền khi xong
+    Adc_SetupResultBuffer(0, myGroup0Buffer);
+    
+    // 3. Cho phép cơ chế Notification chạy
+    Adc_EnableGroupNotification(0);
+    
+    // 4. Kích phát bộ ADC hoạt động
+    Adc_StartGroupConversion(0);
+
+    while (1) {
+        // CPU nhàn rỗi làm việc khác, không cần Polling vòng lặp
+    }
+}
+```
+
+## 6. Tổng kết
+Kiến trúc này chuyển dịch tư duy từ Hardware-centric (tự config struct mọi nơi, tự viết NVIC Handler mọi nơi) sang Software-architecture-centric:
+- Cấu hình tĩnh tập trung tại `Adc_Cfg.c`.
+- Xử lý trạng thái và thanh ghi nằm kín trong `Adc.c`.
+- Flow nghiệp vụ và API cao cấp lộ ra cho `main.c`. 
+- Sự kiện Hardware được bắc cầu lên Application qua `Function Pointer (Callback)`.
+
+</textarea>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <script>
+        (function () {
+            function escapeHtml(value) {
+                return value
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+            }
+
+            function slugify(text) {
+                return text
+                    .toLowerCase()
+                    .normalize('NFD')
+                    .replace(/[̀-ͯ]/g, '')
+                    .replace(/[^a-z0-9]+/g, '-')
+                    .replace(/^-+|-+$/g, '');
+            }
+
+            function createElementFromHTML(html) {
+                const template = document.createElement('template');
+                template.innerHTML = html.trim();
+                return template.content.firstElementChild;
+            }
+
+            function insertAfter(referenceNode, newNode) {
+                if (!referenceNode || !referenceNode.parentNode || !newNode) {
+                    return;
+                }
+                referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+            }
+
+            function findHeading(root, prefix) {
+                return Array.from(root.querySelectorAll('h2, h3')).find(function (heading) {
+                    return heading.textContent.trim().startsWith(prefix);
+                }) || null;
+            }
+
+            function extractSection(markdown, heading) {
+                const start = markdown.indexOf(heading);
+                if (start === -1) {
+                    return '';
+                }
+
+                const afterHeading = markdown.slice(start + heading.length).replace(/^\n+/, '');
+                const nextSectionIndex = afterHeading.search(/\n##\s+\d+\./);
+                return (nextSectionIndex === -1 ? afterHeading : afterHeading.slice(0, nextSectionIndex)).trim();
+            }
+
+            const teachingQuestions = [
+                {
+                    eyebrow: 'Câu hỏi 01',
+                    title: 'ISR entry thực chất làm gì?',
+                    body: 'Ngắt từ Vector Table chỉ chuyển tiếp phần cứng (ADC Instance) xuống Driver. Tránh viết tuột luồng xử lý Data và App Logic vào File cấu hình hoặc File khởi động.'
+                },
+                {
+                    eyebrow: 'Câu hỏi 02',
+                    title: 'Driver biết gọi callback ở đâu?',
+                    body: 'Bằng cách duyệt qua bảng config tĩnh `Adc_GroupConfig[]`, so khớp Group nào đang kích cờ thì gọi con trỏ hàm Notification tương ứng đã lập trình.'
+                },
+                {
+                    eyebrow: 'Câu hỏi 03',
+                    title: 'Tại sao ứng dụng không chạm vào phần cứng?',
+                    body: 'Giúp Ứng Dụng (Application) tách biệt khỏi phần cứng. Nếu thay chip STM32 bằng chip Infineon, Application (main.c) không cần sửa một dòng nào.'
+                }
+            ];
+
+            const glossary = [
+                {
+                    term: 'Callback',
+                    translation: 'Con trỏ hàm gọi ngược',
+                    detail: 'Hàm xử lý nghiệp vụ được viết ở App (main.c), nhưng được lưu con trỏ trong Adc_Cfg.c và kích hoạt chạy từ sâu trong tầng phần cứng (Driver Handler).'
+                },
+                {
+                    term: 'Adc_IsrHandler',
+                    translation: 'Driver Interrupt Handler Lõi',
+                    detail: 'Hàm chịu trách nhiệm dọn dẹp cờ ngắt EOC, lấy giá trị lưu tạm và tra cứu bảng Config nhằm định tuyến tới đúng Notification.'
+                },
+                {
+                    term: 'Group',
+                    translation: 'Nhóm kênh ADC liên kết',
+                    detail: 'Một Group chứa 1 hoặc nhiều kênh hoạt động dựa trên cùng một Trigger (VD Software, HW Timer hoặc DMA).'
+                },
+                {
+                    term: 'ISR Entry',
+                    translation: 'Cửa ngõ Vector Ngắt',
+                    detail: 'Tên hàm trùng với bảng ngắt trong startup.s (vd ADC1_2_IRQHandler) để đón tín hiệu điện từ CPU.'
+                },
+                {
+                    term: 'Adc_GroupConfigType',
+                    translation: 'Kiểu dữ liệu cấu hình',
+                    detail: 'Struct chứa mọi đặc tả của Group: Kênh, Trigger Type, Callback, Instance ADCx...'
+                }
+            ];
+
+            const conceptFlow = [
+                {
+                    step: '1',
+                    title: 'Khai báo Config',
+                    body: 'Điền thông số kênh, kích hoạt trigger và map NotificationCb trong Adc_Cfg.c.'
+                },
+                {
+                    step: '2',
+                    title: 'Setup Buffer & Enable',
+                    body: 'Gửi địa chỉ ô nhớ và bật Notification Cấp API (Adc.h).'
+                },
+                {
+                    step: '3',
+                    title: 'Trigger Conversion',
+                    body: 'Kích hoạt phần cứng chạy ngầm bằng Software hoặc Timer.'
+                },
+                {
+                    step: '4',
+                    title: 'Ngắt xử lý & Callback',
+                    body: 'HW nhảy ISR -> Driver xóa cờ lưu giá trị -> Chuyển luồng lên App (Callback).'
+                }
+            ];
+
+            const scenarios = [
+                {
+                    eyebrow: 'Tình huống 1',
+                    title: 'Kích phát đọc cảm biến và chớp LED',
+                    body: 'Luồng kinh điển của chuyển đổi ADC từng phần bằng Software Trigger:',
+                    bullets: [
+                        'App gọi Adc_StartGroupConversion().',
+                        'CPU chạy lệnh khác.',
+                        'EOC báo, ISR đón, Callback chớp LED và lấy dữ liệu.'
+                    ]
+                },
+                {
+                    eyebrow: 'Tình huống 2',
+                    title: 'Bổ sung Group dùng DMA',
+                    body: 'Kiến trúc giúp cấu hình dễ dàng mà không phá vỡ tính đúng đắn:',
+                    bullets: [
+                        'Thêm 1 phần tử Config dùng ADC_TRIGGER_DMA_CIRCULAR.',
+                        'Gắn `DmaCompleteCb` thay vì NotificationCb.',
+                        'Thêm ISR của DMA gọi `Adc_DmaIsrHandler` vào Driver.'
+                    ]
+                }
+            ];
+
+            function renderTeachingChrome() {
+                const questionBoard = document.getElementById('question-board');
+                const keywordGrid = document.getElementById('keyword-grid');
+                const conceptBoard = document.getElementById('concept-flow');
+                const scenarioBoard = document.getElementById('scenario-board');
+
+                questionBoard.innerHTML = teachingQuestions.map(function (item) {
+                    return (
+                        '<article class="teaching-card">' +
+                            '<span class="eyebrow">' + escapeHtml(item.eyebrow) + '</span>' +
+                            '<div class="title">' + escapeHtml(item.title) + '</div>' +
+                            '<p>' + escapeHtml(item.body) + '</p>' +
+                        '</article>'
+                    );
+                }).join('');
+
+                keywordGrid.innerHTML = glossary.map(function (item) {
+                    return (
+                        '<article class="keyword-card">' +
+                            '<span class="eyebrow">Keyword</span>' +
+                            '<div class="term">' + escapeHtml(item.term) + '</div>' +
+                            '<span class="translation">' + escapeHtml(item.translation) + '</span>' +
+                            '<div class="detail">' + escapeHtml(item.detail) + '</div>' +
+                        '</article>'
+                    );
+                }).join('');
+
+                conceptBoard.innerHTML = conceptFlow.map(function (item) {
+                    return (
+                        '<article class="concept-card">' +
+                            '<div class="step">' + escapeHtml(item.step) + '</div>' +
+                            '<div class="title">' + escapeHtml(item.title) + '</div>' +
+                            '<p>' + escapeHtml(item.body) + '</p>' +
+                        '</article>'
+                    );
+                }).join('');
+
+                scenarioBoard.innerHTML = scenarios.map(function (item) {
+                    return (
+                        '<article class="example-card">' +
+                            '<span class="eyebrow">' + escapeHtml(item.eyebrow) + '</span>' +
+                            '<div class="title">' + escapeHtml(item.title) + '</div>' +
+                            '<p>' + escapeHtml(item.body) + '</p>' +
+                            '<ul>' + item.bullets.map(function (bullet) {
+                                return '<li>' + escapeHtml(bullet) + '</li>';
+                            }).join('') + '</ul>' +
+                        '</article>'
+                    );
+                }).join('');
+            }
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            function enhanceSpecialCodeBlocks(root) { }
+
+                    if (text.indexOf('Địa chỉ thấp hơn') === 0 && text.indexOf('xPSR') !== -1) {
+                        codeElement.parentElement.replaceWith(buildStackFrameFigure());
+                        return;
+                    }
+
+                    if (text.indexOf('0x200010C0 : R4') === 0 && text.indexOf('xPSR = T-bit') !== -1) {
+                        codeElement.parentElement.replaceWith(buildAddressMapFigure());
+                    }
+                });
+            }
+
+            function enhanceSections(root) { }
+
+                if (section12) {
+                    insertAfter(section12, buildExcReturnPanel());
+                }
+
+                if (section192) {
+                    insertAfter(section192, buildPreemptionPersistencePanel());
+                }
+
+                if (section20) {
+                    insertAfter(section20, buildTaskReturnFailurePanel());
+                }
+
+                if (section222) {
+                    insertAfter(section222, buildDualStackFigure());
+                }
+            }
+
+            function decorateParagraphs(root) {
+                Array.from(root.querySelectorAll('p')).forEach(function (paragraph) {
+                    const text = paragraph.textContent.trim();
+                    if (text.startsWith('Điểm nhiều người hiểu sai:')) {
+                        paragraph.classList.add('warning');
+                    }
+                    if (text.startsWith('Nói ngắn gọn:')) {
+                        paragraph.classList.add('note');
+                    }
+                });
+            }
+
+            const source = document.getElementById('md-source').value.trim();
+            const titleMatch = source.match(/^#\s+(.+)$/m);
+            const lessonTitle = titleMatch ? titleMatch[1].trim() : 'Bài 01 - Exception Model + ABI + Kỷ Luật Stack';
+            const coverTitle = lessonTitle.replace(/^Bài\s*01\s*-\s*/i, 'Bài 1.0: ');
+            document.getElementById('cover-title').textContent = coverTitle;
+            document.title = coverTitle;
+
+            renderTeachingChrome();
+
+            const objectivesMd = extractSection(source, '## 1. Mục tiêu của bài này');
+            const sourceMd = extractSection(source, '## 3. Source cần đọc');
+            const bodyMarkdown = source.replace(/^#\s+.+\n+/, '').trim();
+
+            if (!window.marked) {
+                document.getElementById('objectives-box').innerHTML = '<pre class="raw-fallback">' + escapeHtml(objectivesMd) + '</pre>';
+                document.getElementById('source-box').innerHTML = '<pre class="raw-fallback">' + escapeHtml(sourceMd) + '</pre>';
+                document.getElementById('lesson-body').innerHTML = '<pre class="raw-fallback">' + escapeHtml(bodyMarkdown) + '</pre>';
+                return;
+            }
+
+            marked.setOptions({
+                gfm: true,
+                breaks: false,
+                mangle: false,
+                headerIds: false
+            });
+
+            document.getElementById('objectives-box').innerHTML = marked.parse(objectivesMd || '- Chưa tìm thấy mục tiêu trong file nguồn.');
+            document.getElementById('source-box').innerHTML = marked.parse(sourceMd || '- Chưa tìm thấy danh sách source trong file nguồn.');
+            document.getElementById('lesson-body').innerHTML = marked.parse(bodyMarkdown);
+
+            const body = document.getElementById('lesson-body');
+
+            Array.from(body.querySelectorAll('h2, h3')).forEach(function (heading) {
+                if (!heading.id) {
+                    heading.id = slugify(heading.textContent);
+                }
+            });
+
+            body.querySelectorAll('pre > code').forEach(function (codeElement) {
+                const className = codeElement.className || '';
+                if (className.includes('language-mermaid')) {
+                    const pre = codeElement.parentElement;
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'mermaid-wrap';
+
+                    const title = document.createElement('div');
+                    title.className = 'mermaid-title';
+                    title.textContent = 'Sơ đồ UML / Mermaid minh họa ngay tại vị trí bài giảng';
+
+                    const mermaidNode = document.createElement('div');
+                    mermaidNode.className = 'mermaid';
+                    mermaidNode.textContent = codeElement.textContent;
+
+                    wrapper.appendChild(title);
+                    wrapper.appendChild(mermaidNode);
+                    pre.replaceWith(wrapper);
+                }
+            });
+
+            enhanceSpecialCodeBlocks(body);
+            enhanceSections(body);
+            decorateParagraphs(body);
+
+            const tocList = document.getElementById('toc-list');
+            Array.from(body.querySelectorAll('h2')).forEach(function (heading) {
+                const item = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = '#' + heading.id;
+                link.textContent = heading.textContent;
+                item.appendChild(link);
+                tocList.appendChild(item);
+            });
+
+            if (window.mermaid) {
+                mermaid.initialize({
+                    startOnLoad: false,
+                    securityLevel: 'loose',
+                    theme: 'neutral',
+                    fontFamily: 'Segoe UI, Arial, sans-serif'
+                });
+
+                mermaid.run({
+                    nodes: Array.from(document.querySelectorAll('.mermaid'))
+                });
+            }
+        }());
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+using sysbus
+$name?="STM32F103"
+mach create $name
+
+machine LoadPlatformDescription @platforms/cpus/stm32f103.repl
+
+showAnalyzer sysbus.usart1
+
+macro reset
+"""
+    sysbus LoadELF $elf_path
+"""
+
+runMacro $reset

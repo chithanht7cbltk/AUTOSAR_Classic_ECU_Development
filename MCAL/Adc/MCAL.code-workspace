@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../RTOS/Project_Sample"
+		}
+	],
+	"settings": {}
+}
