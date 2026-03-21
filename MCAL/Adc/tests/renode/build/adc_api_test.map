@@ -1,0 +1,717 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0x2df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000      0x3ad /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x0000000000000000       0xf4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x2df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x3ad /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0xf4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x4c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x2df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x0000000020005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x10c
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x0000000008000000                g_pfnVectors
+
+.text           0x000000000800010c     0x31ac
+                0x000000000800010c                _stext = .
+ *(.text*)
+ .text          0x000000000800010c       0x6c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+                0x000000000800010c                Adc_Group0_Notification
+                0x0000000008000128                Adc_Group1_DmaHalf
+                0x0000000008000144                Adc_Group1_DmaComplete
+                0x0000000008000160                main
+ .text          0x0000000008000178     0x1650 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+                0x000000000800084c                Adc_Init
+                0x0000000008000a3c                Adc_SetupResultBuffer
+                0x0000000008000ac0                Adc_DeInit
+                0x0000000008000c14                Adc_StartGroupConversion
+                0x0000000008000d90                Adc_StopGroupConversion
+                0x0000000008000e3c                Adc_ReadGroup
+                0x0000000008001008                Adc_EnableHardwareTrigger
+                0x000000000800109c                Adc_DisableHardwareTrigger
+                0x0000000008001114                Adc_EnableGroupNotification
+                0x00000000080011a0                Adc_DisableGroupNotification
+                0x0000000008001228                Adc_GetGroupStatus
+                0x0000000008001274                Adc_GetStreamLastPointer
+                0x0000000008001310                Adc_GetVersionInfo
+                0x000000000800134e                Adc_PreparePowerState
+                0x00000000080013bc                Adc_SetPowerState
+                0x0000000008001454                Adc_GetCurrentPowerState
+                0x00000000080014a4                Adc_GetTargetPowerState
+                0x00000000080014f4                Adc_Main_PowerTransitionManager
+                0x0000000008001500                Adc_IsrHandler
+                0x0000000008001630                Adc_DmaIsrHandler
+ .text          0x00000000080017c8       0x54 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+                0x00000000080017ec                ADC1_2_IRQHandler
+                0x0000000008001808                DMA1_Channel1_IRQHandler
+ .text          0x000000000800181c      0x258 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+                0x000000000800181c                SystemInit
+                0x0000000008001884                SystemCoreClockUpdate
+ .text          0x0000000008001a74      0x7dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+                0x0000000008001a74                RCC_DeInit
+                0x0000000008001ad0                RCC_HSEConfig
+                0x0000000008001b2c                RCC_WaitForHSEStartUp
+                0x0000000008001b7c                RCC_AdjustHSICalibrationValue
+                0x0000000008001bb8                RCC_HSICmd
+                0x0000000008001bd8                RCC_PLLConfig
+                0x0000000008001c14                RCC_PLLCmd
+                0x0000000008001c34                RCC_SYSCLKConfig
+                0x0000000008001c6c                RCC_GetSYSCLKSource
+                0x0000000008001c88                RCC_HCLKConfig
+                0x0000000008001cc0                RCC_PCLK1Config
+                0x0000000008001cf8                RCC_PCLK2Config
+                0x0000000008001d30                RCC_ITConfig
+                0x0000000008001d7c                RCC_USBCLKConfig
+                0x0000000008001d98                RCC_ADCCLKConfig
+                0x0000000008001dd0                RCC_LSEConfig
+                0x0000000008001e10                RCC_LSICmd
+                0x0000000008001e30                RCC_RTCCLKConfig
+                0x0000000008001e54                RCC_RTCCLKCmd
+                0x0000000008001e74                RCC_GetClocksFreq
+                0x0000000008001fe0                RCC_AHBPeriphClockCmd
+                0x000000000800201c                RCC_APB2PeriphClockCmd
+                0x0000000008002058                RCC_APB1PeriphClockCmd
+                0x0000000008002094                RCC_APB2PeriphResetCmd
+                0x00000000080020d0                RCC_APB1PeriphResetCmd
+                0x000000000800210c                RCC_BackupResetCmd
+                0x000000000800212c                RCC_ClockSecuritySystemCmd
+                0x000000000800214c                RCC_MCOConfig
+                0x000000000800216c                RCC_GetFlagStatus
+                0x00000000080021e0                RCC_ClearFlag
+                0x00000000080021fc                RCC_GetITStatus
+                0x0000000008002230                RCC_ClearITPendingBit
+ .text          0x0000000008002250      0xa00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+                0x0000000008002250                ADC_DeInit
+                0x00000000080022c4                ADC_Init
+                0x0000000008002368                ADC_StructInit
+                0x000000000800239e                ADC_Cmd
+                0x00000000080023d4                ADC_DMACmd
+                0x000000000800240a                ADC_ITConfig
+                0x000000000800244e                ADC_ResetCalibration
+                0x000000000800246c                ADC_GetResetCalibrationStatus
+                0x000000000800249a                ADC_StartCalibration
+                0x00000000080024b8                ADC_GetCalibrationStatus
+                0x00000000080024e6                ADC_SoftwareStartConvCmd
+                0x000000000800251c                ADC_GetSoftwareStartConvStatus
+                0x000000000800254a                ADC_DiscModeChannelCountConfig
+                0x000000000800258c                ADC_DiscModeCmd
+                0x00000000080025c2                ADC_RegularChannelConfig
+                0x0000000008002754                ADC_ExternalTrigConvCmd
+                0x000000000800278a                ADC_GetConversionValue
+                0x00000000080027a2                ADC_GetDualModeConversionValue
+                0x00000000080027b8                ADC_AutoInjectedConvCmd
+                0x00000000080027ee                ADC_InjectedDiscModeCmd
+                0x0000000008002824                ADC_ExternalTrigInjectedConvConfig
+                0x0000000008002858                ADC_ExternalTrigInjectedConvCmd
+                0x000000000800288e                ADC_SoftwareStartInjectedConvCmd
+                0x00000000080028c4                ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000080028f2                ADC_InjectedChannelConfig
+                0x0000000008002a12                ADC_InjectedSequencerLengthConfig
+                0x0000000008002a54                ADC_SetInjectedOffset
+                0x0000000008002a86                ADC_GetInjectedConversionValue
+                0x0000000008002ab4                ADC_AnalogWatchdogCmd
+                0x0000000008002aec                ADC_AnalogWatchdogThresholdsConfig
+                0x0000000008002b12                ADC_AnalogWatchdogSingleChannelConfig
+                0x0000000008002b48                ADC_TempSensorVrefintCmd
+                0x0000000008002b80                ADC_GetFlagStatus
+                0x0000000008002bb2                ADC_ClearFlag
+                0x0000000008002bd0                ADC_GetITStatus
+                0x0000000008002c24                ADC_ClearITPendingBit
+ .text          0x0000000008002c50      0x3f8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+                0x0000000008002c50                DMA_DeInit
+                0x0000000008002dc8                DMA_Init
+                0x0000000008002e44                DMA_StructInit
+                0x0000000008002e98                DMA_Cmd
+                0x0000000008002ed0                DMA_ITConfig
+                0x0000000008002f0a                DMA_SetCurrDataCounter
+                0x0000000008002f26                DMA_GetCurrDataCounter
+                0x0000000008002f3e                DMA_GetFlagStatus
+                0x0000000008002f90                DMA_ClearFlag
+                0x0000000008002fc4                DMA_GetITStatus
+                0x0000000008003014                DMA_ClearITPendingBit
+ .text          0x0000000008003048      0x18c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+                0x0000000008003048                NVIC_PriorityGroupConfig
+                0x000000000800306c                NVIC_Init
+                0x0000000008003130                NVIC_SetVectorTable
+                0x000000000800315c                NVIC_SystemLPConfig
+                0x000000000800319c                SysTick_CLKSourceConfig
+ .text          0x00000000080031d4       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+ .text.Reset_Handler
+                0x00000000080031e8       0x44 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x00000000080031e8                Reset_Handler
+ .text.Default_Handler
+                0x000000000800322c        0x2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x000000000800322c                USBWakeUp_IRQHandler
+                0x000000000800322c                DebugMon_Handler
+                0x000000000800322c                TIM1_CC_IRQHandler
+                0x000000000800322c                HardFault_Handler
+                0x000000000800322c                SysTick_Handler
+                0x000000000800322c                PVD_IRQHandler
+                0x000000000800322c                PendSV_Handler
+                0x000000000800322c                NMI_Handler
+                0x000000000800322c                EXTI3_IRQHandler
+                0x000000000800322c                EXTI0_IRQHandler
+                0x000000000800322c                I2C2_EV_IRQHandler
+                0x000000000800322c                UsageFault_Handler
+                0x000000000800322c                SPI1_IRQHandler
+                0x000000000800322c                TAMPER_IRQHandler
+                0x000000000800322c                DMA1_Channel4_IRQHandler
+                0x000000000800322c                USART3_IRQHandler
+                0x000000000800322c                RTC_IRQHandler
+                0x000000000800322c                DMA1_Channel7_IRQHandler
+                0x000000000800322c                CAN1_RX1_IRQHandler
+                0x000000000800322c                TIM4_IRQHandler
+                0x000000000800322c                I2C1_EV_IRQHandler
+                0x000000000800322c                DMA1_Channel6_IRQHandler
+                0x000000000800322c                TIM3_IRQHandler
+                0x000000000800322c                RCC_IRQHandler
+                0x000000000800322c                TIM1_TRG_COM_IRQHandler
+                0x000000000800322c                Default_Handler
+                0x000000000800322c                EXTI15_10_IRQHandler
+                0x000000000800322c                EXTI9_5_IRQHandler
+                0x000000000800322c                SPI2_IRQHandler
+                0x000000000800322c                MemManage_Handler
+                0x000000000800322c                SVC_Handler
+                0x000000000800322c                DMA1_Channel5_IRQHandler
+                0x000000000800322c                EXTI4_IRQHandler
+                0x000000000800322c                USB_LP_CAN1_RX0_IRQHandler
+                0x000000000800322c                USB_HP_CAN1_TX_IRQHandler
+                0x000000000800322c                DMA1_Channel3_IRQHandler
+                0x000000000800322c                TIM1_UP_IRQHandler
+                0x000000000800322c                WWDG_IRQHandler
+                0x000000000800322c                TIM2_IRQHandler
+                0x000000000800322c                TIM1_BRK_IRQHandler
+                0x000000000800322c                EXTI1_IRQHandler
+                0x000000000800322c                RTCAlarm_IRQHandler
+                0x000000000800322c                USART2_IRQHandler
+                0x000000000800322c                I2C2_ER_IRQHandler
+                0x000000000800322c                DMA1_Channel2_IRQHandler
+                0x000000000800322c                CAN1_SCE_IRQHandler
+                0x000000000800322c                FLASH_IRQHandler
+                0x000000000800322c                BusFault_Handler
+                0x000000000800322c                USART1_IRQHandler
+                0x000000000800322c                I2C1_ER_IRQHandler
+                0x000000000800322c                EXTI2_IRQHandler
+ *(.rodata*)
+ *fill*         0x000000000800322e        0x2 
+ .rodata        0x0000000008003230       0x88 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+                0x0000000008003260                AdcGroupConfigList
+                0x00000000080032b0                AdcDriverConfig
+ *(.glue_7)
+ .glue_7        0x00000000080032b8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080032b8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080032b8        0x0
+ .vfp11_veneer  0x00000000080032b8        0x0 linker stubs
+
+.v4_bx          0x00000000080032b8        0x0
+ .v4_bx         0x00000000080032b8        0x0 linker stubs
+
+.iplt           0x00000000080032b8        0x0
+ .iplt          0x00000000080032b8        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+
+.rel.dyn        0x00000000080032b8        0x0
+ .rel.iplt      0x00000000080032b8        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+                0x00000000080032b8                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080032b8                . = ALIGN (0x4)
+                0x00000000080032b8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000080032b8                __exidx_end = .
+                0x00000000080032b8                . = ALIGN (0x4)
+                0x00000000080032b8                _etext = .
+
+.data           0x0000000020000000       0x2c load address 0x00000000080032b8
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data          0x0000000020000000        0x1 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+                0x0000000020000000                g_ret
+ .data          0x0000000020000001        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .data          0x0000000020000001        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ *fill*         0x0000000020000001        0x3 
+ .data          0x0000000020000004       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+                0x0000000020000004                SystemCoreClock
+                0x0000000020000008                AHBPrescTable
+ .data          0x0000000020000018       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .data          0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .data          0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .data          0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .data          0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+ *(.data.*)
+                0x000000002000002c                . = ALIGN (0x4)
+                0x000000002000002c                _edata = .
+                0x00000000080032b8                _sidata = LOADADDR (.data)
+
+.igot.plt       0x000000002000002c        0x0 load address 0x00000000080032e4
+ .igot.plt      0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+
+.bss            0x000000002000002c       0x90 load address 0x00000000080032e4
+                0x000000002000002c                . = ALIGN (0x4)
+                0x000000002000002c                _sbss = .
+ *(.bss*)
+ .bss           0x000000002000002c       0x4c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+                0x000000002000002c                g_version_info
+                0x0000000020000034                g_group0_result_buffer
+                0x000000002000003c                g_group1_stream_buffer
+                0x000000002000004c                g_readback_buffer
+                0x000000002000005c                g_stream_ptr
+                0x0000000020000060                g_stream_count
+                0x0000000020000062                g_group_status
+                0x0000000020000063                g_power_result
+                0x0000000020000064                g_power_state
+                0x0000000020000068                g_eoc_irq_count
+                0x000000002000006c                g_dma_ht_count
+                0x0000000020000070                g_dma_tc_count
+                0x0000000020000074                g_test_magic
+ .bss           0x0000000020000078       0x42 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .bss           0x00000000200000ba        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+ *(COMMON)
+                0x00000000200000bc                . = ALIGN (0x4)
+ *fill*         0x00000000200000ba        0x2 
+                0x00000000200000bc                _ebss = .
+
+/DISCARD/
+ *(.note*)
+ *(.comment*)
+OUTPUT(/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/adc_api_test.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .ARM.attributes
+                0x000000000000005a       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .ARM.attributes
+                0x0000000000000087       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .ARM.attributes
+                0x000000000000010e       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .ARM.attributes
+                0x000000000000013b       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .ARM.attributes
+                0x0000000000000168       0x21 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_info     0x0000000000000000     0x3fb3
+ .debug_info    0x0000000000000000      0x33b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_info    0x000000000000033b     0x12ba /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_info    0x00000000000015f5      0x5fa /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_info    0x0000000000001bef      0x4ba /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_info    0x00000000000020a9      0x8f7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_info    0x00000000000029a0      0xbfe /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_info    0x000000000000359e      0x493 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_info    0x0000000000003a31      0x560 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_info    0x0000000000003f91       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_abbrev   0x0000000000000000      0xcf0
+ .debug_abbrev  0x0000000000000000       0xe3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_abbrev  0x00000000000000e3      0x2ac /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_abbrev  0x000000000000038f      0x14f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_abbrev  0x00000000000004de      0x180 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_abbrev  0x000000000000065e      0x1d6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_abbrev  0x0000000000000834      0x1b2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_abbrev  0x00000000000009e6      0x185 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_abbrev  0x0000000000000b6b      0x173 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_abbrev  0x0000000000000cde       0x12 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_aranges  0x0000000000000000      0x128
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_aranges
+                0x0000000000000020       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_aranges
+                0x0000000000000040       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_aranges
+                0x0000000000000060       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_aranges
+                0x0000000000000080       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_aranges
+                0x00000000000000c0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_aranges
+                0x00000000000000e0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_aranges
+                0x0000000000000100       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_macro    0x0000000000000000     0xbc13
+ .debug_macro   0x0000000000000000      0x109 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000109      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000b6f       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000bd8       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000c35       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000c57       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000ce5       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000d36      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000e39       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000000ea3      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000001082       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000109e       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x00000000000010c0       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000117d      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000001e7d     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000009d30       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000009d40       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x0000000000009d75      0x2df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000a054      0x3ad /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000a401       0xf4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000a4f5       0x4c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_macro   0x000000000000a541      0x11a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x000000000000a65b       0x52 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x000000000000a6ad      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x000000000000aa8f       0x8b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x000000000000ab1a      0x174 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_macro   0x000000000000ac8e      0x105 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_macro   0x000000000000ad93       0xc8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x000000000000ae5b      0x1e7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000b042      0x3dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000b41e      0x1d0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_macro   0x000000000000b5ee      0x128 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x000000000000b716      0x3a7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_macro   0x000000000000babd       0xd1 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_macro   0x000000000000bb8e       0x85 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+
+.debug_line     0x0000000000000000     0x3316
+ .debug_line    0x0000000000000000      0x396 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_line    0x0000000000000396      0xff2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_line    0x0000000000001388      0x368 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_line    0x00000000000016f0      0x458 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_line    0x0000000000001b48      0x6be /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_line    0x0000000000002206      0x773 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_line    0x0000000000002979      0x51c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_line    0x0000000000002e95      0x3c5 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+ .debug_line    0x000000000000325a       0xbc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_str      0x0000000000000000    0x3eac4
+ .debug_str     0x0000000000000000    0x396f5 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+                                      0x3985e (size before relaxing)
+ .debug_str     0x00000000000396f5     0x32cf /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+                                      0x3cab3 (size before relaxing)
+ .debug_str     0x000000000003c9c4       0xd3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+                                      0x399e1 (size before relaxing)
+ .debug_str     0x000000000003ca97      0x1c9 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+                                      0x34d3b (size before relaxing)
+ .debug_str     0x000000000003cc60      0xb3f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+                                      0x3761c (size before relaxing)
+ .debug_str     0x000000000003d79f      0xac6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+                                      0x39649 (size before relaxing)
+ .debug_str     0x000000000003e265      0x62f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+                                      0x393e5 (size before relaxing)
+ .debug_str     0x000000000003e894      0x1c1 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+                                      0x3529d (size before relaxing)
+ .debug_str     0x000000000003ea55       0x6f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o
+                                         0xac (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1400
+ .debug_frame   0x0000000000000000       0x88 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/adc_api_test_main.o
+ .debug_frame   0x0000000000000088      0x500 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc.o
+ .debug_frame   0x0000000000000588       0xa8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/Adc_Cfg.o
+ .debug_frame   0x0000000000000630       0x98 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/system_stm32f10x.o
+ .debug_frame   0x00000000000006c8      0x4f4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_frame   0x0000000000000bbc      0x5a4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_adc.o
+ .debug_frame   0x0000000000001160      0x1c8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/stm32f10x_dma.o
+ .debug_frame   0x0000000000001328       0xd8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/misc.o
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/obj/startup_stm32f10x_md.o

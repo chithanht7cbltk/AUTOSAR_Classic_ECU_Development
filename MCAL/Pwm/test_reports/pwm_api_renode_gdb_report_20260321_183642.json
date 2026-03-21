@@ -1,0 +1,1159 @@
+{
+  "generated_at": "2026-03-21T18:36:42.586687",
+  "requirements_source": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tools/pwm_sws_r25_11_extracted.json",
+  "api_requirement_map": {
+    "Pwm_Init": [
+      "SWS_Pwm_00007",
+      "SWS_Pwm_00052",
+      "SWS_Pwm_00062",
+      "SWS_Pwm_00093",
+      "SWS_Pwm_00095",
+      "SWS_Pwm_00116",
+      "SWS_Pwm_00118",
+      "SWS_Pwm_00121",
+      "SWS_Pwm_10009",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_20009",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_30009"
+    ],
+    "Pwm_DeInit": [
+      "SWS_Pwm_00010",
+      "SWS_Pwm_00011",
+      "SWS_Pwm_00012",
+      "SWS_Pwm_00096",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10080",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20080"
+    ],
+    "Pwm_SetDutyCycle": [
+      "SWS_Pwm_00013",
+      "SWS_Pwm_00014",
+      "SWS_Pwm_00016",
+      "SWS_Pwm_00017",
+      "SWS_Pwm_00018",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00058",
+      "SWS_Pwm_00059",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10082",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20082",
+      "SWS_Pwm_91000"
+    ],
+    "Pwm_SetPeriodAndDuty": [
+      "SWS_Pwm_00019",
+      "SWS_Pwm_00020",
+      "SWS_Pwm_00041",
+      "SWS_Pwm_00045",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00058",
+      "SWS_Pwm_00059",
+      "SWS_Pwm_00076",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_00150",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10083",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20083",
+      "SWS_Pwm_91001"
+    ],
+    "Pwm_SetOutputToIdle": [
+      "SWS_Pwm_00021",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_00119",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10084",
+      "SWS_Pwm_10086",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20084",
+      "SWS_Pwm_20086",
+      "SWS_Pwm_91002"
+    ],
+    "Pwm_GetOutputState": [
+      "SWS_Pwm_00022",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00100",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10085",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20085",
+      "SWS_Pwm_30051"
+    ],
+    "Pwm_DisableNotification": [
+      "SWS_Pwm_00023",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10112",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20112",
+      "SWS_Pwm_91003"
+    ],
+    "Pwm_EnableNotification": [
+      "SWS_Pwm_00024",
+      "SWS_Pwm_00047",
+      "SWS_Pwm_00081",
+      "SWS_Pwm_00117",
+      "SWS_Pwm_10051",
+      "SWS_Pwm_10113",
+      "SWS_Pwm_20051",
+      "SWS_Pwm_20113",
+      "SWS_Pwm_91004"
+    ],
+    "Pwm_SetPowerState": [
+      "SWS_Pwm_00166",
+      "SWS_Pwm_00167",
+      "SWS_Pwm_00168",
+      "SWS_Pwm_00169",
+      "SWS_Pwm_00170",
+      "SWS_Pwm_00171",
+      "SWS_Pwm_00172",
+      "SWS_Pwm_00173",
+      "SWS_Pwm_00194",
+      "SWS_Pwm_00195",
+      "SWS_Pwm_00196"
+    ],
+    "Pwm_GetCurrentPowerState": [
+      "SWS_Pwm_00177",
+      "SWS_Pwm_00178",
+      "SWS_Pwm_00179"
+    ],
+    "Pwm_GetTargetPowerState": [
+      "SWS_Pwm_00180",
+      "SWS_Pwm_00181",
+      "SWS_Pwm_00182"
+    ],
+    "Pwm_PreparePowerState": [
+      "SWS_Pwm_00183",
+      "SWS_Pwm_00184",
+      "SWS_Pwm_00185",
+      "SWS_Pwm_00186",
+      "SWS_Pwm_00187",
+      "SWS_Pwm_00188"
+    ],
+    "Pwm_GetVersionInfo": [
+      "SWS_Pwm_00103"
+    ],
+    "Pwm_Main_PowerTransitionManager": [
+      "SWS_Pwm_00189",
+      "SWS_Pwm_00190",
+      "SWS_Pwm_00191",
+      "SWS_Pwm_00192",
+      "SWS_Pwm_00193"
+    ]
+  },
+  "environment": {
+    "repl": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/stm32f103_full.repl",
+    "renode": "/usr/local/bin/renode",
+    "gdb": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gdb",
+    "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+    "gdb_port": 3333,
+    "monitor_port": 12345,
+    "renode_log": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/renode.log"
+  },
+  "build": {
+    "success": true,
+    "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/pwm_api_test.elf",
+    "stdout": "",
+    "stderr": ""
+  },
+  "summary": {
+    "total": 19,
+    "executed": 19,
+    "passed": 19,
+    "failed": 0,
+    "not_executed": 0
+  },
+  "scenarios": [
+    {
+      "name": "init_default_values",
+      "description": "Pwm_Init phải set ARR/CCR theo cấu hình mặc định cho 2 kênh.",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_30009"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim2_arr",
+          "expr": "(*(unsigned int*)0x4000002C)",
+          "expected": 999,
+          "actual": 999,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "tim2_ccr1",
+          "expr": "(*(unsigned int*)0x40000034)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "tim3_arr",
+          "expr": "(*(unsigned int*)0x4000042C)",
+          "expected": 999,
+          "actual": 999,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "tim3_ccr2",
+          "expr": "(*(unsigned int*)0x40000438)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000116 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim2_arr=999\n__CHK__tim2_ccr1=0\n__CHK__tim3_arr=999\n__CHK__tim3_ccr2=0\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "set_duty_ch0_half",
+      "description": "Pwm_SetDutyCycle channel 0 với 50%.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00013",
+        "SWS_Pwm_00014",
+        "SWS_Pwm_00016",
+        "SWS_Pwm_00017",
+        "SWS_Pwm_00018",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10082",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20082",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91000"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim2_ccr1",
+          "expr": "(*(unsigned int*)0x40000034)",
+          "expected": 499,
+          "actual": 499,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000118 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim2_ccr1=499\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "set_duty_ch1_full",
+      "description": "Pwm_SetDutyCycle channel 1 với 100%.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00013",
+        "SWS_Pwm_00014",
+        "SWS_Pwm_00016",
+        "SWS_Pwm_00017",
+        "SWS_Pwm_00018",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10082",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20082",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91000"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim3_ccr2",
+          "expr": "(*(unsigned int*)0x40000438)",
+          "expected": 999,
+          "actual": 999,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim3_ccr2=999\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "set_period_and_duty",
+      "description": "Pwm_SetPeriodAndDuty phải cập nhật ARR/CCR kênh variable period.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00019",
+        "SWS_Pwm_00020",
+        "SWS_Pwm_00041",
+        "SWS_Pwm_00045",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00076",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_00150",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10083",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20083",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91001"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim2_arr",
+          "expr": "(*(unsigned int*)0x4000002C)",
+          "expected": 2000,
+          "actual": 2000,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "tim2_ccr1",
+          "expr": "(*(unsigned int*)0x40000034)",
+          "expected": 1000,
+          "actual": 1000,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000118 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim2_arr=2000\n__CHK__tim2_ccr1=1000\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "set_output_to_idle",
+      "description": "Pwm_SetOutputToIdle phải đưa duty về 0.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00013",
+        "SWS_Pwm_00014",
+        "SWS_Pwm_00016",
+        "SWS_Pwm_00017",
+        "SWS_Pwm_00018",
+        "SWS_Pwm_00021",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00119",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10082",
+        "SWS_Pwm_10084",
+        "SWS_Pwm_10086",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20082",
+        "SWS_Pwm_20084",
+        "SWS_Pwm_20086",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91000",
+        "SWS_Pwm_91002"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim2_ccr1",
+          "expr": "(*(unsigned int*)0x40000034)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim2_ccr1=0\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "get_output_state_high_low",
+      "description": "Pwm_GetOutputState trả HIGH/LOW theo CCER bit enable.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00022",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00100",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10085",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20085",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_30051"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "state_high",
+          "expr": "$s1",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "state_low",
+          "expr": "$s2",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__state_high=0\n__CHK__state_low=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "enable_notification",
+      "description": "Pwm_EnableNotification bật bit DIER CC1IE.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00024",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00081",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10113",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20113",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91004"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "dier_cc1",
+          "expr": "(((*(unsigned int*)0x4000000C) & 0x0002u) != 0)",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__dier_cc1=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "disable_notification",
+      "description": "Pwm_DisableNotification xóa bit DIER CC1IE.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00023",
+        "SWS_Pwm_00024",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00081",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10112",
+        "SWS_Pwm_10113",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20112",
+        "SWS_Pwm_20113",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91003",
+        "SWS_Pwm_91004"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "dier_cc1",
+          "expr": "(((*(unsigned int*)0x4000000C) & 0x0002u) != 0)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__dier_cc1=0\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "deinit_disables_counter",
+      "description": "Pwm_DeInit phải tắt counter timer.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_DeInit"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00010",
+        "SWS_Pwm_00011",
+        "SWS_Pwm_00012",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00096",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10080",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20080",
+        "SWS_Pwm_30009"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "tim2_cen",
+          "expr": "(((*(unsigned int*)0x40000000) & 0x0001u) != 0)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "tim3_cen",
+          "expr": "(((*(unsigned int*)0x40000400) & 0x0001u) != 0)",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__tim2_cen=0\n__CHK__tim3_cen=0\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "version_info",
+      "description": "Pwm_GetVersionInfo trả đúng phiên bản cấu hình cứng trong driver.",
+      "apis": [
+        "Pwm_GetVersionInfo"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00103"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "vendor",
+          "expr": "g_version_info.vendorID",
+          "expected": 4660,
+          "actual": 4660,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "module",
+          "expr": "g_version_info.moduleID",
+          "expected": 43981,
+          "actual": 43981,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "sw_major",
+          "expr": "g_version_info.sw_major_version",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n__CHK__vendor=4660\n__CHK__module=43981\n__CHK__sw_major=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "invalid_channel_set_duty_no_change",
+      "description": "SetDuty với channel invalid không làm thay đổi CCR hiện tại.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00013",
+        "SWS_Pwm_00014",
+        "SWS_Pwm_00016",
+        "SWS_Pwm_00017",
+        "SWS_Pwm_00018",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10082",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20082",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_91000"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "before",
+          "expr": "$before",
+          "expected": 249,
+          "actual": 249,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "after",
+          "expr": "$after",
+          "expected": 249,
+          "actual": 249,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__before=249\n__CHK__after=249\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "invalid_channel_get_output_state",
+      "description": "GetOutputState với channel invalid trả PWM_LOW.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00022",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00100",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10085",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20085",
+        "SWS_Pwm_30009",
+        "SWS_Pwm_30051"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "rv",
+          "expr": "$rv",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__rv=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_set_without_prepare",
+      "description": "SetPowerState trước PreparePowerState phải lỗi sequence.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_00166",
+        "SWS_Pwm_00167",
+        "SWS_Pwm_00168",
+        "SWS_Pwm_00169",
+        "SWS_Pwm_00170",
+        "SWS_Pwm_00171",
+        "SWS_Pwm_00172",
+        "SWS_Pwm_00173",
+        "SWS_Pwm_00194",
+        "SWS_Pwm_00195",
+        "SWS_Pwm_00196",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_30009"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 2,
+          "actual": 2,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__ret=1\n__CHK__result=2\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_prepare_set_ok",
+      "description": "Prepare + Set power state thành công.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_PreparePowerState",
+        "Pwm_SetPowerState",
+        "Pwm_GetCurrentPowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_00166",
+        "SWS_Pwm_00167",
+        "SWS_Pwm_00168",
+        "SWS_Pwm_00169",
+        "SWS_Pwm_00170",
+        "SWS_Pwm_00171",
+        "SWS_Pwm_00172",
+        "SWS_Pwm_00173",
+        "SWS_Pwm_00177",
+        "SWS_Pwm_00178",
+        "SWS_Pwm_00179",
+        "SWS_Pwm_00183",
+        "SWS_Pwm_00184",
+        "SWS_Pwm_00185",
+        "SWS_Pwm_00186",
+        "SWS_Pwm_00187",
+        "SWS_Pwm_00188",
+        "SWS_Pwm_00194",
+        "SWS_Pwm_00195",
+        "SWS_Pwm_00196",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_30009"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "r0",
+          "expr": "$r0",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "r1",
+          "expr": "$r1",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "r2",
+          "expr": "$r2",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "state",
+          "expr": "g_power_state",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__r0=0\n__CHK__r1=0\n__CHK__r2=0\n__CHK__state=1\n__CHK__result=0\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_get_target",
+      "description": "GetTargetPowerState trả đúng mode đã prepare.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_PreparePowerState",
+        "Pwm_GetTargetPowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_00180",
+        "SWS_Pwm_00181",
+        "SWS_Pwm_00182",
+        "SWS_Pwm_00183",
+        "SWS_Pwm_00184",
+        "SWS_Pwm_00185",
+        "SWS_Pwm_00186",
+        "SWS_Pwm_00187",
+        "SWS_Pwm_00188",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_30009"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "r0",
+          "expr": "$r0",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "r1",
+          "expr": "$r1",
+          "expected": 0,
+          "actual": 0,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "state",
+          "expr": "g_power_state",
+          "expected": 2,
+          "actual": 2,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__r0=0\n__CHK__r1=0\n__CHK__state=2\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_prepare_uninit",
+      "description": "PreparePowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_PreparePowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00010",
+        "SWS_Pwm_00011",
+        "SWS_Pwm_00012",
+        "SWS_Pwm_00096",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00183",
+        "SWS_Pwm_00184",
+        "SWS_Pwm_00185",
+        "SWS_Pwm_00186",
+        "SWS_Pwm_00187",
+        "SWS_Pwm_00188",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10080",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20080"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000116 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__ret=1\n__CHK__result=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_get_current_uninit",
+      "description": "GetCurrentPowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_GetCurrentPowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00010",
+        "SWS_Pwm_00011",
+        "SWS_Pwm_00012",
+        "SWS_Pwm_00096",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00177",
+        "SWS_Pwm_00178",
+        "SWS_Pwm_00179",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10080",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20080"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n__CHK__ret=1\n__CHK__result=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "power_get_target_uninit",
+      "description": "GetTargetPowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_GetTargetPowerState"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00010",
+        "SWS_Pwm_00011",
+        "SWS_Pwm_00012",
+        "SWS_Pwm_00096",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00180",
+        "SWS_Pwm_00181",
+        "SWS_Pwm_00182",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10080",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20080"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n__CHK__ret=1\n__CHK__result=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    },
+    {
+      "name": "main_power_transition_uninit_safe",
+      "description": "Main_PowerTransitionManager khi chưa init phải return an toàn.",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "requirement_ids": [
+        "SWS_Pwm_00189",
+        "SWS_Pwm_00190",
+        "SWS_Pwm_00191",
+        "SWS_Pwm_00192",
+        "SWS_Pwm_00193"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ok",
+          "expr": "$ok",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__ok=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+# ADC SWS Traceability Matrix
+
+- Source: `/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/AUTOSAR_CP_SWS_ADCDriver.pdf`
+- AUTOSAR release: `R25-11`
+- Generated on: `2026-03-21`
+
+## API Coverage Summary
+
+- Total APIs in extracted SWS scope: **18**
+- Fully implemented (declared+defined): **18**
+- Missing in current module: **0**
+
+## API Matrix
+
+| API | SID | Section | Config Switch | Key SWS IDs | Header | Source | Status | Notes |
+|---|---|---|---|---|---|---|---|---|
+| Adc_Init | 0x00 | 8.3.1 | mandatory | SWS_Adc_00054, SWS_Adc_00056, SWS_Adc_00077, SWS_Adc_00107, SWS_Adc_00246, SWS_Adc_00247, SWS_Adc_00248, SWS_Adc_00249, ... | YES | YES | implemented |  |
+| Adc_SetupResultBuffer | 0x0c | 8.3.2 | mandatory | SWS_Adc_00420, SWS_Adc_00421, SWS_Adc_00422, SWS_Adc_00423, SWS_Adc_00433, SWS_Adc_00434, SWS_Adc_00457, SWS_Adc_91000 | YES | YES | implemented |  |
+| Adc_DeInit | 0x01 | 8.3.3 | AdcDeInitApi | SWS_Adc_00110, SWS_Adc_00111, SWS_Adc_00112, SWS_Adc_00154, SWS_Adc_00228, SWS_Adc_00358, SWS_Adc_00366 | YES | YES | implemented |  |
+| Adc_StartGroupConversion | 0x02 | 8.3.4 | AdcEnableStartStopGroupApi | SWS_Adc_00061, SWS_Adc_00125, SWS_Adc_00133, SWS_Adc_00146, SWS_Adc_00156, SWS_Adc_00259, SWS_Adc_00294, SWS_Adc_00346, ... | YES | YES | implemented |  |
+| Adc_StopGroupConversion | 0x03 | 8.3.5 | AdcEnableStartStopGroupApi | SWS_Adc_00126, SWS_Adc_00155, SWS_Adc_00164, SWS_Adc_00241, SWS_Adc_00260, SWS_Adc_00283, SWS_Adc_00295, SWS_Adc_00360, ... | YES | YES | implemented |  |
+| Adc_ReadGroup | 0x04 | 8.3.6 | AdcReadGroupApi | SWS_Adc_00075, SWS_Adc_00113, SWS_Adc_00122, SWS_Adc_00152, SWS_Adc_00296, SWS_Adc_00329, SWS_Adc_00330, SWS_Adc_00331, ... | YES | YES | implemented |  |
+| Adc_EnableHardwareTrigger | 0x05 | 8.3.7 | AdcHwTriggerApi | SWS_Adc_00114, SWS_Adc_00120, SWS_Adc_00128, SWS_Adc_00136, SWS_Adc_00144, SWS_Adc_00265, SWS_Adc_00273, SWS_Adc_00281, ... | YES | YES | implemented |  |
+| Adc_DisableHardwareTrigger | 0x06 | 8.3.8 | AdcHwTriggerApi | SWS_Adc_00116, SWS_Adc_00121, SWS_Adc_00129, SWS_Adc_00137, SWS_Adc_00145, SWS_Adc_00157, SWS_Adc_00266, SWS_Adc_00282, ... | YES | YES | implemented |  |
+| Adc_EnableGroupNotification | 0x07 | 8.3.9 | AdcGrpNotifCapability | SWS_Adc_00057, SWS_Adc_00100, SWS_Adc_00130, SWS_Adc_00165, SWS_Adc_00299, SWS_Adc_91003 | YES | YES | implemented |  |
+| Adc_DisableGroupNotification | 0x08 | 8.3.10 | AdcGrpNotifCapability | SWS_Adc_00058, SWS_Adc_00101, SWS_Adc_00131, SWS_Adc_00166, SWS_Adc_00300, SWS_Adc_91004 | YES | YES | implemented |  |
+| Adc_GetGroupStatus | 0x09 | 8.3.11 | mandatory | SWS_Adc_00220, SWS_Adc_00221, SWS_Adc_00222, SWS_Adc_00224, SWS_Adc_00225, SWS_Adc_00226, SWS_Adc_00301, SWS_Adc_00305, ... | YES | YES | implemented |  |
+| Adc_GetStreamLastPointer | 0x0b | 8.3.12 | mandatory | SWS_Adc_00214, SWS_Adc_00215, SWS_Adc_00216, SWS_Adc_00218, SWS_Adc_00219, SWS_Adc_00302, SWS_Adc_00326, SWS_Adc_00327, ... | YES | YES | implemented |  |
+| Adc_GetVersionInfo | 0x0a | 8.3.13 | AdcVersionInfoApi | SWS_Adc_00376, SWS_Adc_00458 | YES | YES | implemented |  |
+| Adc_SetPowerState | 0x10 | 8.3.14 | AdcLowPowerStatesSupport | SWS_Adc_00475, SWS_Adc_00481, SWS_Adc_00482, SWS_Adc_00483, SWS_Adc_00484, SWS_Adc_00485, SWS_Adc_00486, SWS_Adc_00487, ... | YES | YES | implemented |  |
+| Adc_GetCurrentPowerState | 0x11 | 8.3.15 | AdcLowPowerStatesSupport | SWS_Adc_00476, SWS_Adc_00491 | YES | YES | implemented |  |
+| Adc_GetTargetPowerState | 0x12 | 8.3.16 | AdcLowPowerStatesSupport | SWS_Adc_00477, SWS_Adc_00492, SWS_Adc_00493 | YES | YES | implemented |  |
+| Adc_PreparePowerState | 0x13 | 8.3.17 | AdcLowPowerStatesSupport | SWS_Adc_00478, SWS_Adc_00494, SWS_Adc_00495, SWS_Adc_00496, SWS_Adc_00497, SWS_Adc_00498 | YES | YES | implemented |  |
+| Adc_Main_PowerTransitionManager | 0x14 | 8.5.1 | AdcLowPowerStatesSupport + AdcPowerStateAsynchTransitionMode | SWS_Adc_00479, SWS_Adc_00499, SWS_Adc_00500, SWS_Adc_00501, SWS_Adc_00502 | YES | YES | implemented |  |
+
+## Error Symbol Coverage
+
+| Category | Error Symbol | Value | Symbol in Current Code |
+|---|---|---|---|
+| development | `ADC_E_UNINIT` | `0x0A` | YES |
+| development | `ADC_E_ALREADY_INITIALIZED` | `0x0D` | YES |
+| development | `ADC_E_PARAM_POINTER` | `0x14` | YES |
+| development | `ADC_E_PARAM_GROUP` | `0x15` | YES |
+| development | `ADC_E_WRONG_CONV_MODE` | `0x16` | YES |
+| development | `ADC_E_WRONG_TRIGG_SRC` | `0x17` | YES |
+| development | `ADC_E_NOTIF_CAPABILITY` | `0x18` | YES |
+| development | `ADC_E_BUFFER_UNINIT` | `0x19` | YES |
+| development | `ADC_E_POWER_STATE_NOT_SUPPORTED` | `0x1B` | YES |
+| development | `ADC_E_PERIPHERAL_NOT_PREPARED` | `0x1D` | YES |
+| runtime | `ADC_E_BUSY` | `0x0B` | YES |
+| runtime | `ADC_E_IDLE` | `0x0C` | YES |
+| runtime | `ADC_E_NOT_DISENGAGED` | `0x1A` | YES |
+| runtime | `ADC_E_TRANSITION_NOT_POSSIBLE` | `0x1C` | YES |
+
+## Notes
+
+- This matrix is generated from extracted SWS metadata + static scan of current `Adc.h` and `Adc.c` files.
+- For formal compliance, keep this matrix synchronized with implementation and test evidence.

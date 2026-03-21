@@ -1,0 +1,143 @@
+19:28:39.4190 [INFO] Loaded monitor commands from: /Applications/Renode.app/Contents/MacOS/scripts/monitor.py
+19:28:39.4297 [INFO] Monitor available in telnet mode on port 12345
+19:28:39.5150 [INFO] Including script(s): /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Adc/tests/renode/build/adc_api_test.resc
+19:28:39.5255 [INFO] System bus created.
+19:28:40.3681 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+19:28:40.6557 [INFO] sysbus: Loaded SVD: /var/folders/gf/gn7n2rcn3lg87vmyhs88n8kr0000gp/T/renode-93459/2c7e484a-2b9b-452c-ad45-67bba943be8d.tmp. Name: STM32F103. Description: STM32F103.
+19:28:40.6784 [INFO] sysbus: Loading block of 12984 bytes length at 0x8000000.
+19:28:40.6889 [INFO] sysbus: Loading block of 188 bytes length at 0x80032B8.
+19:28:40.7095 [INFO] adc_api_test: CPUs: ["adc_api_test.cpu"] were added to a new GDB server created on port :3333
+19:28:40.7096 [INFO] adc_api_test: GDB server with all CPUs started on port :3333
+19:28:40.7117 [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+19:28:40.7266 [INFO] cpu: Setting initial values: PC = 0x80031E9, SP = 0x20005000.
+19:28:40.7277 [INFO] adc_api_test: Machine started.
+19:28:41.7836 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:41.7840 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:41.7910 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:41.7914 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:42.5344 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:42.5347 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:42.5407 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:42.5410 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.2772 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.2775 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.2829 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.2833 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.2923 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.2927 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.2969 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.2973 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.9805 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.9808 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.9874 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.9877 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:43.9938 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:43.9941 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.0035 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.0038 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.0522 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.0526 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.7494 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.7497 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.7546 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.7549 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.7604 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.7607 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.7646 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.7650 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:44.7704 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:44.7707 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:45.5013 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:45.5016 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:45.5063 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:45.5066 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:45.5161 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:45.5166 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.2027 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.2030 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.2305 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.2323 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.2559 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.2563 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.2635 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.2638 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.9808 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.9813 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:46.9864 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:46.9867 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:47.6955 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:47.6959 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:47.7014 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:47.7017 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:47.7059 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:47.7062 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.3898 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.3901 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.3952 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.3955 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.4092 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.4095 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.4125 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.4128 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.4161 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.4163 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:48.4199 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:48.4203 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:49.0223 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:49.0227 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:49.7145 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:49.7149 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:49.7198 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:49.7201 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:50.5412 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:50.5415 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:50.5463 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:50.5466 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:50.5520 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:50.5522 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:50.5564 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:50.5567 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:50.5654 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:50.5656 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.2942 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.2944 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.2992 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.2995 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.3083 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.3087 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.3130 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.3133 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.3196 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.3198 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:51.3230 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:51.3232 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.0101 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.0106 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.0155 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.0158 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.7465 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.7468 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.7519 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.7522 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.7594 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.7597 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:52.7667 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:52.7670 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:53.4565 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:53.4568 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:53.4618 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:53.4621 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:53.4686 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:53.4689 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.0722 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:54.0725 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.7550 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:54.7553 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.7611 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:54.7615 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.7660 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:54.7664 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.7711 [WARNING] cpu: Writing to register #29 failed, register doesn't exit.
+19:28:54.7713 [WARNING] cpu: Writing to register #31 failed, register doesn't exit.
+19:28:54.7791 [INFO] adc_api_test: Machine paused.
+19:28:54.8377 [INFO] adc_api_test: Disposed.

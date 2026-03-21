@@ -1,0 +1,4423 @@
+{
+  "summary": {
+    "total_requirements": 90,
+    "passed_requirements": 90,
+    "failed_requirements": 0,
+    "not_covered_requirements": 0
+  },
+  "requirements": [
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00010",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00011",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00012",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00013",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00014",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00016",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00017",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00018",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00019",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00020",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00021",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00022",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "covered_by_scenarios": [
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00023",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00024",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00041",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00045",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_DisableNotification",
+        "Pwm_EnableNotification",
+        "Pwm_GetOutputState",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 9,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetDutyCycle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 5,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetDutyCycle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 5,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00076",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00081",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00096",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00100",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "covered_by_scenarios": [
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00103",
+      "apis": [
+        "Pwm_GetVersionInfo"
+      ],
+      "covered_by_scenarios": [
+        "version_info"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_DisableNotification",
+        "Pwm_EnableNotification",
+        "Pwm_GetOutputState",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 13,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00119",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00150",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00166",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00167",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00168",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00169",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00170",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00171",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00172",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00173",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00177",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_current_uninit",
+        "power_prepare_set_ok"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00178",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_current_uninit",
+        "power_prepare_set_ok"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00179",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_current_uninit",
+        "power_prepare_set_ok"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00180",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_get_target_uninit"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00181",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_get_target_uninit"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00182",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_get_target_uninit"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00183",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00184",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00185",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00186",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00187",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00188",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00189",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_uninit_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00190",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_uninit_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00191",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_uninit_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00192",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_uninit_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00193",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_uninit_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00194",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00195",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_00196",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_ok",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_DisableNotification",
+        "Pwm_EnableNotification",
+        "Pwm_GetOutputState",
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_current_uninit",
+        "power_get_target",
+        "power_get_target_uninit",
+        "power_prepare_set_ok",
+        "power_prepare_uninit",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10083",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10084",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "covered_by_scenarios": [
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10086",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10112",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_10113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_DeInit",
+        "Pwm_DisableNotification",
+        "Pwm_EnableNotification",
+        "Pwm_GetOutputState",
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_current_uninit",
+        "power_get_target",
+        "power_get_target_uninit",
+        "power_prepare_set_ok",
+        "power_prepare_uninit",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "power_get_current_uninit",
+        "power_get_target_uninit",
+        "power_prepare_uninit"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20083",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20084",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "covered_by_scenarios": [
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20086",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20112",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_20113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_counter",
+        "disable_notification",
+        "enable_notification",
+        "get_output_state_high_low",
+        "init_default_values",
+        "invalid_channel_get_output_state",
+        "invalid_channel_set_duty_no_change",
+        "power_get_target",
+        "power_prepare_set_ok",
+        "power_set_without_prepare",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle",
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 14,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_30051",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "covered_by_scenarios": [
+        "get_output_state_high_low",
+        "invalid_channel_get_output_state"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_91000",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "covered_by_scenarios": [
+        "invalid_channel_set_duty_no_change",
+        "set_duty_ch0_half",
+        "set_duty_ch1_full",
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_91001",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "covered_by_scenarios": [
+        "set_period_and_duty"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_91002",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "covered_by_scenarios": [
+        "set_output_to_idle"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_91003",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Pwm_91004",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_notification",
+        "enable_notification"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    }
+  ],
+  "scenario_requirement_rows": [
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "init_default_values",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00013",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00014",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00016",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00017",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00018",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91000",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch0_half",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00013",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00014",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00016",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00017",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00018",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91000",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_duty_ch1_full",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00019",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00020",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00041",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00045",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00076",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00150",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10083",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20083",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91001",
+      "apis": [
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "scenario": "set_period_and_duty",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00013",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00014",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00016",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00017",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00018",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00021",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00119",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10084",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10086",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20084",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20086",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91000",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91002",
+      "apis": [
+        "Pwm_SetOutputToIdle"
+      ],
+      "scenario": "set_output_to_idle",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00022",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00100",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30051",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "get_output_state_high_low",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00024",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00081",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91004",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "enable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00023",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00024",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00081",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10112",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20112",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20113",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91003",
+      "apis": [
+        "Pwm_DisableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91004",
+      "apis": [
+        "Pwm_EnableNotification"
+      ],
+      "scenario": "disable_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00010",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00011",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00012",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00096",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "deinit_disables_counter",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00103",
+      "apis": [
+        "Pwm_GetVersionInfo"
+      ],
+      "scenario": "version_info",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00013",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00014",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00016",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00017",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00018",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00058",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00059",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20082",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_91000",
+      "apis": [
+        "Pwm_SetDutyCycle"
+      ],
+      "scenario": "invalid_channel_set_duty_no_change",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00022",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00047",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00100",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20085",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30051",
+      "apis": [
+        "Pwm_GetOutputState"
+      ],
+      "scenario": "invalid_channel_get_output_state",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00166",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00167",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00168",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00169",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00170",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00171",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00172",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00173",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00194",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00195",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00196",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00166",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00167",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00168",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00169",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00170",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00171",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00172",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00173",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00177",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00178",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00179",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00183",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00184",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00185",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00186",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00187",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00188",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00194",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00195",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00196",
+      "apis": [
+        "Pwm_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_prepare_set_ok",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00007",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00052",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00062",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00093",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00095",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00116",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00118",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00121",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00180",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00181",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00182",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00183",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00184",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00185",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00186",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00187",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00188",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_30009",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00010",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00011",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00012",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00096",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00183",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00184",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00185",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00186",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00187",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00188",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_prepare_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00010",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00011",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00012",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00096",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00177",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00178",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00179",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_current_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00010",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00011",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00012",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00096",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00117",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00180",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00181",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00182",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_10080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20051",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_20080",
+      "apis": [
+        "Pwm_DeInit"
+      ],
+      "scenario": "power_get_target_uninit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00189",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_uninit_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00190",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_uninit_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00191",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_uninit_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00192",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_uninit_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Pwm_00193",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_uninit_safe",
+      "scenario_passed": true
+    }
+  ]
+}

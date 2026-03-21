@@ -1,0 +1,1381 @@
+{
+  "document": {
+    "source_pdf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/AUTOSAR_CP_SWS_ADCDriver.pdf",
+    "title": "Specification of ADC Driver",
+    "release": "R25-11",
+    "document_id": "10",
+    "page_count": 124,
+    "generated_at_utc": "2026-03-21T11:57:44.148344+00:00"
+  },
+  "scope": {
+    "limitations": [
+      "ADC Driver targets Successive Approximation ADC hardware.",
+      "Delta Sigma ADC use cases are out of scope in this SWS release."
+    ],
+    "dependencies": [
+      {
+        "module": "MCU Driver",
+        "description": "Set prescaler, system clock, PLL."
+      },
+      {
+        "module": "DET",
+        "description": "Report development/runtime errors."
+      }
+    ],
+    "conversion_features": {
+      "group_conversion_modes": [
+        "one-shot",
+        "continuous"
+      ],
+      "trigger_modes": [
+        "software",
+        "hardware"
+      ],
+      "result_access_modes": [
+        "single",
+        "streaming"
+      ]
+    },
+    "notes": [
+      "Each ADC channel group is configured with exactly one trigger source.",
+      "Result buffer setup is mandatory before reading conversion results."
+    ]
+  },
+  "apis": [
+    {
+      "section": "8.3.1",
+      "title": "Adc_Init",
+      "name": "Adc_Init",
+      "definition_requirement": "SWS_Adc_00365",
+      "service_id_hex": "0x00",
+      "syntax": "void Adc_Init ( const Adc_ConfigType * ConfigPtr )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "None",
+      "description": "Initializes the ADC hardware units and driver.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00054",
+        "SWS_Adc_00056",
+        "SWS_Adc_00077",
+        "SWS_Adc_00107",
+        "SWS_Adc_00246",
+        "SWS_Adc_00247",
+        "SWS_Adc_00248",
+        "SWS_Adc_00249",
+        "SWS_Adc_00250",
+        "SWS_Adc_00307",
+        "SWS_Adc_00365"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12318",
+        "SRS_BSW_00101",
+        "SRS_BSW_00386",
+        "SRS_BSW_00405",
+        "SRS_BSW_00406",
+        "SRS_BSW_00414",
+        "SRS_SPAL_",
+        "SRS_SPAL_12125",
+        "SRS_SPAL_12448",
+        "SRS_SPAL_12461"
+      ]
+    },
+    {
+      "section": "8.3.2",
+      "title": "Adc_SetupResultBuffer",
+      "name": "Adc_SetupResultBuffer",
+      "definition_requirement": "SWS_Adc_91000",
+      "service_id_hex": "0x0c",
+      "syntax": "Std_ReturnType Adc_SetupResultBuffer ( Adc_GroupType Group, Adc_ValueGroupType* DataBufferPtr )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant Group Numeric ID of requested ADC channel group.",
+      "return_value": "Std_ReturnType E_OK: result buffer pointer initialized correctly E_NOT_OK: operation failed or development error occured",
+      "description": "Initializes ADC driver with the group specific result buffer start address where the conversion results will be stored. The application has to ensure that the application buffer, where Data BufferPtr points to, can hold all the conversion results of the specified group. The initialization with Adc_SetupResultBuffer is required after reset, before a group conversion can be started.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00420",
+        "SWS_Adc_00421",
+        "SWS_Adc_00422",
+        "SWS_Adc_00423",
+        "SWS_Adc_00433",
+        "SWS_Adc_00434",
+        "SWS_Adc_00457",
+        "SWS_Adc_91000"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.3",
+      "title": "Adc_DeInit",
+      "name": "Adc_DeInit",
+      "definition_requirement": "SWS_Adc_00366",
+      "service_id_hex": "0x01",
+      "syntax": "void Adc_DeInit ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "None",
+      "description": "Returns all ADC HW Units to a state comparable to their power on reset state.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00110",
+        "SWS_Adc_00111",
+        "SWS_Adc_00112",
+        "SWS_Adc_00154",
+        "SWS_Adc_00228",
+        "SWS_Adc_00358",
+        "SWS_Adc_00366"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_BSW_00336",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12163",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.4",
+      "title": "Adc_StartGroupConversion",
+      "name": "Adc_StartGroupConversion",
+      "definition_requirement": "SWS_Adc_00367",
+      "service_id_hex": "0x02",
+      "syntax": "void Adc_StartGroupConversion ( Adc_GroupType Group )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Starts the conversion of all channels of the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00061",
+        "SWS_Adc_00125",
+        "SWS_Adc_00133",
+        "SWS_Adc_00146",
+        "SWS_Adc_00156",
+        "SWS_Adc_00259",
+        "SWS_Adc_00294",
+        "SWS_Adc_00346",
+        "SWS_Adc_00348",
+        "SWS_Adc_00351",
+        "SWS_Adc_00367",
+        "SWS_Adc_00424",
+        "SWS_Adc_00426",
+        "SWS_Adc_00427",
+        "SWS_Adc_00428",
+        "SWS_Adc_00431"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12317",
+        "SRS_Adc_12318",
+        "SRS_Adc_12364",
+        "SRS_Adc_12817",
+        "SRS_BSW_00171",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.5",
+      "title": "Adc_StopGroupConversion",
+      "name": "Adc_StopGroupConversion",
+      "definition_requirement": "SWS_Adc_00368",
+      "service_id_hex": "0x03",
+      "syntax": "void Adc_StopGroupConversion ( Adc_GroupType Group )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Stops the conversion of the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00126",
+        "SWS_Adc_00155",
+        "SWS_Adc_00164",
+        "SWS_Adc_00241",
+        "SWS_Adc_00260",
+        "SWS_Adc_00283",
+        "SWS_Adc_00295",
+        "SWS_Adc_00360",
+        "SWS_Adc_00368",
+        "SWS_Adc_00385",
+        "SWS_Adc_00386",
+        "SWS_Adc_00437",
+        "SWS_Adc_00438"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12317",
+        "SRS_Adc_12364",
+        "SRS_Adc_12817",
+        "SRS_BSW_00171",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.6",
+      "title": "Adc_ReadGroup",
+      "name": "Adc_ReadGroup",
+      "definition_requirement": "SWS_Adc_00369",
+      "service_id_hex": "0x04",
+      "syntax": "Std_ReturnType Adc_ReadGroup ( Adc_GroupType Group, Adc_ValueGroupType* DataBufferPtr )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "Std_ReturnType E_OK: results are available and written to the data buffer E_NOT_OK: no results are available or development error occured",
+      "description": "Reads the group conversion result of the last completed conversion round of the requested group and stores the channel values starting at the DataBufferPtr address. The group channel values are stored in ascending channel number order ( in contrast to the storage layout of the result buffer if streaming access is configured).",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00075",
+        "SWS_Adc_00113",
+        "SWS_Adc_00122",
+        "SWS_Adc_00152",
+        "SWS_Adc_00296",
+        "SWS_Adc_00329",
+        "SWS_Adc_00330",
+        "SWS_Adc_00331",
+        "SWS_Adc_00359",
+        "SWS_Adc_00369",
+        "SWS_Adc_00388"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12283",
+        "SRS_Adc_12291",
+        "SRS_Adc_12292",
+        "SRS_Adc_12819",
+        "SRS_Adc_12824",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_SPAL_12063",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.7",
+      "title": "Adc_EnableHardwareTrigger",
+      "name": "Adc_EnableHardwareTrigger",
+      "definition_requirement": "SWS_Adc_91001",
+      "service_id_hex": "0x05",
+      "syntax": "void Adc_EnableHardwareTrigger ( Adc_GroupType Group )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Enables the hardware trigger for the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00114",
+        "SWS_Adc_00120",
+        "SWS_Adc_00128",
+        "SWS_Adc_00136",
+        "SWS_Adc_00144",
+        "SWS_Adc_00265",
+        "SWS_Adc_00273",
+        "SWS_Adc_00281",
+        "SWS_Adc_00297",
+        "SWS_Adc_00321",
+        "SWS_Adc_00349",
+        "SWS_Adc_00353",
+        "SWS_Adc_00425",
+        "SWS_Adc_00432",
+        "SWS_Adc_91001"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12823",
+        "SRS_BSW_00171",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.8",
+      "title": "Adc_DisableHardwareTrigger",
+      "name": "Adc_DisableHardwareTrigger",
+      "definition_requirement": "SWS_Adc_91002",
+      "service_id_hex": "0x06",
+      "syntax": "void Adc_DisableHardwareTrigger ( Adc_GroupType Group )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Disables the hardware trigger for the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00116",
+        "SWS_Adc_00121",
+        "SWS_Adc_00129",
+        "SWS_Adc_00137",
+        "SWS_Adc_00145",
+        "SWS_Adc_00157",
+        "SWS_Adc_00266",
+        "SWS_Adc_00282",
+        "SWS_Adc_00298",
+        "SWS_Adc_00304",
+        "SWS_Adc_00361",
+        "SWS_Adc_00429",
+        "SWS_Adc_91002"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12317",
+        "SRS_Adc_12318",
+        "SRS_Adc_12364",
+        "SRS_Adc_12823",
+        "SRS_BSW_00171",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.9",
+      "title": "Adc_EnableGroupNotification",
+      "name": "Adc_EnableGroupNotification",
+      "definition_requirement": "SWS_Adc_91003",
+      "service_id_hex": "0x07",
+      "syntax": "void Adc_EnableGroupNotification ( Adc_GroupType Group )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Enables the notification mechanism for the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00057",
+        "SWS_Adc_00100",
+        "SWS_Adc_00130",
+        "SWS_Adc_00165",
+        "SWS_Adc_00299",
+        "SWS_Adc_91003"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12318",
+        "SRS_Adc_12447",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_00157",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.10",
+      "title": "Adc_DisableGroupNotification",
+      "name": "Adc_DisableGroupNotification",
+      "definition_requirement": "SWS_Adc_91004",
+      "service_id_hex": "0x08",
+      "syntax": "void Adc_DisableGroupNotification ( Adc_GroupType Group )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Disables the notification mechanism for the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00058",
+        "SWS_Adc_00101",
+        "SWS_Adc_00131",
+        "SWS_Adc_00166",
+        "SWS_Adc_00300",
+        "SWS_Adc_91004"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12318",
+        "SRS_Adc_12447",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_00157",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.11",
+      "title": "Adc_GetGroupStatus",
+      "name": "Adc_GetGroupStatus",
+      "definition_requirement": "SWS_Adc_00374",
+      "service_id_hex": "0x09",
+      "syntax": "Adc_StatusType Adc_GetGroupStatus ( Adc_GroupType Group )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "Adc_StatusT ype Conversion status for the requested group.",
+      "description": "Returns the conversion status of the requested ADC Channel group.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00220",
+        "SWS_Adc_00221",
+        "SWS_Adc_00222",
+        "SWS_Adc_00224",
+        "SWS_Adc_00225",
+        "SWS_Adc_00226",
+        "SWS_Adc_00301",
+        "SWS_Adc_00305",
+        "SWS_Adc_00325",
+        "SWS_Adc_00374",
+        "SWS_Adc_00436"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12291",
+        "SRS_BSW_00323",
+        "SRS_BSW_00335",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406",
+        "SRS_SPAL_12448"
+      ]
+    },
+    {
+      "section": "8.3.12",
+      "title": "Adc_GetStreamLastPointer",
+      "name": "Adc_GetStreamLastPointer",
+      "definition_requirement": "SWS_Adc_00375",
+      "service_id_hex": "0x0b",
+      "syntax": "Adc_StreamNumSampleType Adc_GetStreamLastPointer ( Adc_GroupType Group, Adc_ValueGroupType** PtrToSamplePtr )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "Adc_StreamNumSample T ype Number of valid samples per channel.",
+      "description": "Returns the number of valid samples per channel, stored in the result buffer. Reads a pointer, pointing to a position in the group result buffer. With the pointer position, the results of all group channels of the last completed conversion round can be accessed. With the pointer and the return value, all valid group conversion results can be accessed (the user has to take the layout of the result buffer into account).",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00214",
+        "SWS_Adc_00215",
+        "SWS_Adc_00216",
+        "SWS_Adc_00218",
+        "SWS_Adc_00219",
+        "SWS_Adc_00302",
+        "SWS_Adc_00326",
+        "SWS_Adc_00327",
+        "SWS_Adc_00328",
+        "SWS_Adc_00375",
+        "SWS_Adc_00387",
+        "SWS_Adc_00418"
+      ],
+      "upstream_requirements": [
+        "SRS_Adc_12291",
+        "SRS_Adc_12292",
+        "SRS_Adc_12802",
+        "SRS_BSW_00386",
+        "SRS_BSW_00406"
+      ]
+    },
+    {
+      "section": "8.3.13",
+      "title": "Adc_GetVersionInfo",
+      "name": "Adc_GetVersionInfo",
+      "definition_requirement": "SWS_Adc_00376",
+      "service_id_hex": "0x0a",
+      "syntax": "void Adc_GetVersionInfo ( Std_VersionInfoType* versioninfo )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Returns the version information of this module.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00376",
+        "SWS_Adc_00458"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.14",
+      "title": "Adc_SetPowerState",
+      "name": "Adc_SetPowerState",
+      "definition_requirement": "SWS_Adc_00475",
+      "service_id_hex": "0x10",
+      "syntax": "Std_ReturnType Adc_SetPowerState ( Adc_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Power Mode changed E_NOT_OK: request rejected",
+      "description": "This API configures the Adc module so that it enters the already prepared power state, chosen between a predefined set of configured ones.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00475",
+        "SWS_Adc_00481",
+        "SWS_Adc_00482",
+        "SWS_Adc_00483",
+        "SWS_Adc_00484",
+        "SWS_Adc_00485",
+        "SWS_Adc_00486",
+        "SWS_Adc_00487",
+        "SWS_Adc_00488",
+        "SWS_Adc_00489",
+        "SWS_Adc_00490"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.15",
+      "title": "Adc_GetCurrentPowerState",
+      "name": "Adc_GetCurrentPowerState",
+      "definition_requirement": "SWS_Adc_00476",
+      "service_id_hex": "0x11",
+      "syntax": "Std_ReturnType Adc_GetCurrentPowerState ( Adc_PowerStateType* CurrentPowerState, Adc_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Mode could be read E_NOT_OK: Service is rejected",
+      "description": "This API returns the current power state of the ADC HW unit.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00476",
+        "SWS_Adc_00491"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.16",
+      "title": "Adc_GetTargetPowerState",
+      "name": "Adc_GetTargetPowerState",
+      "definition_requirement": "SWS_Adc_00477",
+      "service_id_hex": "0x12",
+      "syntax": "Std_ReturnType Adc_GetTargetPowerState ( Adc_PowerStateType* TargetPowerState, Adc_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Mode could be read E_NOT_OK: Service is rejected",
+      "description": "This API returns the T arget power state of the ADC HW unit.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00477",
+        "SWS_Adc_00492",
+        "SWS_Adc_00493"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.17",
+      "title": "Adc_PreparePowerState",
+      "name": "Adc_PreparePowerState",
+      "definition_requirement": "SWS_Adc_00478",
+      "service_id_hex": "0x13",
+      "syntax": "Std_ReturnType Adc_PreparePowerState ( Adc_PowerStateType PowerState, Adc_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Preparation process started E_NOT_OK: Service is rejected",
+      "description": "This API starts the needed process to allow the ADC HW module to enter the requested power state.",
+      "available_via": "Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00478",
+        "SWS_Adc_00494",
+        "SWS_Adc_00495",
+        "SWS_Adc_00496",
+        "SWS_Adc_00497",
+        "SWS_Adc_00498"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.5.1",
+      "title": "Adc_Main_PowerTransitionManager",
+      "name": "Adc_Main_PowerTransitionManager",
+      "definition_requirement": "SWS_Adc_00479",
+      "service_id_hex": "0x14",
+      "syntax": "void Adc_Main_PowerTransitionManager ( void )",
+      "sync_async": null,
+      "reentrancy": null,
+      "return_value": null,
+      "description": "This API is cyclically called and supervises the power state transitions, checking for the readiness of the module and issuing the callbacks IoHwAb_Adc_NotifyReadyForPower State<Mode> (see AdcPowerStateReadyCbkRef configuration parameter).",
+      "available_via": "SchM_Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00479",
+        "SWS_Adc_00499",
+        "SWS_Adc_00500",
+        "SWS_Adc_00501",
+        "SWS_Adc_00502"
+      ],
+      "upstream_requirements": []
+    }
+  ],
+  "configurable_interfaces": [
+    {
+      "name": "IoHwAb_AdcNotification<#groupID>",
+      "syntax": "void IoHwAb_AdcNotification<#groupID> ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "description": "Will be called by the ADC Driver when a group conversion is completed for group <#groupID>.",
+      "available_via": "IoHwAb_Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00080",
+        "SWS_Adc_00083",
+        "SWS_Adc_00084",
+        "SWS_Adc_00085",
+        "SWS_Adc_00104",
+        "SWS_Adc_00416",
+        "SWS_Adc_00480"
+      ]
+    },
+    {
+      "name": "IoHwAb_Adc_NotifyReadyForPowerState<#Mode>",
+      "syntax": "void IoHwAb_Adc_NotifyReadyForPowerState<#Mode> ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "description": "The API shall be invoked by the ADC Driver when the requested power state preparation for mode <#Mode> is completed.",
+      "available_via": "IoHwAb_Adc.h",
+      "requirement_ids": [
+        "SWS_Adc_00098",
+        "SWS_Adc_00099",
+        "SWS_Adc_00138",
+        "SWS_Adc_00505",
+        "SWS_Adc_00506",
+        "SWS_Adc_00507",
+        "SWS_Adc_00508",
+        "SWS_Adc_00509",
+        "SWS_Adc_00510",
+        "SWS_Adc_00511",
+        "SWS_Adc_00512",
+        "SWS_Adc_00518",
+        "SWS_Adc_00521",
+        "SWS_Adc_00526",
+        "SWS_Adc_00531",
+        "SWS_Adc_CONSTR_00001",
+        "SWS_Adc_CONSTR_00002",
+        "SWS_Adc_CONSTR_00003",
+        "SWS_Adc_CONSTR_00004",
+        "SWS_Adc_NA_00460"
+      ]
+    }
+  ],
+  "errors": {
+    "development": [
+      {
+        "name": "ADC_E_UNINIT",
+        "value": "0x0A"
+      },
+      {
+        "name": "ADC_E_ALREADY_INITIALIZED",
+        "value": "0x0D"
+      },
+      {
+        "name": "ADC_E_PARAM_POINTER",
+        "value": "0x14"
+      },
+      {
+        "name": "ADC_E_PARAM_GROUP",
+        "value": "0x15"
+      },
+      {
+        "name": "ADC_E_WRONG_CONV_MODE",
+        "value": "0x16"
+      },
+      {
+        "name": "ADC_E_WRONG_TRIGG_SRC",
+        "value": "0x17"
+      },
+      {
+        "name": "ADC_E_NOTIF_CAPABILITY",
+        "value": "0x18"
+      },
+      {
+        "name": "ADC_E_BUFFER_UNINIT",
+        "value": "0x19"
+      },
+      {
+        "name": "ADC_E_POWER_STATE_NOT_SUPPORTED",
+        "value": "0x1B"
+      },
+      {
+        "name": "ADC_E_PERIPHERAL_NOT_PREPARED",
+        "value": "0x1D"
+      }
+    ],
+    "runtime": [
+      {
+        "name": "ADC_E_BUSY",
+        "value": "0x0B"
+      },
+      {
+        "name": "ADC_E_IDLE",
+        "value": "0x0C"
+      },
+      {
+        "name": "ADC_E_NOT_DISENGAGED",
+        "value": "0x1A"
+      },
+      {
+        "name": "ADC_E_TRANSITION_NOT_POSSIBLE",
+        "value": "0x1C"
+      }
+    ],
+    "production": [],
+    "extended_production": [],
+    "development_requirement_ids": [
+      "SWS_Adc_91005"
+    ],
+    "runtime_requirement_ids": [
+      "SWS_Adc_91006"
+    ]
+  },
+  "configuration": {
+    "containers": [
+      {
+        "id": "ECUC_Adc_00462",
+        "definition_type": "EcucModuleDef",
+        "definition_name": "Adc",
+        "container_name": "Multiplicity Dependency AdcConfigSet 1 This container contains the configuration parameters and sub containers of the AUTOSAR Adc module. AdcGeneral 1 General configuration (parameters) of the ADC Driver software module. AdcPublishedInformation 1 Additional published parameters not covered by \"Common\" Published Information. Note that these parameters have \"PUBLISHED-INFORMA TION\" configuration class setting, since they are published information.",
+        "parameter_name": null,
+        "parent_container": null,
+        "multiplicity": "Dependency AdcConfigSet 1 This container contains the configuration parameters and sub containers of the AUTOSAR Adc module. AdcGeneral 1 General configuration (parameters) of the ADC Driver software module. AdcPublishedInformation 1 Additional published parameters not covered by \"Common\" Published Information. Note that these parameters have \"PUBLISHED-INFORMA TION\" configuration class setting, since they are published information.",
+        "type": null,
+        "description": "Configuration of the Adc (Analog Digital Conversion) module."
+      },
+      {
+        "id": "ECUC_Adc_00027",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcGeneral",
+        "container_name": "AdcGeneral",
+        "parameter_name": "Multiplicity ECUC ID AdcDeInitApi 1 [ECUC_Adc_00404] AdcDevErrorDetect 1 [ECUC_Adc_00405] AdcEnableLimitCheck 1 [ECUC_Adc_00452] AdcEnableQueuing 1 [ECUC_Adc_00391] AdcEnableStartStopGroupApi 1 [ECUC_Adc_00406] AdcGrpNotifCapability 1 [ECUC_Adc_00105] AdcHwT riggerApi 1 [ECUC_Adc_00408] AdcLowPowerStatesSupport 0..1 [ECUC_Adc_00457] AdcPowerStateAsynchTransitionMode 0..1 [ECUC_Adc_00458] AdcPriorityImplementation 1 [ECUC_Adc_00393] AdcReadGroupApi 1 [ECUC_Adc_00394] AdcResultAlignment 1 [ECUC_Adc_00444] AdcVersionInfoApi 1 [ECUC_Adc_00409] AdcEcucPartitionRef 0..* [ECUC_Adc_00463] AdcKernelEcucPartitionRef 0..1 [ECUC_Adc_00464]",
+        "parent_container": "Adc",
+        "multiplicity": "1",
+        "type": null,
+        "description": "General configuration (parameters) of the ADC Driver software module."
+      },
+      {
+        "id": "ECUC_Adc_00459",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcPowerState Config",
+        "container_name": "AdcPowerStateConfig",
+        "parameter_name": "Multiplicity ECUC ID AdcPowerState 1 [ECUC_Adc_00461] AdcPowerStateReadyCbkRef 1 [ECUC_Adc_00460]",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "0..*",
+        "type": null,
+        "description": "Each instance of this parameter defines a power state and the callback to be called when this power state is reached."
+      },
+      {
+        "id": "ECUC_Adc_00390",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcConfigSet",
+        "container_name": "AdcConfigSet",
+        "parameter_name": null,
+        "parent_container": "Adc",
+        "multiplicity": "1",
+        "type": null,
+        "description": "This container contains the configuration parameters and sub containers of the AUTOSAR Adc module."
+      },
+      {
+        "id": "ECUC_Adc_00028",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcGroup",
+        "container_name": "AdcGroup",
+        "parameter_name": "Multiplicity ECUC ID AdcGroupAccessMode 1 [ECUC_Adc_00317] AdcGroupConversionMode 1 [ECUC_Adc_00397] AdcGroupId 1 [ECUC_Adc_00398] AdcGroupPriority 0..1 [ECUC_Adc_00287] AdcGroupReplacement 0..1 [ECUC_Adc_00435] AdcGroupT riggSrc 1 [ECUC_Adc_00399] AdcHwT rigSignal 0..1 [ECUC_Adc_00400] AdcHwT rigTimer 0..1 [ECUC_Adc_00401] AdcNotification 0..1 [ECUC_Adc_00402] AdcStreamingBufferMode 1 [ECUC_Adc_00316] AdcStreamingNumSamples 1 [ECUC_Adc_00292] AdcGroupDefinition 1..* [ECUC_Adc_00014] AdcGroupEcucPartitionRef 0..* [ECUC_Adc_00465]",
+        "parent_container": "AdcHwUnit",
+        "multiplicity": "1..*",
+        "type": null,
+        "description": "This container contains the Group configuration (parameters)."
+      },
+      {
+        "id": "ECUC_Adc_00268",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcChannel",
+        "container_name": "AdcChannel",
+        "parameter_name": "Multiplicity ECUC ID AdcChannelConvTime 0..1 [ECUC_Adc_00011] AdcChannelHighLimit 0..1 [ECUC_Adc_00455] AdcChannelId 1 [ECUC_Adc_00392] AdcChannelLimitCheck 0..1 [ECUC_Adc_00453] AdcChannelLowLimit 0..1 [ECUC_Adc_00454] AdcChannelRangeSelect 0..1 [ECUC_Adc_00456] AdcChannelRefVoltsrcHigh 0..1 [ECUC_Adc_00089] AdcChannelRefVoltsrcLow 0..1 [ECUC_Adc_00023] AdcChannelResolution 0..1 [ECUC_Adc_00019] AdcChannelSampTime 0..1 [ECUC_Adc_00290]",
+        "parent_container": "AdcHwUnit",
+        "multiplicity": "1..*",
+        "type": null,
+        "description": "This container contains the channel configuration (parameters) depending on the hardware capability . The organization of this data structure could contain dependencies to the microcontroller so this is left up to the implementer and its location is left up to the configuration. Note: Since a AdcChannel can be part of several AdcGroups, this container is not realized as a subcontainer of AdcGroup but instead as a subcontainer of AdcHwUnit."
+      },
+      {
+        "id": "ECUC_Adc_00242",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcHwUnit",
+        "container_name": "AdcHwUnit",
+        "parameter_name": "Multiplicity ECUC ID AdcClockSource 0..1 [ECUC_Adc_00087] AdcHwUnitId 1 [ECUC_Adc_00389] AdcPrescale 0..1 [ECUC_Adc_00088]",
+        "parent_container": "AdcConfigSet",
+        "multiplicity": "1..*",
+        "type": null,
+        "description": "This container contains the Driver configuration (parameters) depending on grouping of channels This container could contain HW specific parameters which are not defined in the Standardized Module Definition. They must be added in the Vendor Specific Module Definition."
+      },
+      {
+        "id": "ECUC_Adc_00030",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "AdcPublishedInformation",
+        "container_name": "AdcPublishedInformation",
+        "parameter_name": "Multiplicity ECUC ID AdcChannelValueSigned 1 [ECUC_Adc_00410] AdcGroupFirstChannelFixed 1 [ECUC_Adc_00411] AdcMaxChannelResolution 1 [ECUC_Adc_00412]",
+        "parent_container": "Adc",
+        "multiplicity": "1",
+        "type": null,
+        "description": "Additional published parameters not covered by \"Common\" Published Information. Note that these parameters have \"PUBLISHED-INFORMA TION\" configuration class setting, since they are published information."
+      }
+    ],
+    "parameters": [
+      {
+        "id": "ECUC_Adc_00404",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcDeInitApi",
+        "container_name": null,
+        "parameter_name": "AdcDeInitApi",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the service Adc_DeInit() from the code. true: Adc_DeInit() can be used. false: Adc_DeInit() can not be used."
+      },
+      {
+        "id": "ECUC_Adc_00405",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcDevErrorDetect",
+        "container_name": null,
+        "parameter_name": "AdcDevErrorDetect",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switches the development error detection and notification on or off. • true: detection and notification is enabled. • false: detection and notification is disabled."
+      },
+      {
+        "id": "ECUC_Adc_00452",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcEnableLimitCheck",
+        "container_name": null,
+        "parameter_name": "AdcEnableLimitCheck",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Enables or disables limit checking feature in the ADC driver."
+      },
+      {
+        "id": "ECUC_Adc_00391",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcEnableQueuing",
+        "container_name": null,
+        "parameter_name": "AdcEnableQueuing",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Determines, if the queuing mechanism is active in case of priority mechanism disabled. Note: If priority mechanism is enabled, queuing mechanism is always active and the parameter ADC_ENABLE_QUEUING is not evaluated. true: Enabled. false: Disabled."
+      },
+      {
+        "id": "ECUC_Adc_00406",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcEnableStartStop GroupApi",
+        "container_name": null,
+        "parameter_name": "AdcEnableStartStopGroupApi",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the services Adc_StartGroupConversion() and Adc_StopGroup Conversion() from the code. true: Adc_StartGroupConversion() and Adc_StopGroup Conversion() can be used. false: Adc_StartGroupConversion() and Adc_StopGroup Conversion() can not be used."
+      },
+      {
+        "id": "ECUC_Adc_00105",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcGrpNotifCapability",
+        "container_name": null,
+        "parameter_name": "AdcGrpNotifCapability",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Determines, if the group notification mechanism (the functions to enable and disable the notifications) is available at runtime. true: Enabled. false: Disabled."
+      },
+      {
+        "id": "ECUC_Adc_00408",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcHwTriggerApi",
+        "container_name": null,
+        "parameter_name": "AdcHwT riggerApi",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the services Adc_EnableHardwareTrigger() and Adc_DisableHardware T rigger() from the code. true: Adc_EnableHardwareTrigger() and Adc_Disable HardwareT rigger() can be used. false: Adc_EnableHardwareTrigger() and Adc_Disable HardwareT rigger() can not be used."
+      },
+      {
+        "id": "ECUC_Adc_00457",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcLowPowerStates Support",
+        "container_name": null,
+        "parameter_name": "AdcLowPowerStatesSupport",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "0..1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes all power state management related APIs (ADC_SetPowerState, ADC_ GetCurrentPowerState, ADC_GetTargetPowerState, ADC_PreparePowerState, ADC_ Main_PowerT ransitionManager), indicating if the HW offers low power state management."
+      },
+      {
+        "id": "ECUC_Adc_00458",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcPowerStateAsynch TransitionMode",
+        "container_name": null,
+        "parameter_name": "AdcPowerStateAsynchTransitionMode",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "0..1",
+        "type": "EcucBooleanParamDef ▽ 97 of 124 Document ID 10: AUTOSAR_CP_SWS_ADCDriver Specification of ADC Driver AUTOSAR CP R25-11 △",
+        "description": "Enables / disables support of the ADCDriver to the asynchronous power state transition."
+      },
+      {
+        "id": "ECUC_Adc_00393",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcPriorityImplementation",
+        "container_name": null,
+        "parameter_name": "AdcPriorityImplementation",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_PRIORITY_HW Hardware priority mechanism is available only ADC_PRIORITY_HW_SW Hardware and software priority mechanism is available",
+        "description": "Determines whether a priority mechanism is available for prioritization of the conversion requests and if available, the type of prioritization mechanism. The selection applies for groups with trigger source software and trigger source hardware. T wo types of prioritization mechanism can be selected. The hardware prioritization mechanism (AdcPriorityHw) uses the ADC hardware features for prioritization of the software conversion requests and hardware trigger signals for groups with trigger source hardware. The mixed hardware and software prioritization mechanism (Adc PriorityHwSw) uses the ADC hardware features for prioritization of ADC hardware trigger for groups with trigger source hardware and a software implemented prioritization mechanism for groups with trigger source software. The group priorities for software triggered groups are typically configured with lower priority levels than the group priorities for hardware triggered groups. ImplementationT ype: Adc_PriorityImplementationT ype"
+      },
+      {
+        "id": "ECUC_Adc_00394",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcReadGroupApi",
+        "container_name": null,
+        "parameter_name": "AdcReadGroupApi",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1 ▽ 98 of 124 Document ID 10: AUTOSAR_CP_SWS_ADCDriver Specification of ADC Driver AUTOSAR CP R25-11 △",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the service Adc_ReadGroup() and from the code. true: Adc_Read Group() can be used. false: Adc_ReadGroup() can not be used."
+      },
+      {
+        "id": "ECUC_Adc_00444",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcResultAlignment",
+        "container_name": null,
+        "parameter_name": "AdcResultAlignment",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_ALIGN_LEFT left alignmentRange ADC_ALIGN_RIGHT right alignment",
+        "description": "Alignment of ADC raw results in ADC result buffer (left/right alignment). Implementation T ype: Adc_ResultAlignmentT ype"
+      },
+      {
+        "id": "ECUC_Adc_00409",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcVersionInfoApi",
+        "container_name": null,
+        "parameter_name": "AdcVersionInfoApi",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the service Adc_GetVersionInfo() from the code. true: Adc_GetVersion Info() can be used. false: Adc_GetVersionInfor() can not be used."
+      },
+      {
+        "id": "ECUC_Adc_00463",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "AdcEcucPartitionRef",
+        "container_name": null,
+        "parameter_name": "AdcEcucPartitionRef",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "0..*",
+        "type": "Reference to EcucPartition",
+        "description": "Maps the ADC driver to zero or multiple ECUC partitions to make the driver API available in the according partition."
+      },
+      {
+        "id": "ECUC_Adc_00464",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "AdcKernelEcucPartitionRef",
+        "container_name": null,
+        "parameter_name": "AdcKernelEcucPartitionRef",
+        "parent_container": "AdcGeneral",
+        "multiplicity": "0..1",
+        "type": "Reference to EcucPartition",
+        "description": "Maps the ADC kernel to zero or one ECUC partitions to assign the driver kernel to a certain core. The ECUC partition referenced is a subset of the ECUC partitions where the ADC driver is mapped to."
+      },
+      {
+        "id": "ECUC_Adc_00461",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcPowerState",
+        "container_name": null,
+        "parameter_name": "AdcPowerState",
+        "parent_container": "AdcPowerStateConfig",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef (Symbolic Name generated for this parameter)",
+        "description": "Each instance of this parameter describes a different power state supported by the ADC HW. It should be defined by the HW supplier and used by the ADCDriver to reference specific HW configurations which set the ADC HW module in the referenced power state. At least the power mode corresponding to full power state shall be always configured."
+      },
+      {
+        "id": "ECUC_Adc_00460",
+        "definition_type": "EcucFunctionNameDef",
+        "definition_name": "AdcPowerStateReady CbkRef",
+        "container_name": null,
+        "parameter_name": "AdcPowerStateReadyCbkRef",
+        "parent_container": "AdcPowerStateConfig",
+        "multiplicity": "1 ▽ 101 of 124 Document ID 10: AUTOSAR_CP_SWS_ADCDriver Specification of ADC Driver AUTOSAR CP R25-11 △",
+        "type": "EcucFunctionNameDef",
+        "description": "Each instance of this parameter contains a reference to a power mode callback defined in a CDD or IoHwAbs component."
+      },
+      {
+        "id": "ECUC_Adc_00317",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcGroupAccess Mode",
+        "container_name": null,
+        "parameter_name": "AdcGroupAccessMode",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_ACCESS_MODE_SINGLE Single value access modeRange ADC_ACCESS_MODE_ STREAMING Streaming access mode",
+        "description": "T ype of access mode to group conversion results. ImplementationT ype: Adc_GroupAccessModeT ype"
+      },
+      {
+        "id": "ECUC_Adc_00397",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcGroupConversionMode",
+        "container_name": null,
+        "parameter_name": "AdcGroupConversionMode",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_CONV_MODE_ CONTINUOUS Conversions of an ADC channel group are performed continuously after a software API call (start). The conversions itself are running automatically (no additional software or hardware trigger needed).",
+        "description": "T ype of conversion mode supported by the driver. ImplementationT ype: Adc_GroupConvModeT ype"
+      },
+      {
+        "id": "ECUC_Adc_00398",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcGroupId",
+        "container_name": null,
+        "parameter_name": "AdcGroupId",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "Multiplicity 1",
+        "description": "Numeric ID of the group. This parameter is the symbolic name to be used on the API. This symbolic name allows accessing Channel Group data. This value will be assigned to the symbolic name derived of the AdcGroup container shortName. ImplementationT ype: Adc_GroupType"
+      },
+      {
+        "id": "ECUC_Adc_00287",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcGroupPriority",
+        "container_name": null,
+        "parameter_name": "AdcGroupPriority",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..1 ▽ 104 of 124 Document ID 10: AUTOSAR_CP_SWS_ADCDriver Specification of ADC Driver AUTOSAR CP R25-11 △",
+        "type": "EcucIntegerParamDef",
+        "description": "Priority level of the AdcGroup. ImplementationT ype: Adc_GroupPriorityT ype"
+      },
+      {
+        "id": "ECUC_Adc_00435",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcGroupReplacement",
+        "container_name": null,
+        "parameter_name": "AdcGroupReplacement",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef ADC_GROUP_REPL_ABORT_ REST ART Abort/Restart mechanism is used on group level, if a group is interrupted by a higher priority group. The complete conversion round of the interrupted group (all group channels) is restarted after the higher priority group conversion is finished. If the group is configured in streaming access mode, only the results of the interrupted conversion round are discarded. Results of previous conversion rounds which are already written to the result buffer are not affected.",
+        "description": "Replacement mechanism, which is used on ADC group level, if a group conversion is interrupted by a group which has a higher priority . ImplementationT ype: Adc_GroupReplacementT ype"
+      },
+      {
+        "id": "ECUC_Adc_00399",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcGroupTriggSrc",
+        "container_name": null,
+        "parameter_name": "AdcGroupT riggSrc",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_TRIGG_SRC_HW Group is triggered by a hardware event.Range ADC_TRIGG_SRC_SW Group is triggered by a software API call.",
+        "description": "T ype of source event that starts a group conversion. ImplementationT ype: Adc_T riggerSourceT ype"
+      },
+      {
+        "id": "ECUC_Adc_00400",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcHwTrigSignal",
+        "container_name": null,
+        "parameter_name": "AdcHwT rigSignal",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef ADC_HW_TRIG_BOTH_EDGES React on both edges of the hardware trigger signal (only if supported by the ADC hardware). ADC_HW_TRIG_FALLING_ EDGE React on the falling edge of the hardware trigger signal (only if supported by the ADC hardware).",
+        "description": "Configures on which edge of the hardware trigger signal the driver should react, i.e. start the conversion (only if supported by the ADC hardware). ImplementationT ype: Adc_HwT riggerSignalT ype"
+      },
+      {
+        "id": "ECUC_Adc_00401",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcHwTrigTimer",
+        "container_name": null,
+        "parameter_name": "AdcHwT rigTimer",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Reload value of the ADC module embedded timer (only if supported by ADC hardware). ImplementationT ype: Adc_HwT riggerTimerT ype"
+      },
+      {
+        "id": "ECUC_Adc_00402",
+        "definition_type": "EcucFunctionNameDef",
+        "definition_name": "AdcNotification",
+        "container_name": null,
+        "parameter_name": "AdcNotification",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..1",
+        "type": "EcucFunctionNameDef",
+        "description": "Callback function for each group"
+      },
+      {
+        "id": "ECUC_Adc_00316",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcStreaming BufferMode",
+        "container_name": null,
+        "parameter_name": "AdcStreamingBufferMode",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ADC_STREAM_BUFFER_ CIRCULAR The ADC Driver continues the conversion even if the stream buffer is full (number of samples reached) by wrapping around the stream buffer itself.",
+        "description": "Configure streaming buffer as \"linear buffer\" (i.e. the ADC Driver stops the conversion as soon as the stream buffer is full) or as \"ring buffer\" (wraps around if the end of the stream buffer is reached). ImplementationT ype: Adc_StreamBufferModeT ype"
+      },
+      {
+        "id": "ECUC_Adc_00292",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcStreamingNumSamples",
+        "container_name": null,
+        "parameter_name": "AdcStreamingNumSamples",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1",
+        "type": "Multiplicity 1",
+        "description": "Number of ADC values to be acquired per channel in streaming access mode. Note: in single access mode this parameter assumes value 1, since only one sample per channel is processed. ImplementationT ype: Adc_StreamNumSampleType"
+      },
+      {
+        "id": "ECUC_Adc_00014",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "AdcGroupDefinition",
+        "container_name": null,
+        "parameter_name": "AdcGroupDefinition",
+        "parent_container": "AdcGroup",
+        "multiplicity": "1..*",
+        "type": "Reference to AdcChannel",
+        "description": "Assignment of AdcChannels to a AdcGroups. ImplementationT ype: Adc_GroupDefT ype"
+      },
+      {
+        "id": "ECUC_Adc_00465",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "AdcGroupEcucPartitionRef",
+        "container_name": null,
+        "parameter_name": "AdcGroupEcucPartitionRef",
+        "parent_container": "AdcGroup",
+        "multiplicity": "0..*",
+        "type": "Reference to EcucPartition",
+        "description": "Maps an ADC channel group to zero or multiple ECUC partitions to limit the access to this channel group. The ECUC partitions referenced are a subset of the ECUC partitions where the ADC driver is mapped to."
+      },
+      {
+        "id": "ECUC_Adc_00011",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelConvTime",
+        "container_name": null,
+        "parameter_name": "AdcChannelConvTime",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Configuration of conversion time, i.e. the time during which the analogue value is converted into digital representation, (in clock cycles) for each channel, if supported by hardware. ImplementationT ype: Adc_ConversionTimeT ype"
+      },
+      {
+        "id": "ECUC_Adc_00455",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelHighLimit",
+        "container_name": null,
+        "parameter_name": "AdcChannelHighLimit",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "High limit - used for limit checking."
+      },
+      {
+        "id": "ECUC_Adc_00392",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelId",
+        "container_name": null,
+        "parameter_name": "AdcChannelId",
+        "parent_container": "AdcChannel",
+        "multiplicity": "1",
+        "type": "Multiplicity 1",
+        "description": "This parameter defines the assignment of the channel to the physical ADC hardware channel. ImplementationT ype: Adc_ChannelType"
+      },
+      {
+        "id": "ECUC_Adc_00453",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcChannelLimitCheck",
+        "container_name": null,
+        "parameter_name": "AdcChannelLimitCheck",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucBooleanParamDef",
+        "description": "Enables or disables limit checking for an ADC channel."
+      },
+      {
+        "id": "ECUC_Adc_00454",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelLowLimit",
+        "container_name": null,
+        "parameter_name": "AdcChannelLowLimit",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Low limit - used for limit checking."
+      },
+      {
+        "id": "ECUC_Adc_00456",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcChannelRange Select",
+        "container_name": null,
+        "parameter_name": "AdcChannelRangeSelect",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef ADC_RANGE_ALWA YS Complete range - independent from channel limit settings. ADC_RANGE_BETWEEN Range between low limit and high limit - high limit value included. ADC_RANGE_NOT_BETWEEN Range above high limit or below low limit - low limit value included. ADC_RANGE_NOT_OVER_ HIGH",
+        "description": "In case of active limit checking: defines which conversion values are taken into account related to the boarders defined with AdcChannelLowLimit and AdcChannelHighLimit. Implementation T ype: Adc_ChannelRangeSelectT ype"
+      },
+      {
+        "id": "ECUC_Adc_00089",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcChannelRef VoltsrcHigh",
+        "container_name": null,
+        "parameter_name": "AdcChannelRefVoltsrcHigh",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef",
+        "description": "Upper reference voltage source for each channel. Enumeration literals are defined vendor specific."
+      },
+      {
+        "id": "ECUC_Adc_00023",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcChannelRef VoltsrcLow",
+        "container_name": null,
+        "parameter_name": "AdcChannelRefVoltsrcLow",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef",
+        "description": "Lower reference voltage source for each channel. Enumeration literals are defined vendor specific."
+      },
+      {
+        "id": "ECUC_Adc_00019",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelResolution",
+        "container_name": null,
+        "parameter_name": "AdcChannelResolution",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Channel resolution in bits. ImplementationT ype: Adc_ResolutionT ype"
+      },
+      {
+        "id": "ECUC_Adc_00290",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcChannelSampTime",
+        "container_name": null,
+        "parameter_name": "AdcChannelSampTime",
+        "parent_container": "AdcChannel",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Configuration of sampling time, i.e. the time during which the value is sampled, (in clock cycles) for each channel, if supported by hardware. ImplementationT ype: Adc_SamplingTimeT ype"
+      },
+      {
+        "id": "ECUC_Adc_00087",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcClockSource",
+        "container_name": null,
+        "parameter_name": "AdcClockSource",
+        "parent_container": "AdcHwUnit",
+        "multiplicity": "0..1",
+        "type": "EcucEnumerationParamDef",
+        "description": "The ADC module specific clock input for the conversion unit can statically be configured to select different clock sources if provided by hardware. Enumeration literals are defined vendor specific."
+      },
+      {
+        "id": "ECUC_Adc_00389",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "AdcHwUnitId",
+        "container_name": null,
+        "parameter_name": "AdcHwUnitId",
+        "parent_container": "AdcHwUnit",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef",
+        "description": "Description: Numeric ID of the HW Unit. This symbolic name allows accessing Hw Unit data. Enumeration literals are defined vendor specific."
+      },
+      {
+        "id": "ECUC_Adc_00088",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcPrescale",
+        "container_name": null,
+        "parameter_name": "AdcPrescale",
+        "parent_container": "AdcHwUnit",
+        "multiplicity": "0..1",
+        "type": "EcucIntegerParamDef",
+        "description": "Optional ADC module specific clock prescale factor, if supported by hardware. ImplementationT ype: Adc_PrescaleT ype"
+      },
+      {
+        "id": "ECUC_Adc_00410",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcChannelValue Signed",
+        "container_name": null,
+        "parameter_name": "AdcChannelValueSigned",
+        "parent_container": "AdcPublishedInformation",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Information whether the result value of the ADC driver has sign information (true) or not (false). If the result shall be interpreted as signed value it shall apply to C-language rules."
+      },
+      {
+        "id": "ECUC_Adc_00411",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "AdcGroupFirstChannel Fixed",
+        "container_name": null,
+        "parameter_name": "AdcGroupFirstChannelFixed",
+        "parent_container": "AdcPublishedInformation",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Information whether the first channel of an ADC Channel group can be configured (false) or is fixed (true) to a value determined by the ADC HW Unit."
+      },
+      {
+        "id": "ECUC_Adc_00412",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "AdcMaxChannelResolution",
+        "container_name": null,
+        "parameter_name": "AdcMaxChannelResolution",
+        "parent_container": "AdcPublishedInformation",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef",
+        "description": "Maximum Channel resolution in bits (does not specify accuracy)."
+      }
+    ],
+    "derived": {
+      "optional_api_switches": [],
+      "general_switches": [
+        "AdcDeInitApi",
+        "AdcDevErrorDetect",
+        "AdcEcucPartitionRef",
+        "AdcEnableLimitCheck",
+        "AdcEnableQueuing",
+        "AdcEnableStartStopGroupApi",
+        "AdcGrpNotifCapability",
+        "AdcHwT riggerApi",
+        "AdcKernelEcucPartitionRef",
+        "AdcLowPowerStatesSupport",
+        "AdcPowerStateAsynchTransitionMode",
+        "AdcPriorityImplementation",
+        "AdcReadGroupApi",
+        "AdcResultAlignment",
+        "AdcVersionInfoApi"
+      ],
+      "channel_parameters": [
+        "AdcChannelConvTime",
+        "AdcChannelHighLimit",
+        "AdcChannelId",
+        "AdcChannelLimitCheck",
+        "AdcChannelLowLimit",
+        "AdcChannelRangeSelect",
+        "AdcChannelRefVoltsrcHigh",
+        "AdcChannelRefVoltsrcLow",
+        "AdcChannelResolution",
+        "AdcChannelSampTime"
+      ]
+    }
+  },
+  "important_requirements": [],
+  "stm32f103_spl_hints": {
+    "target": "stm32f103_spl",
+    "hardware_backends": [
+      "ADC1",
+      "ADC2"
+    ],
+    "api_coverage_from_sws": [
+      "Adc_Init",
+      "Adc_SetupResultBuffer",
+      "Adc_DeInit",
+      "Adc_StartGroupConversion",
+      "Adc_StopGroupConversion",
+      "Adc_ReadGroup",
+      "Adc_EnableHardwareTrigger",
+      "Adc_DisableHardwareTrigger",
+      "Adc_EnableGroupNotification",
+      "Adc_DisableGroupNotification",
+      "Adc_GetGroupStatus",
+      "Adc_GetStreamLastPointer",
+      "Adc_GetVersionInfo",
+      "Adc_SetPowerState",
+      "Adc_GetCurrentPowerState",
+      "Adc_GetTargetPowerState",
+      "Adc_PreparePowerState",
+      "Adc_Main_PowerTransitionManager"
+    ],
+    "recommended_compile_switches": [],
+    "implementation_notes": [
+      "Map logical Adc_GroupType tới regular conversion sequence của ADC1/ADC2.",
+      "Nếu dùng hardware trigger, map trigger source theo tài nguyên TIM/EXTI của STM32F103.",
+      "Tôn trọng cơ chế setup result buffer trước khi read stream/group.",
+      "Map DET development errors and runtime errors to the corresponding service IDs.",
+      "Cân nhắc DMA cho streaming mode và đồng bộ trạng thái Adc_GroupStatus.",
+      "Provide ISR hook để dispatch Adc_Group<n> notification callback khi conversion complete.",
+      "If low-power support is not used on STM32F103, set AdcLowPowerStatesSupport=false and gate power APIs."
+    ]
+  },
+  "extraction_stats": {
+    "api_count": 18,
+    "configurable_interface_count": 2,
+    "ecuc_container_count": 8,
+    "ecuc_parameter_count": 46,
+    "requirement_id_count": 264
+  }
+}

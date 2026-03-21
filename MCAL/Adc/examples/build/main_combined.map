@@ -1,0 +1,710 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .group         0x0000000000000000        0xc build/main_combined.o
+ .comment       0x0000000000000000       0x4a build/main_combined.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc.o
+ .debug_macro   0x0000000000000000      0xa66 build/Adc.o
+ .debug_macro   0x0000000000000000       0x69 build/Adc.o
+ .debug_macro   0x0000000000000000       0x5d build/Adc.o
+ .debug_macro   0x0000000000000000       0x22 build/Adc.o
+ .debug_macro   0x0000000000000000       0x8e build/Adc.o
+ .debug_macro   0x0000000000000000       0x51 build/Adc.o
+ .debug_macro   0x0000000000000000      0x103 build/Adc.o
+ .debug_macro   0x0000000000000000       0x6a build/Adc.o
+ .debug_macro   0x0000000000000000      0x1df build/Adc.o
+ .debug_macro   0x0000000000000000       0x1c build/Adc.o
+ .debug_macro   0x0000000000000000       0x22 build/Adc.o
+ .debug_macro   0x0000000000000000       0xbd build/Adc.o
+ .debug_macro   0x0000000000000000      0xd00 build/Adc.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/Adc.o
+ .debug_macro   0x0000000000000000       0x10 build/Adc.o
+ .debug_macro   0x0000000000000000       0x35 build/Adc.o
+ .debug_macro   0x0000000000000000      0x2df build/Adc.o
+ .debug_macro   0x0000000000000000      0x3ad build/Adc.o
+ .debug_macro   0x0000000000000000       0xf4 build/Adc.o
+ .comment       0x0000000000000000       0x4a build/Adc.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0xa66 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x69 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x5d build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x22 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x8e build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x51 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x103 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x6a build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x1df build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x1c build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x22 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0xbd build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0xd00 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x10 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x35 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x2df build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000      0x3ad build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0xf4 build/Adc_Cfg.o
+ .debug_macro   0x0000000000000000       0x4c build/Adc_Cfg.o
+ .comment       0x0000000000000000       0x4a build/Adc_Cfg.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xa66 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x5d build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x8e build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x51 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x103 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x6a build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x1df build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x1c build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0xbd build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xd00 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x10 build/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x35 build/system_stm32f10x.o
+ .comment       0x0000000000000000       0x4a build/system_stm32f10x.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xa66 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x5d build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x8e build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x51 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x103 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x6a build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x1df build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x1c build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0xbd build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xd00 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x10 build/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x35 build/stm32f10x_rcc.o
+ .comment       0x0000000000000000       0x4a build/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0xa66 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x5d build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x8e build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x51 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x103 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x6a build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x1df build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x1c build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0xbd build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0xd00 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x10 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000       0x35 build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x2df build/stm32f10x_adc.o
+ .debug_macro   0x0000000000000000      0x3e2 build/stm32f10x_adc.o
+ .comment       0x0000000000000000       0x4a build/stm32f10x_adc.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0xa66 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x5d build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x8e build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x51 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x103 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x6a build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x1df build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x1c build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x22 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0xbd build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0xd00 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x10 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000       0x35 build/stm32f10x_dma.o
+ .debug_macro   0x0000000000000000      0x3e2 build/stm32f10x_dma.o
+ .comment       0x0000000000000000       0x4a build/stm32f10x_dma.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .group         0x0000000000000000        0xc build/misc.o
+ .debug_macro   0x0000000000000000      0xa66 build/misc.o
+ .debug_macro   0x0000000000000000       0x5d build/misc.o
+ .debug_macro   0x0000000000000000       0x22 build/misc.o
+ .debug_macro   0x0000000000000000       0x8e build/misc.o
+ .debug_macro   0x0000000000000000       0x51 build/misc.o
+ .debug_macro   0x0000000000000000      0x103 build/misc.o
+ .debug_macro   0x0000000000000000       0x6a build/misc.o
+ .debug_macro   0x0000000000000000      0x1df build/misc.o
+ .debug_macro   0x0000000000000000       0x1c build/misc.o
+ .debug_macro   0x0000000000000000       0x22 build/misc.o
+ .debug_macro   0x0000000000000000       0xbd build/misc.o
+ .debug_macro   0x0000000000000000      0xd00 build/misc.o
+ .debug_macro   0x0000000000000000     0x7eb3 build/misc.o
+ .debug_macro   0x0000000000000000       0x10 build/misc.o
+ .debug_macro   0x0000000000000000       0x35 build/misc.o
+ .comment       0x0000000000000000       0x4a build/misc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/main_combined.o
+LOAD build/Adc.o
+LOAD build/Adc_Cfg.o
+LOAD build/system_stm32f10x.o
+LOAD build/stm32f10x_rcc.o
+LOAD build/stm32f10x_adc.o
+LOAD build/stm32f10x_dma.o
+LOAD build/misc.o
+LOAD build/startup_stm32f10x_md.o
+                0x0000000020005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x10c
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c build/startup_stm32f10x_md.o
+                0x0000000008000000                g_pfnVectors
+
+.text           0x000000000800010c     0x31c0
+                0x000000000800010c                _stext = .
+ *(.text*)
+ .text          0x000000000800010c       0xd0 build/main_combined.o
+                0x000000000800010c                Adc_Group0_Notification
+                0x0000000008000118                Adc_Group1_DmaComplete
+                0x0000000008000124                main
+ .text          0x00000000080001dc     0x1600 build/Adc.o
+                0x00000000080008b0                Adc_Init
+                0x0000000008000aa0                Adc_SetupResultBuffer
+                0x0000000008000b24                Adc_DeInit
+                0x0000000008000c78                Adc_StartGroupConversion
+                0x0000000008000dd8                Adc_StopGroupConversion
+                0x0000000008000e84                Adc_ReadGroup
+                0x0000000008001050                Adc_EnableHardwareTrigger
+                0x00000000080010c4                Adc_DisableHardwareTrigger
+                0x000000000800113c                Adc_EnableGroupNotification
+                0x00000000080011c8                Adc_DisableGroupNotification
+                0x0000000008001250                Adc_GetGroupStatus
+                0x000000000800129c                Adc_GetStreamLastPointer
+                0x0000000008001338                Adc_GetVersionInfo
+                0x0000000008001376                Adc_PreparePowerState
+                0x00000000080013e0                Adc_SetPowerState
+                0x0000000008001468                Adc_GetCurrentPowerState
+                0x00000000080014b8                Adc_GetTargetPowerState
+                0x0000000008001508                Adc_Main_PowerTransitionManager
+                0x0000000008001514                Adc_IsrHandler
+                0x0000000008001644                Adc_DmaIsrHandler
+ .text          0x00000000080017dc       0x54 build/Adc_Cfg.o
+                0x00000000080017e8                Adc_Group1_DmaHalf
+                0x0000000008001800                ADC1_2_IRQHandler
+                0x000000000800181c                DMA1_Channel1_IRQHandler
+ .text          0x0000000008001830      0x258 build/system_stm32f10x.o
+                0x0000000008001830                SystemInit
+                0x0000000008001898                SystemCoreClockUpdate
+ .text          0x0000000008001a88      0x7dc build/stm32f10x_rcc.o
+                0x0000000008001a88                RCC_DeInit
+                0x0000000008001ae4                RCC_HSEConfig
+                0x0000000008001b40                RCC_WaitForHSEStartUp
+                0x0000000008001b90                RCC_AdjustHSICalibrationValue
+                0x0000000008001bcc                RCC_HSICmd
+                0x0000000008001bec                RCC_PLLConfig
+                0x0000000008001c28                RCC_PLLCmd
+                0x0000000008001c48                RCC_SYSCLKConfig
+                0x0000000008001c80                RCC_GetSYSCLKSource
+                0x0000000008001c9c                RCC_HCLKConfig
+                0x0000000008001cd4                RCC_PCLK1Config
+                0x0000000008001d0c                RCC_PCLK2Config
+                0x0000000008001d44                RCC_ITConfig
+                0x0000000008001d90                RCC_USBCLKConfig
+                0x0000000008001dac                RCC_ADCCLKConfig
+                0x0000000008001de4                RCC_LSEConfig
+                0x0000000008001e24                RCC_LSICmd
+                0x0000000008001e44                RCC_RTCCLKConfig
+                0x0000000008001e68                RCC_RTCCLKCmd
+                0x0000000008001e88                RCC_GetClocksFreq
+                0x0000000008001ff4                RCC_AHBPeriphClockCmd
+                0x0000000008002030                RCC_APB2PeriphClockCmd
+                0x000000000800206c                RCC_APB1PeriphClockCmd
+                0x00000000080020a8                RCC_APB2PeriphResetCmd
+                0x00000000080020e4                RCC_APB1PeriphResetCmd
+                0x0000000008002120                RCC_BackupResetCmd
+                0x0000000008002140                RCC_ClockSecuritySystemCmd
+                0x0000000008002160                RCC_MCOConfig
+                0x0000000008002180                RCC_GetFlagStatus
+                0x00000000080021f4                RCC_ClearFlag
+                0x0000000008002210                RCC_GetITStatus
+                0x0000000008002244                RCC_ClearITPendingBit
+ .text          0x0000000008002264      0xa00 build/stm32f10x_adc.o
+                0x0000000008002264                ADC_DeInit
+                0x00000000080022d8                ADC_Init
+                0x000000000800237c                ADC_StructInit
+                0x00000000080023b2                ADC_Cmd
+                0x00000000080023e8                ADC_DMACmd
+                0x000000000800241e                ADC_ITConfig
+                0x0000000008002462                ADC_ResetCalibration
+                0x0000000008002480                ADC_GetResetCalibrationStatus
+                0x00000000080024ae                ADC_StartCalibration
+                0x00000000080024cc                ADC_GetCalibrationStatus
+                0x00000000080024fa                ADC_SoftwareStartConvCmd
+                0x0000000008002530                ADC_GetSoftwareStartConvStatus
+                0x000000000800255e                ADC_DiscModeChannelCountConfig
+                0x00000000080025a0                ADC_DiscModeCmd
+                0x00000000080025d6                ADC_RegularChannelConfig
+                0x0000000008002768                ADC_ExternalTrigConvCmd
+                0x000000000800279e                ADC_GetConversionValue
+                0x00000000080027b6                ADC_GetDualModeConversionValue
+                0x00000000080027cc                ADC_AutoInjectedConvCmd
+                0x0000000008002802                ADC_InjectedDiscModeCmd
+                0x0000000008002838                ADC_ExternalTrigInjectedConvConfig
+                0x000000000800286c                ADC_ExternalTrigInjectedConvCmd
+                0x00000000080028a2                ADC_SoftwareStartInjectedConvCmd
+                0x00000000080028d8                ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x0000000008002906                ADC_InjectedChannelConfig
+                0x0000000008002a26                ADC_InjectedSequencerLengthConfig
+                0x0000000008002a68                ADC_SetInjectedOffset
+                0x0000000008002a9a                ADC_GetInjectedConversionValue
+                0x0000000008002ac8                ADC_AnalogWatchdogCmd
+                0x0000000008002b00                ADC_AnalogWatchdogThresholdsConfig
+                0x0000000008002b26                ADC_AnalogWatchdogSingleChannelConfig
+                0x0000000008002b5c                ADC_TempSensorVrefintCmd
+                0x0000000008002b94                ADC_GetFlagStatus
+                0x0000000008002bc6                ADC_ClearFlag
+                0x0000000008002be4                ADC_GetITStatus
+                0x0000000008002c38                ADC_ClearITPendingBit
+ .text          0x0000000008002c64      0x3f8 build/stm32f10x_dma.o
+                0x0000000008002c64                DMA_DeInit
+                0x0000000008002ddc                DMA_Init
+                0x0000000008002e58                DMA_StructInit
+                0x0000000008002eac                DMA_Cmd
+                0x0000000008002ee4                DMA_ITConfig
+                0x0000000008002f1e                DMA_SetCurrDataCounter
+                0x0000000008002f3a                DMA_GetCurrDataCounter
+                0x0000000008002f52                DMA_GetFlagStatus
+                0x0000000008002fa4                DMA_ClearFlag
+                0x0000000008002fd8                DMA_GetITStatus
+                0x0000000008003028                DMA_ClearITPendingBit
+ .text          0x000000000800305c      0x18c build/misc.o
+                0x000000000800305c                NVIC_PriorityGroupConfig
+                0x0000000008003080                NVIC_Init
+                0x0000000008003144                NVIC_SetVectorTable
+                0x0000000008003170                NVIC_SystemLPConfig
+                0x00000000080031b0                SysTick_CLKSourceConfig
+ .text          0x00000000080031e8       0x14 build/startup_stm32f10x_md.o
+ .text.Reset_Handler
+                0x00000000080031fc       0x44 build/startup_stm32f10x_md.o
+                0x00000000080031fc                Reset_Handler
+ .text.Default_Handler
+                0x0000000008003240        0x2 build/startup_stm32f10x_md.o
+                0x0000000008003240                USBWakeUp_IRQHandler
+                0x0000000008003240                DebugMon_Handler
+                0x0000000008003240                TIM1_CC_IRQHandler
+                0x0000000008003240                HardFault_Handler
+                0x0000000008003240                SysTick_Handler
+                0x0000000008003240                PVD_IRQHandler
+                0x0000000008003240                PendSV_Handler
+                0x0000000008003240                NMI_Handler
+                0x0000000008003240                EXTI3_IRQHandler
+                0x0000000008003240                EXTI0_IRQHandler
+                0x0000000008003240                I2C2_EV_IRQHandler
+                0x0000000008003240                UsageFault_Handler
+                0x0000000008003240                SPI1_IRQHandler
+                0x0000000008003240                TAMPER_IRQHandler
+                0x0000000008003240                DMA1_Channel4_IRQHandler
+                0x0000000008003240                USART3_IRQHandler
+                0x0000000008003240                RTC_IRQHandler
+                0x0000000008003240                DMA1_Channel7_IRQHandler
+                0x0000000008003240                CAN1_RX1_IRQHandler
+                0x0000000008003240                TIM4_IRQHandler
+                0x0000000008003240                I2C1_EV_IRQHandler
+                0x0000000008003240                DMA1_Channel6_IRQHandler
+                0x0000000008003240                TIM3_IRQHandler
+                0x0000000008003240                RCC_IRQHandler
+                0x0000000008003240                TIM1_TRG_COM_IRQHandler
+                0x0000000008003240                Default_Handler
+                0x0000000008003240                EXTI15_10_IRQHandler
+                0x0000000008003240                EXTI9_5_IRQHandler
+                0x0000000008003240                SPI2_IRQHandler
+                0x0000000008003240                MemManage_Handler
+                0x0000000008003240                SVC_Handler
+                0x0000000008003240                DMA1_Channel5_IRQHandler
+                0x0000000008003240                EXTI4_IRQHandler
+                0x0000000008003240                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000008003240                USB_HP_CAN1_TX_IRQHandler
+                0x0000000008003240                DMA1_Channel3_IRQHandler
+                0x0000000008003240                TIM1_UP_IRQHandler
+                0x0000000008003240                WWDG_IRQHandler
+                0x0000000008003240                TIM2_IRQHandler
+                0x0000000008003240                TIM1_BRK_IRQHandler
+                0x0000000008003240                EXTI1_IRQHandler
+                0x0000000008003240                RTCAlarm_IRQHandler
+                0x0000000008003240                USART2_IRQHandler
+                0x0000000008003240                I2C2_ER_IRQHandler
+                0x0000000008003240                DMA1_Channel2_IRQHandler
+                0x0000000008003240                CAN1_SCE_IRQHandler
+                0x0000000008003240                FLASH_IRQHandler
+                0x0000000008003240                BusFault_Handler
+                0x0000000008003240                USART1_IRQHandler
+                0x0000000008003240                I2C1_ER_IRQHandler
+                0x0000000008003240                EXTI2_IRQHandler
+ *(.rodata*)
+ *fill*         0x0000000008003242        0x2 
+ .rodata        0x0000000008003244       0x88 build/Adc_Cfg.o
+                0x0000000008003274                AdcGroupConfigList
+                0x00000000080032c4                AdcDriverConfig
+ *(.glue_7)
+ .glue_7        0x00000000080032cc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080032cc        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080032cc        0x0
+ .vfp11_veneer  0x00000000080032cc        0x0 linker stubs
+
+.v4_bx          0x00000000080032cc        0x0
+ .v4_bx         0x00000000080032cc        0x0 linker stubs
+
+.iplt           0x00000000080032cc        0x0
+ .iplt          0x00000000080032cc        0x0 build/main_combined.o
+
+.rel.dyn        0x00000000080032cc        0x0
+ .rel.iplt      0x00000000080032cc        0x0 build/main_combined.o
+                0x00000000080032cc                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080032cc                . = ALIGN (0x4)
+                0x00000000080032cc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000080032cc                __exidx_end = .
+                0x00000000080032cc                . = ALIGN (0x4)
+                0x00000000080032cc                _etext = .
+
+.data           0x0000000020000000       0x28 load address 0x00000000080032cc
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data          0x0000000020000000        0x0 build/main_combined.o
+ .data          0x0000000020000000        0x0 build/Adc.o
+ .data          0x0000000020000000        0x0 build/Adc_Cfg.o
+ .data          0x0000000020000000       0x14 build/system_stm32f10x.o
+                0x0000000020000000                SystemCoreClock
+                0x0000000020000004                AHBPrescTable
+ .data          0x0000000020000014       0x14 build/stm32f10x_rcc.o
+ .data          0x0000000020000028        0x0 build/stm32f10x_adc.o
+ .data          0x0000000020000028        0x0 build/stm32f10x_dma.o
+ .data          0x0000000020000028        0x0 build/misc.o
+ .data          0x0000000020000028        0x0 build/startup_stm32f10x_md.o
+ *(.data.*)
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _edata = .
+                0x00000000080032cc                _sidata = LOADADDR (.data)
+
+.igot.plt       0x0000000020000028        0x0 load address 0x00000000080032f4
+ .igot.plt      0x0000000020000028        0x0 build/main_combined.o
+
+.bss            0x0000000020000028       0x7c load address 0x00000000080032f4
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _sbss = .
+ *(.bss*)
+ .bss           0x0000000020000028       0x38 build/main_combined.o
+                0x0000000020000028                g_group0_buffer
+                0x0000000020000030                g_group1_buffer
+                0x0000000020000040                g_readback0
+                0x0000000020000048                g_readback1
+                0x0000000020000058                g_last_stream_ptr
+                0x000000002000005c                g_last_stream_count
+                0x000000002000005e                g_power_result
+                0x000000002000005f                g_power_state
+ .bss           0x0000000020000060       0x42 build/Adc.o
+ .bss           0x00000000200000a2        0x0 build/Adc_Cfg.o
+ .bss           0x00000000200000a2        0x0 build/system_stm32f10x.o
+ .bss           0x00000000200000a2        0x0 build/stm32f10x_rcc.o
+ .bss           0x00000000200000a2        0x0 build/stm32f10x_adc.o
+ .bss           0x00000000200000a2        0x0 build/stm32f10x_dma.o
+ .bss           0x00000000200000a2        0x0 build/misc.o
+ .bss           0x00000000200000a2        0x0 build/startup_stm32f10x_md.o
+ *(COMMON)
+                0x00000000200000a4                . = ALIGN (0x4)
+ *fill*         0x00000000200000a2        0x2 
+                0x00000000200000a4                _ebss = .
+
+/DISCARD/
+ *(.note*)
+ *(.comment*)
+OUTPUT(build/main_combined.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d build/main_combined.o
+ .ARM.attributes
+                0x000000000000002d       0x2d build/Adc.o
+ .ARM.attributes
+                0x000000000000005a       0x2d build/Adc_Cfg.o
+ .ARM.attributes
+                0x0000000000000087       0x2d build/system_stm32f10x.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d build/stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d build/stm32f10x_adc.o
+ .ARM.attributes
+                0x000000000000010e       0x2d build/stm32f10x_dma.o
+ .ARM.attributes
+                0x000000000000013b       0x2d build/misc.o
+ .ARM.attributes
+                0x0000000000000168       0x21 build/startup_stm32f10x_md.o
+
+.debug_info     0x0000000000000000     0x434f
+ .debug_info    0x0000000000000000      0x6d7 build/main_combined.o
+ .debug_info    0x00000000000006d7     0x12ba build/Adc.o
+ .debug_info    0x0000000000001991      0x5fa build/Adc_Cfg.o
+ .debug_info    0x0000000000001f8b      0x4ba build/system_stm32f10x.o
+ .debug_info    0x0000000000002445      0x8f7 build/stm32f10x_rcc.o
+ .debug_info    0x0000000000002d3c      0xbfe build/stm32f10x_adc.o
+ .debug_info    0x000000000000393a      0x493 build/stm32f10x_dma.o
+ .debug_info    0x0000000000003dcd      0x560 build/misc.o
+ .debug_info    0x000000000000432d       0x22 build/startup_stm32f10x_md.o
+
+.debug_abbrev   0x0000000000000000      0xd7e
+ .debug_abbrev  0x0000000000000000      0x171 build/main_combined.o
+ .debug_abbrev  0x0000000000000171      0x2ac build/Adc.o
+ .debug_abbrev  0x000000000000041d      0x14f build/Adc_Cfg.o
+ .debug_abbrev  0x000000000000056c      0x180 build/system_stm32f10x.o
+ .debug_abbrev  0x00000000000006ec      0x1d6 build/stm32f10x_rcc.o
+ .debug_abbrev  0x00000000000008c2      0x1b2 build/stm32f10x_adc.o
+ .debug_abbrev  0x0000000000000a74      0x185 build/stm32f10x_dma.o
+ .debug_abbrev  0x0000000000000bf9      0x173 build/misc.o
+ .debug_abbrev  0x0000000000000d6c       0x12 build/startup_stm32f10x_md.o
+
+.debug_aranges  0x0000000000000000      0x128
+ .debug_aranges
+                0x0000000000000000       0x20 build/main_combined.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/Adc.o
+ .debug_aranges
+                0x0000000000000040       0x20 build/Adc_Cfg.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/system_stm32f10x.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/stm32f10x_rcc.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/stm32f10x_adc.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/stm32f10x_dma.o
+ .debug_aranges
+                0x00000000000000e0       0x20 build/misc.o
+ .debug_aranges
+                0x0000000000000100       0x28 build/startup_stm32f10x_md.o
+
+.debug_macro    0x0000000000000000     0xbc13
+ .debug_macro   0x0000000000000000      0x109 build/main_combined.o
+ .debug_macro   0x0000000000000109      0xa66 build/main_combined.o
+ .debug_macro   0x0000000000000b6f       0x69 build/main_combined.o
+ .debug_macro   0x0000000000000bd8       0x5d build/main_combined.o
+ .debug_macro   0x0000000000000c35       0x22 build/main_combined.o
+ .debug_macro   0x0000000000000c57       0x8e build/main_combined.o
+ .debug_macro   0x0000000000000ce5       0x51 build/main_combined.o
+ .debug_macro   0x0000000000000d36      0x103 build/main_combined.o
+ .debug_macro   0x0000000000000e39       0x6a build/main_combined.o
+ .debug_macro   0x0000000000000ea3      0x1df build/main_combined.o
+ .debug_macro   0x0000000000001082       0x1c build/main_combined.o
+ .debug_macro   0x000000000000109e       0x22 build/main_combined.o
+ .debug_macro   0x00000000000010c0       0xbd build/main_combined.o
+ .debug_macro   0x000000000000117d      0xd00 build/main_combined.o
+ .debug_macro   0x0000000000001e7d     0x7eb3 build/main_combined.o
+ .debug_macro   0x0000000000009d30       0x10 build/main_combined.o
+ .debug_macro   0x0000000000009d40       0x35 build/main_combined.o
+ .debug_macro   0x0000000000009d75      0x2df build/main_combined.o
+ .debug_macro   0x000000000000a054      0x3ad build/main_combined.o
+ .debug_macro   0x000000000000a401       0xf4 build/main_combined.o
+ .debug_macro   0x000000000000a4f5       0x4c build/main_combined.o
+ .debug_macro   0x000000000000a541      0x11a build/Adc.o
+ .debug_macro   0x000000000000a65b       0x52 build/Adc.o
+ .debug_macro   0x000000000000a6ad      0x3e2 build/Adc.o
+ .debug_macro   0x000000000000aa8f       0x8b build/Adc.o
+ .debug_macro   0x000000000000ab1a      0x174 build/Adc.o
+ .debug_macro   0x000000000000ac8e      0x105 build/Adc_Cfg.o
+ .debug_macro   0x000000000000ad93       0xc8 build/system_stm32f10x.o
+ .debug_macro   0x000000000000ae5b      0x1e7 build/stm32f10x_rcc.o
+ .debug_macro   0x000000000000b042      0x3dc build/stm32f10x_rcc.o
+ .debug_macro   0x000000000000b41e      0x1d0 build/stm32f10x_adc.o
+ .debug_macro   0x000000000000b5ee      0x128 build/stm32f10x_dma.o
+ .debug_macro   0x000000000000b716      0x3a7 build/stm32f10x_dma.o
+ .debug_macro   0x000000000000babd       0xd1 build/misc.o
+ .debug_macro   0x000000000000bb8e       0x85 build/misc.o
+
+.debug_line     0x0000000000000000     0x315e
+ .debug_line    0x0000000000000000      0x373 build/main_combined.o
+ .debug_line    0x0000000000000373      0xf99 build/Adc.o
+ .debug_line    0x000000000000130c      0x33a build/Adc_Cfg.o
+ .debug_line    0x0000000000001646      0x42d build/system_stm32f10x.o
+ .debug_line    0x0000000000001a73      0x693 build/stm32f10x_rcc.o
+ .debug_line    0x0000000000002106      0x748 build/stm32f10x_adc.o
+ .debug_line    0x000000000000284e      0x4f1 build/stm32f10x_dma.o
+ .debug_line    0x0000000000002d3f      0x39a build/misc.o
+ .debug_line    0x00000000000030d9       0x85 build/startup_stm32f10x_md.o
+
+.debug_str      0x0000000000000000    0x3e868
+ .debug_str     0x0000000000000000    0x39920 build/main_combined.o
+                                      0x39aba (size before relaxing)
+ .debug_str     0x0000000000039920     0x2fcd build/Adc.o
+                                      0x3ca82 (size before relaxing)
+ .debug_str     0x000000000003c8ed       0x98 build/Adc_Cfg.o
+                                      0x399b0 (size before relaxing)
+ .debug_str     0x000000000003c985      0x192 build/system_stm32f10x.o
+                                      0x34d11 (size before relaxing)
+ .debug_str     0x000000000003cb17      0xb08 build/stm32f10x_rcc.o
+                                      0x375f2 (size before relaxing)
+ .debug_str     0x000000000003d61f      0xa8f build/stm32f10x_adc.o
+                                      0x3961f (size before relaxing)
+ .debug_str     0x000000000003e0ae      0x5f8 build/stm32f10x_dma.o
+                                      0x393bb (size before relaxing)
+ .debug_str     0x000000000003e6a6      0x18a build/misc.o
+                                      0x35273 (size before relaxing)
+ .debug_str     0x000000000003e830       0x38 build/startup_stm32f10x_md.o
+                                         0x82 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x13ec
+ .debug_frame   0x0000000000000000       0x70 build/main_combined.o
+ .debug_frame   0x0000000000000070      0x504 build/Adc.o
+ .debug_frame   0x0000000000000574       0xa8 build/Adc_Cfg.o
+ .debug_frame   0x000000000000061c       0x98 build/system_stm32f10x.o
+ .debug_frame   0x00000000000006b4      0x4f4 build/stm32f10x_rcc.o
+ .debug_frame   0x0000000000000ba8      0x5a4 build/stm32f10x_adc.o
+ .debug_frame   0x000000000000114c      0x1c8 build/stm32f10x_dma.o
+ .debug_frame   0x0000000000001314       0xd8 build/misc.o
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 build/startup_stm32f10x_md.o

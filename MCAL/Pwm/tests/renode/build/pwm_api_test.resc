@@ -1,0 +1,5 @@
+mach create "pwm_api_test"
+machine LoadPlatformDescription @/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/stm32f103_full.repl
+sysbus LoadELF @/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/pwm_api_test.elf
+machine StartGdbServer 3333
+start

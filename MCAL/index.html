@@ -1,0 +1,797 @@
+import React, { useState, useEffect, useRef } from 'react';
+import {
+BookOpen,
+Cpu,
+Layers,
+Code,
+Terminal,
+MessageSquare,
+CheckCircle,
+ChevronDown,
+ChevronRight,
+Search,
+Layout,
+Shield,
+Database,
+Clock,
+PlayCircle,
+Menu,
+X,
+Activity,
+ArrowDown,
+ArrowUp,
+GitCommit,
+Zap,
+Settings,
+RefreshCcw
+} from 'lucide-react';
+
+// --- DATA STRUCTURES ---
+
+const courseInfo = {
+title: "AUTOSAR Classic ECU Development",
+subtitle: "Chinh phục Lập trình Nhúng Ô tô chuẩn Kỹ nghệ",
+price: "10.000.000 VNĐ",
+duration: "4 tháng (Online)",
+level: "Intermediate to Advanced",
+description: "Khóa học chuyên sâu từ Bare-metal đến kiến trúc AUTOSAR Classic hoàn chỉnh. Thiết kế hệ thống điều khiển
+động cơ thực tế trên STM32.",
+targetAudience: [
+"Sinh viên/Kỹ sư nhúng muốn chuyển sang Automotive",
+"Người muốn làm chủ kiến trúc AUTOSAR Classic",
+"Developer muốn nâng cao kỹ năng System Design"
+]
+};
+
+// Mapping modules to AUTOSAR Layers for the interactive visualizer
+type AutosarLayer = 'App' | 'RTE' | 'Services' | 'HwAb' | 'MCAL' | 'Microcontroller' | 'Tools';
+
+interface Module {
+id: number;
+title: string;
+layer: AutosarLayer;
+phase: string;
+theory: string[];
+practice: string[];
+}
+
+const curriculum: Module[] = [
+{
+id: 1,
+title: "Chuẩn bị môi trường & Toolchain",
+layer: 'Tools',
+phase: "Foundation",
+theory: ["VSCode, C/C++ Extension", "GNU Arm Embedded Toolchain", "OpenOCD Debugging"],
+practice: ["Setup Project Structure (src, include, build)", "Writing Makefile", "Blink LED Bare-metal"]
+},
+{
+id: 2,
+title: "Boot Process & Startup Code",
+layer: 'Microcontroller',
+phase: "Foundation",
+theory: ["Vector Table & Reset Handler", "SystemInit (Clock, PLL)", "Memory Layout (.data, .bss)"],
+practice: ["Writing startup.s", "Linker Script (stm32f103.ld)", "Understanding Boot Sequence"]
+},
+{
+id: 3,
+title: "Tổng quan Kiến trúc AUTOSAR",
+layer: 'RTE',
+phase: "Architecture",
+theory: ["Layered Architecture Overview", "MCAL vs BSW vs RTE vs SWC", "Methodology & Workflow"],
+practice: ["Analyzing a standard AUTOSAR Project Structure"]
+},
+{
+id: 4,
+title: "I/O Drivers (MCAL)",
+layer: 'MCAL',
+phase: "I/O Stack",
+theory: ["DIO, ADC, PWM, Port Drivers", "AUTOSAR SWS Requirements", "Register abstraction"],
+practice: ["Implement DIO, ADC, PWM Drivers", "Control LED via PWM based on ADC value"]
+},
+{
+id: 5,
+title: "I/O Hardware Abstraction",
+layer: 'HwAb',
+phase: "I/O Stack",
+theory: ["Standardizing MCAL APIs", "DioHwAb, AdcHwAb concept", "Decoupling Hardware"],
+practice: ["Wrapper functions for MCAL", "Error reporting via DET"]
+},
+{
+id: 6,
+title: "Communication Drivers (MCAL)",
+layer: 'MCAL',
+phase: "Com Stack",
+theory: ["CAN, LIN, SPI, I2C Drivers", "Interrupt handling & Buffers", "Time-Triggered Concept"],
+practice: ["CAN Loopback/Board-to-Board", "SPI Sensor Reading", "LIN Frame Transmission"]
+},
+{
+id: 7,
+title: "Communication Hardware Abstraction",
+layer: 'HwAb',
+phase: "Com Stack",
+theory: ["CanIf (Interface) logic", "PDU Mapping", "LinIf Schedule Management"],
+practice: ["Building CanIf with DET", "Handling LIN Multi-sequence frames"]
+},
+{
+id: 8,
+title: "Communication Services (BSW)",
+layer: 'Services',
+phase: "Com Stack",
+theory: ["COM Module (Signal Packing)", "PDU Router (PduR)", "ComM (Mode Management)"],
+practice: ["Integrate COM + PduR + CanIf", "Signal transmission over CAN"]
+},
+{
+id: 9,
+title: "Crypto Drivers (MCAL)",
+layer: 'MCAL',
+phase: "Security",
+theory: ["AES, SHA, TRNG hardware acceleration", "Crypto Primitive APIs"],
+practice: ["AES-CBC Encryption", "Random Number Generation"]
+},
+{
+id: 10,
+title: "Crypto Hardware Abstraction",
+layer: 'HwAb',
+phase: "Security",
+theory: ["CryptoIf & CryptoTrcv", "Standardizing Security Hardware"],
+practice: ["Design CryptoAb for SHA-256", "Latency benchmarking"]
+},
+{
+id: 11,
+title: "Crypto Services (BSW)",
+layer: 'Services',
+phase: "Security",
+theory: ["Crypto Service Manager (CSM)", "Key Management", "Secure Storage"],
+practice: ["Encrypt CAN Payload", "Key Rollover Logic"]
+},
+{
+id: 12,
+title: "Memory Drivers (MCAL)",
+layer: 'MCAL',
+phase: "Memory Stack",
+theory: ["Flash & EEPROM Drivers", "Erase/Write/Read primitives"],
+practice: ["Internal Flash Sector Erase", "Simulate EEPROM on Flash"]
+},
+{
+id: 13,
+title: "Memory Hardware Abstraction",
+layer: 'HwAb',
+phase: "Memory Stack",
+theory: ["MemIf (Memory Interface)", "Device Abstraction & Block Size"],
+practice: ["Abstracting 2 memory devices", "Configuring Block mapping"]
+},
+{
+id: 14,
+title: "Memory Services (BSW)",
+layer: 'Services',
+phase: "Memory Stack",
+theory: ["NvM (Non-volatile Memory Manager)", "RAM Mirroring", "Job Queue & Synchronization"],
+practice: ["Save/Restore System Config", "Handling NvM Jobs"]
+},
+{
+id: 15,
+title: "System Services (ComM & Time)",
+layer: 'Services',
+phase: "System",
+theory: ["Communication Manager (ComM)", "Time Service", "Function Inhibition (FiM)"],
+practice: ["State Machine for Com Modes", "Task Scheduling based on TimeBase"]
+},
+{
+id: 18,
+title: "Final Project: Motor Control ECU",
+layer: 'App',
+phase: "Project",
+theory: ["Architecture Design", "Requirement Analysis", "Safety Goals"],
+practice: ["Sensor SWC -> RTE -> Actuator SWC", "Full Stack Integration", "Real-time Motor Control"]
+}
+];
+
+const flowSteps = [
+{
+id: 0,
+layer: "Hardware",
+title: "1. Hardware Input (Real World)",
+desc: "Động cơ DC đang quay. Cảm biến Hall gắn trên trục động cơ tạo ra xung vuông (Square Wave) khi nam châm đi qua.",
+learn: "Kiến thức: Nguyên lý hoạt động Hall Sensor, đặc tính xung điện, nhiễu tín hiệu trong môi trường Automotive.",
+direction: "up",
+activeModules: [2]
+},
+{
+id: 1,
+layer: "MCAL",
+title: "2. ICU Driver (Input Capture)",
+desc: "Module ICU (Input Capture Unit) của vi điều khiển bắt sườn lên của xung. Mỗi lần có xung, sinh ra ngắt và lưu giá
+trị Timer Tick.",
+learn: "Kiến thức: Lập trình ngắt (ISR), cấu hình Timer Input Capture, truy cập thanh ghi (Register Direct Access).",
+direction: "up",
+activeModules: [4]
+},
+{
+id: 2,
+layer: "HwAb",
+title: "3. Sensor Interface (Abstraction)",
+desc: "Tính toán Delta Tick giữa các lần ngắt để suy ra chu kỳ T. Áp dụng công thức vật lý để chuyển đổi T -> RPM
+(Vòng/phút).",
+learn: "Kiến thức: Công thức chuyển đổi đơn vị, xử lý số học dấu phẩy tĩnh (Fixed-point arithmetic) để tối ưu tốc độ.",
+direction: "up",
+activeModules: [5]
+},
+{
+id: 3,
+layer: "RTE",
+title: "4. RTE (Data Transport)",
+desc: "RTE hoạt động như một 'người đưa thư'. Nó lấy giá trị RPM từ tầng dưới, và gửi đến cổng (Port) của Software
+Component đang chờ.",
+learn: "Kiến thức: Khái niệm Sender-Receiver Interface, cơ chế đệm dữ liệu (Buffering), tính nhất quán dữ liệu (Data
+Consistency).",
+direction: "up",
+activeModules: [3]
+},
+{
+id: 4,
+layer: "App",
+title: "5. Application (PID Algorithm)",
+desc: "PID Controller nhận RPM thực tế và so sánh với RPM mục tiêu. Thuật toán tính toán ra sai số và đưa ra quyết định
+tăng/giảm công suất.",
+learn: "Kiến thức: Lý thuyết điều khiển tự động (PID), thiết kế Software Component (SWC), Runnable entity.",
+direction: "neutral",
+activeModules: [18]
+},
+{
+id: 5,
+layer: "RTE",
+title: "6. RTE (Command Transport)",
+desc: "RTE nhận lệnh điều khiển (% Duty Cycle) từ thuật toán PID và chuyển xuống tầng dưới để thực thi.",
+learn: "Kiến thức: Mapping tín hiệu từ App Layer xuống BSW Layer, RTE Generation.",
+direction: "down",
+activeModules: [3]
+},
+{
+id: 6,
+layer: "HwAb",
+title: "7. Actuator Interface",
+desc: "Chuyển đổi % Duty Cycle (Logic) sang giá trị thanh ghi cụ thể của phần cứng (Raw Value), ví dụ 50% -> 32768 (trên
+thanh ghi 16-bit).",
+learn: "Kiến thức: Calibration, giới hạn an toàn (Safety Limiter), chuẩn hóa tín hiệu đầu ra.",
+direction: "down",
+activeModules: [5]
+},
+{
+id: 7,
+layer: "MCAL",
+title: "8. PWM Driver",
+desc: "Ghi giá trị Raw vào thanh ghi Compare của Timer (CCR). Timer phần cứng tự động điều chỉnh độ rộng xung điện áp
+tại chân Output.",
+learn: "Kiến thức: Cấu hình PWM mode trên Timer, Dead-time insertion (chống trùng dẫn H-Bridge).",
+direction: "down",
+activeModules: [4]
+},
+{
+id: 8,
+layer: "Hardware",
+title: "9. Actuator (H-Bridge)",
+desc: "Mạch cầu H nhận xung PWM, đóng mở MOSFET công suất lớn để cấp dòng điện trung bình thay đổi vào động cơ -> Tốc độ
+thay đổi.",
+learn: "Kiến thức: Mạch điện tử công suất (Power Electronics), điều khiển động cơ DC/BLDC.",
+direction: "down",
+activeModules: [18]
+}
+];
+
+// --- COMPONENTS ---
+
+const LayerBlock = ({
+name,
+layerId,
+activeLayer,
+onClick,
+color
+}: {
+name: string,
+layerId: AutosarLayer,
+activeLayer: AutosarLayer | null,
+onClick: (l: AutosarLayer) => void,
+color: string
+}) => {
+const isActive = activeLayer === layerId;
+const isDimmed = activeLayer !== null && !isActive;
+
+return (
+<div onClick={()=> onClick(layerId)}
+    className={`
+    cursor-pointer transition-all duration-300 border-2 rounded-lg p-4 flex items-center justify-center font-bold
+    text-center shadow-md
+    ${isActive ? `scale-105 shadow-xl ring-2 ring-offset-2 ring-offset-slate-900 ${color.replace('bg-', 'ring-')}` :
+    'hover:scale-102'}
+    ${isDimmed ? 'opacity-40 grayscale' : 'opacity-100'}
+    ${color} text-white border-transparent
+    `}
+    >
+    {name}
+</div>
+);
+};
+
+const ModuleCard = ({ module, onClick, isHighlight }: { module: Module, onClick: () => void, isHighlight?: boolean }) =>
+(
+<div onClick={onClick} className={` bg-slate-800 border rounded-xl p-5 transition-all cursor-pointer group relative
+    overflow-hidden ${isHighlight ? 'border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.3)] scale-[1.02]'
+    : 'border-slate-700 hover:border-blue-500' } `}>
+    {isHighlight && (
+    <div className="absolute top-0 right-0 bg-yellow-500 text-black text-[10px] font-bold px-2 py-0.5 rounded-bl">
+        ACTIVE STEP
+    </div>
+    )}
+    <div className="flex justify-between items-start mb-3">
+        <span className={`text-xs font-bold px-2 py-1 rounded uppercase tracking-wider ${module.phase==='Foundation'
+            ? 'bg-gray-600 text-gray-100' : '' } ${module.phase==='Architecture' ? 'bg-purple-600 text-purple-100' : ''
+            } ${module.phase==='I/O Stack' ? 'bg-green-600 text-green-100' : '' } ${module.phase==='Com Stack'
+            ? 'bg-blue-600 text-blue-100' : '' } ${module.phase==='Security' ? 'bg-red-600 text-red-100' : '' }
+            ${module.phase==='Memory Stack' ? 'bg-orange-600 text-orange-100' : '' } ${module.phase==='System'
+            ? 'bg-cyan-600 text-cyan-100' : '' } ${module.phase==='Project' ? 'bg-yellow-600 text-yellow-100' : '' } `}>
+            {module.phase}
+        </span>
+        <span className="text-slate-400 text-xs">Bài {module.id}</span>
+    </div>
+    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">{module.title}</h3>
+    <div className="space-y-1">
+        <div className="flex items-center text-sm text-slate-400">
+            <BookOpen size={14} className="mr-2 text-blue-400" /> {module.theory.length} chủ đề lý thuyết
+        </div>
+        <div className="flex items-center text-sm text-slate-400">
+            <Code size={14} className="mr-2 text-green-400" /> {module.practice.length} bài thực hành
+        </div>
+    </div>
+</div>
+);
+
+const ModuleDetailModal = ({ module, onClose }: { module: Module, onClose: () => void }) => (
+<div
+    className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
+    <div
+        className="bg-slate-900 border border-slate-700 w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
+        <div className="p-6 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
+            <div>
+                <h2 className="text-2xl font-bold text-white">{module.title}</h2>
+                <p className="text-slate-400">Bài {module.id} • {module.phase}</p>
+            </div>
+            <button onClick={onClose} className="p-2 hover:bg-slate-700 rounded-full text-slate-400 hover:text-white">
+                <X size={24} />
+            </button>
+        </div>
+        <div className="p-6 max-h-[70vh] overflow-y-auto">
+            <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 className="flex items-center text-blue-400 font-bold mb-4 text-lg">
+                        <BookOpen className="mr-2" /> Lý thuyết (Theory)
+                    </h3>
+                    <ul className="space-y-3">
+                        {module.theory.map((item, idx) => (
+                        <li key={idx} className="flex items-start text-slate-300">
+                            <span className="mt-1.5 mr-3 w-1.5 h-1.5 bg-blue-500 rounded-full flex-shrink-0"></span>
+                            <span>{item}</span>
+                        </li>
+                        ))}
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="flex items-center text-green-400 font-bold mb-4 text-lg">
+                        <Terminal className="mr-2" /> Thực hành (Practice)
+                    </h3>
+                    <ul className="space-y-3">
+                        {module.practice.map((item, idx) => (
+                        <li key={idx} className="flex items-start text-slate-300">
+                            <CheckCircle size={16} className="mt-1 mr-3 text-green-500 flex-shrink-0" />
+                            <span>{item}</span>
+                        </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+            {module.phase === 'Project' && (
+            <div className="mt-8 p-4 bg-yellow-900/20 border border-yellow-700/50 rounded-lg">
+                <h4 className="text-yellow-400 font-bold mb-2">Dự án cuối khóa</h4>
+                <p className="text-slate-300 text-sm">Học viên sẽ thiết kế và hiện thực một phần mềm điều khiển động cơ
+                    điện (Motor ECU) theo kiến trúc AUTOSAR Classic, sử dụng ngôn ngữ C và nền tảng STM32.</p>
+            </div>
+            )}
+        </div>
+    </div>
+</div>
+);
+
+// --- MAIN APP ---
+
+export default function App() {
+const [activeTab, setActiveTab] = useState<'roadmap' | 'visualizer' | 'flow'>('roadmap');
+    const [selectedModule, setSelectedModule] = useState<Module | null>(null);
+        const [activeLayer, setActiveLayer] = useState<AutosarLayer | null>(null);
+            const [currentFlowStep, setCurrentFlowStep] = useState(0);
+            const [chatOpen, setChatOpen] = useState(false);
+
+            // Filter logic for visualizer
+            const getModulesForLayer = (layer: AutosarLayer) => {
+            return curriculum.filter(m => m.layer === layer);
+            };
+
+            // Flow control
+            const nextStep = () => {
+            if (currentFlowStep < flowSteps.length - 1) setCurrentFlowStep(prev=> prev + 1);
+                };
+                const prevStep = () => {
+                if (currentFlowStep > 0) setCurrentFlowStep(prev => prev - 1);
+                };
+
+                return (
+                <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-blue-500/30">
+
+                    {/* HEADER */}
+                    <header className="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+                        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+                            <div className="flex items-center space-x-3">
+                                <div className="bg-blue-600 p-1.5 rounded-lg">
+                                    <Cpu className="text-white" size={24} />
+                                </div>
+                                <span
+                                    className="text-xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
+                                    HALA <span className="font-light text-slate-500">|</span> AUTOSAR
+                                </span>
+                            </div>
+                            <nav className="hidden md:flex space-x-1">
+                                <button onClick={()=> setActiveTab('roadmap')}
+                                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${activeTab ===
+                                    'roadmap' ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-white'}`}
+                                    >
+                                    Lộ trình
+                                </button>
+                                <button onClick={()=> setActiveTab('visualizer')}
+                                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${activeTab ===
+                                    'visualizer' ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-white'}`}
+                                    >
+                                    Kiến trúc
+                                </button>
+                                <button onClick={()=> setActiveTab('flow')}
+                                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex
+                                    items-center ${activeTab === 'flow' ? 'bg-slate-800 text-blue-400' : 'text-slate-400
+                                    hover:text-white'}`}
+                                    >
+                                    <Activity size={14} className="mr-2" /> Luồng xử lý (Logic)
+                                </button>
+                            </nav>
+                            <button
+                                className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-lg shadow-blue-900/20">
+                                Đăng ký ngay
+                            </button>
+                        </div>
+                    </header>
+
+                    <main className="max-w-7xl mx-auto px-4 py-12">
+
+                        {/* HERO SECTION */}
+                        <section className="text-center mb-16 space-y-6">
+                            <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight">
+                                Master <span className="text-blue-500">AUTOSAR Classic</span> <br />
+                                <span className="text-3xl md:text-5xl text-slate-400">Từ Bare-metal đến ECU
+                                    Production</span>
+                            </h1>
+                            <p className="max-w-2xl mx-auto text-lg text-slate-400">
+                                Chương trình đào tạo chuyên sâu duy nhất kết hợp lý thuyết chuẩn SWS và thực hành dự án
+                                Motor Control trên STM32.
+                            </p>
+                            <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-300">
+                                <span
+                                    className="flex items-center px-3 py-1 bg-slate-900 rounded-full border border-slate-800">
+                                    <Clock size={14} className="mr-2 text-blue-400" /> 4 Tháng
+                                </span>
+                                <span
+                                    className="flex items-center px-3 py-1 bg-slate-900 rounded-full border border-slate-800">
+                                    <PlayCircle size={14} className="mr-2 text-green-400" /> Online Interactive
+                                </span>
+                                <span
+                                    className="flex items-center px-3 py-1 bg-slate-900 rounded-full border border-slate-800">
+                                    <Layout size={14} className="mr-2 text-purple-400" /> 18 Modules
+                                </span>
+                            </div>
+                        </section>
+
+                        {/* TABS CONTENT */}
+                        {activeTab === 'roadmap' && (
+                        <div className="animate-in slide-in-from-bottom-4 duration-500">
+                            <div className="flex items-center justify-between mb-8">
+                                <h2 className="text-2xl font-bold text-white">Lộ trình học tập toàn diện</h2>
+                                <div className="text-sm text-slate-500">Nhấp vào bài học để xem chi tiết</div>
+                            </div>
+                            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {curriculum.map((module) => (
+                                <ModuleCard key={module.id} module={module} onClick={()=> setSelectedModule(module)} />
+                                    ))}
+                            </div>
+                        </div>
+                        )}
+
+                        {activeTab === 'visualizer' && (
+                        <div className="animate-in fade-in duration-500">
+                            <div className="mb-8 text-center">
+                                <h2 className="text-2xl font-bold text-white mb-2">Khám phá qua Kiến trúc Layer</h2>
+                                <p className="text-slate-400">Nhấp vào từng tầng kiến trúc bên dưới để xem các bài học
+                                    tương ứng.</p>
+                            </div>
+
+                            <div className="grid lg:grid-cols-12 gap-8 items-start">
+
+                                {/* Visual Stack (Left Side) */}
+                                <div className="lg:col-span-5 space-y-2 select-none">
+                                    {/* Application Layer */}
+                                    <LayerBlock name="Application Layer (SWC)" layerId="App" activeLayer={activeLayer}
+                                        onClick={setActiveLayer} color="bg-yellow-600" />
+
+                                    {/* RTE */}
+                                    <LayerBlock name="Runtime Environment (RTE)" layerId="RTE" activeLayer={activeLayer}
+                                        onClick={setActiveLayer} color="bg-purple-600" />
+
+                                    {/* Services Layer */}
+                                    <div className="grid grid-cols-2 gap-2">
+                                        <LayerBlock name="Services (BSW)" layerId="Services" activeLayer={activeLayer}
+                                            onClick={setActiveLayer} color="bg-blue-600" />
+                                        <div className="flex flex-col gap-2">
+                                            <div
+                                                className="bg-slate-800 rounded border border-slate-700 p-2 text-center text-xs text-slate-400">
+                                                System Services</div>
+                                            <div
+                                                className="bg-slate-800 rounded border border-slate-700 p-2 text-center text-xs text-slate-400">
+                                                Memory Services</div>
+                                            <div
+                                                className="bg-slate-800 rounded border border-slate-700 p-2 text-center text-xs text-slate-400">
+                                                Crypto Services</div>
+                                        </div>
+                                    </div>
+
+                                    {/* ECU Abstraction */}
+                                    <LayerBlock name="ECU Abstraction (HwAb)" layerId="HwAb" activeLayer={activeLayer}
+                                        onClick={setActiveLayer} color="bg-green-600" />
+
+                                    {/* MCAL */}
+                                    <LayerBlock name="Microcontroller Abstraction (MCAL)" layerId="MCAL"
+                                        activeLayer={activeLayer} onClick={setActiveLayer} color="bg-red-600" />
+
+                                    {/* Microcontroller */}
+                                    <LayerBlock name="Microcontroller (STM32 Hardware)" layerId="Microcontroller"
+                                        activeLayer={activeLayer} onClick={setActiveLayer} color="bg-slate-700" />
+                                </div>
+
+                                {/* Contextual Modules (Right Side) */}
+                                <div className="lg:col-span-7">
+                                    <div
+                                        className="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 min-h-[500px]">
+                                        {activeLayer ? (
+                                        <>
+                                            <h3 className="text-xl font-bold text-white mb-6 flex items-center">
+                                                Các bài học thuộc tầng <span
+                                                    className="ml-2 px-2 py-1 rounded bg-white/10 text-blue-400">{activeLayer}</span>
+                                            </h3>
+                                            <div className="space-y-4">
+                                                {getModulesForLayer(activeLayer).map(module => (
+                                                <div key={module.id} onClick={()=> setSelectedModule(module)}
+                                                    className="bg-slate-800 border border-slate-700 p-4 rounded-lg
+                                                    cursor-pointer hover:bg-slate-750 hover:border-blue-500/50
+                                                    transition-all flex justify-between items-center"
+                                                    >
+                                                    <div>
+                                                        <div className="text-xs text-slate-500 font-bold mb-1">
+                                                            {module.phase}</div>
+                                                        <div className="text-white font-semibold">{module.title}</div>
+                                                    </div>
+                                                    <ChevronRight className="text-slate-600" size={20} />
+                                                </div>
+                                                ))}
+                                                {getModulesForLayer(activeLayer).length === 0 && (
+                                                <p className="text-slate-500 italic">Không có module chính nào nằm hoàn
+                                                    toàn trong tầng này, nhưng nó liên quan đến toàn bộ hệ thống.</p>
+                                                )}
+                                            </div>
+                                        </>
+                                        ) : (
+                                        <div
+                                            className="h-full flex flex-col items-center justify-center text-slate-500 text-center p-10">
+                                            <Layers size={64} className="mb-4 opacity-20" />
+                                            <p className="text-lg">Chọn một tầng kiến trúc bên trái để xem chi tiết sự
+                                                tương ứng giữa lý thuyết và thực tế.</p>
+                                            <p className="text-sm mt-4 opacity-60">Đây là cách tốt nhất để hiểu luồng dữ
+                                                liệu từ App xuống Hardware.</p>
+                                        </div>
+                                        )}
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        )}
+
+                        {activeTab === 'flow' && (
+                        <div className="animate-in fade-in duration-500">
+                            <div className="mb-8 text-center">
+                                <div
+                                    className="inline-flex items-center px-4 py-1 rounded-full bg-blue-900/30 border border-blue-700 text-blue-300 text-sm font-medium mb-3">
+                                    <Zap size={16} className="mr-2" /> Dự án mẫu: Motor Speed Control ECU
+                                </div>
+                                <h2 className="text-2xl font-bold text-white mb-2">Mô phỏng Luồng dữ liệu (Data Flow)
+                                </h2>
+                                <p className="text-slate-400">Hiểu cách một tín hiệu đi từ Sensor qua các tầng AUTOSAR
+                                    để điều khiển Động cơ.</p>
+                            </div>
+
+                            <div className="grid lg:grid-cols-2 gap-8 h-[600px]">
+                                {/* LEFT: ANIMATION */}
+                                <div
+                                    className="bg-slate-900 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between">
+                                    <div
+                                        className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-slate-800 -translate-x-1/2 z-0">
+                                    </div>
+
+                                    {flowSteps.map((step, index) => {
+                                    const isActive = index === currentFlowStep;
+                                    const isPast = index < currentFlowStep; return ( <div key={index}
+                                        className={`relative z-10 flex items-center ${index % 2===0 ? 'justify-start'
+                                        : 'justify-end' } transition-all duration-500`}>
+                                        <div className={` p-3 rounded-lg border-2 max-w-[200px] w-full text-center
+                                            font-bold text-sm shadow-lg transition-all duration-500 relative ${isActive
+                                            ? 'bg-blue-600 border-blue-400 text-white scale-110 shadow-blue-900/50' :
+                                            isPast ? 'bg-slate-800 border-slate-700 text-slate-500'
+                                            : 'bg-slate-900 border-slate-800 text-slate-700 opacity-50' } `}>
+                                            {step.layer}
+                                        </div>
+
+                                        {/* Connection Line Dot */}
+                                        <div className={` absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full
+                                            border-2 transition-all duration-300 ${isActive
+                                            ? 'bg-yellow-400 border-yellow-200 shadow-[0_0_10px_rgba(250,204,21,0.8)] scale-125'
+                                            : isPast ? 'bg-blue-500 border-blue-900' : 'bg-slate-800 border-slate-700' }
+                                            `}></div>
+                                </div>
+                                )
+                                })}
+                            </div>
+
+                            {/* RIGHT: EXPLANATION */}
+                            <div className="flex flex-col space-y-6">
+                                <div
+                                    className="flex-1 bg-slate-900/80 border border-blue-500/30 rounded-2xl p-8 flex flex-col justify-center items-center text-center shadow-2xl shadow-blue-900/10">
+                                    <div className="mb-4 p-4 bg-blue-500/10 rounded-full animate-bounce">
+                                        {flowSteps[currentFlowStep].direction === 'up' ?
+                                        <ArrowUp className="text-blue-400" size={32} /> :
+                                        flowSteps[currentFlowStep].direction === 'down' ?
+                                        <ArrowDown className="text-green-400" size={32} /> :
+                                        <RefreshCcw className="text-yellow-400 animate-spin-slow" size={32} />}
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-white mb-2">
+                                        {flowSteps[currentFlowStep].title}</h3>
+                                    <p className="text-lg text-slate-300 leading-relaxed max-w-md mb-4">
+                                        {flowSteps[currentFlowStep].desc}
+                                    </p>
+
+                                    {/* Learning Point Block */}
+                                    <div
+                                        className="bg-slate-800/50 p-4 rounded-lg border border-slate-700 w-full text-left mb-6">
+                                        <div className="flex items-center text-yellow-500 font-bold mb-2 text-sm">
+                                            <BookOpen size={14} className="mr-2" /> BẠN SẼ HỌC GÌ Ở ĐÂY?
+                                        </div>
+                                        <p className="text-sm text-slate-400 italic">
+                                            {flowSteps[currentFlowStep].learn}
+                                        </p>
+                                    </div>
+
+                                    <div className="mt-auto flex gap-4 w-full justify-center">
+                                        <button onClick={prevStep} disabled={currentFlowStep===0}
+                                            className="px-6 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+                                            Quay lại
+                                        </button>
+                                        <button onClick={nextStep} disabled={currentFlowStep===flowSteps.length - 1}
+                                            className="px-6 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-lg shadow-blue-900/30 flex items-center">
+                                            Tiếp theo
+                                            <ChevronRight size={18} className="ml-1" />
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
+                                    <div className="text-xs text-slate-500 uppercase font-bold mb-3">Modules liên quan
+                                        đến bước này</div>
+                                    <div className="space-y-2">
+                                        {flowSteps[currentFlowStep].activeModules.map(moduleId => {
+                                        const m = curriculum.find(c => c.id === moduleId);
+                                        if(!m) return null;
+                                        return (
+                                        <div key={moduleId} onClick={()=> setSelectedModule(m)} className="flex
+                                            items-center justify-between p-2 bg-slate-700/50 rounded cursor-pointer
+                                            hover:bg-slate-700">
+                                            <span className="text-sm text-slate-200">Bài {m.id}: {m.title}</span>
+                                            <ChevronRight size={16} className="text-slate-500" />
+                                        </div>
+                                        )
+                                        })}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                )}
+
+                </main>
+
+                {/* FLOATING CHAT MENTOR */}
+                <div className="fixed bottom-6 right-6 z-50">
+                    {chatOpen && (
+                    <div
+                        className="absolute bottom-16 right-0 w-80 bg-white text-slate-900 rounded-xl shadow-2xl overflow-hidden animate-in slide-in-from-bottom-10 fade-in duration-300 border border-slate-200">
+                        <div className="bg-blue-600 p-4 text-white flex justify-between items-center">
+                            <div className="font-bold flex items-center">
+                                <MessageSquare size={18} className="mr-2" /> HALA Mentor
+                            </div>
+                            <button onClick={()=> setChatOpen(false)}>
+                                <X size={18} />
+                            </button>
+                        </div>
+                        <div className="p-4 max-h-80 overflow-y-auto space-y-3 text-sm">
+                            <div className="bg-slate-100 p-3 rounded-lg rounded-tl-none">
+                                Chào bạn! Mình là trợ lý ảo của HALA. Bạn đang quan tâm điều gì về khóa học AUTOSAR?
+                            </div>
+                            <div className="space-y-2">
+                                <button
+                                    className="w-full text-left p-2 hover:bg-blue-50 rounded text-blue-700 border border-blue-100 transition-colors"
+                                    onClick={()=> alert("Khóa học dành cho sinh viên năm 3, 4 hoặc kỹ sư muốn chuyển
+                                    ngành. Cần biết C cơ bản.")}>
+                                    Ai nên học khóa này?
+                                </button>
+                                <button
+                                    className="w-full text-left p-2 hover:bg-blue-50 rounded text-blue-700 border border-blue-100 transition-colors"
+                                    onClick={()=> alert("Bạn sẽ thực hành trên board STM32F103/F407, sử dụng bộ công cụ
+                                    miễn phí nhưng mạnh mẽ.")}>
+                                    Cần chuẩn bị phần cứng gì?
+                                </button>
+                                <button
+                                    className="w-full text-left p-2 hover:bg-blue-50 rounded text-blue-700 border border-blue-100 transition-colors"
+                                    onClick={()=> alert("Sau khóa học, bạn có thể làm việc tại các công ty lớn như FPT
+                                    Software, LG, Bosch, VinFast ở vị trí Embedded Software Engineer.")}>
+                                    Cơ hội việc làm sau khóa học?
+                                </button>
+                            </div>
+                        </div>
+                        <div className="p-3 border-t border-slate-100 bg-slate-50 text-xs text-center text-slate-400">
+                            Hỗ trợ trực tiếp: 0972 595 711
+                        </div>
+                    </div>
+                    )}
+                    <button onClick={()=> setChatOpen(!chatOpen)}
+                        className="bg-blue-600 hover:bg-blue-500 text-white p-4 rounded-full shadow-lg
+                        transition-transform hover:scale-110 flex items-center justify-center"
+                        >
+                        {chatOpen ?
+                        <X size={24} /> :
+                        <MessageSquare size={24} />}
+                    </button>
+                </div>
+
+                {/* FOOTER */}
+                <footer className="bg-slate-950 border-t border-slate-900 py-12 mt-12">
+                    <div className="max-w-7xl mx-auto px-4 text-center">
+                        <h3 className="text-2xl font-bold text-white mb-4">Sẵn sàng trở thành Automotive Developer?</h3>
+                        <p className="text-slate-400 mb-8">Tham gia khóa học để nắm bắt cơ hội trong ngành công nghiệp
+                            xe hơi đang bùng nổ.</p>
+                        <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-slate-400">
+                            <span>📧 Hala.daotao@gmail.com</span>
+                            <span className="hidden md:inline">•</span>
+                            <span>☎ 0972 595 711</span>
+                        </div>
+                        <div className="mt-8 text-sm text-slate-600">
+                            © 2024 HALA ACADEMY. All rights reserved.
+                        </div>
+                    </div>
+                </footer>
+
+                {/* MODAL */}
+                {selectedModule && (
+                <ModuleDetailModal module={selectedModule} onClose={()=> setSelectedModule(null)} />
+                    )}
+                    </div>
+                    );
+                    }

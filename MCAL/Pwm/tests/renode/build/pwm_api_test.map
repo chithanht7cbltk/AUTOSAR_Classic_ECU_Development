@@ -1,0 +1,734 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x0000000020005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x10c
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x0000000008000000                g_pfnVectors
+
+.text           0x000000000800010c     0x3480
+                0x000000000800010c                _stext = .
+ *(.text*)
+ .text          0x000000000800010c       0x18 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+                0x000000000800010c                main
+ .text          0x0000000008000124      0x638 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+                0x0000000008000294                Pwm_Init
+                0x0000000008000354                Pwm_DeInit
+                0x00000000080003f0                Pwm_SetDutyCycle
+                0x0000000008000436                Pwm_SetPeriodAndDuty
+                0x000000000800048c                Pwm_SetOutputToIdle
+                0x00000000080004b8                Pwm_GetOutputState
+                0x0000000008000552                Pwm_DisableNotification
+                0x000000000800057e                Pwm_EnableNotification
+                0x00000000080005b0                Pwm_GetVersionInfo
+                0x00000000080005ec                Pwm_SetPowerState
+                0x0000000008000654                Pwm_GetCurrentPowerState
+                0x00000000080006a4                Pwm_GetTargetPowerState
+                0x00000000080006f4                Pwm_PreparePowerState
+                0x0000000008000748                Pwm_Main_PowerTransitionManager
+ .text          0x000000000800075c        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+                0x000000000800075c                Pwm_Channel0_Notification
+ .text          0x0000000008000768      0x258 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+                0x0000000008000768                SystemInit
+                0x00000000080007d0                SystemCoreClockUpdate
+ .text          0x00000000080009c0      0x7dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+                0x00000000080009c0                RCC_DeInit
+                0x0000000008000a1c                RCC_HSEConfig
+                0x0000000008000a78                RCC_WaitForHSEStartUp
+                0x0000000008000ac8                RCC_AdjustHSICalibrationValue
+                0x0000000008000b04                RCC_HSICmd
+                0x0000000008000b24                RCC_PLLConfig
+                0x0000000008000b60                RCC_PLLCmd
+                0x0000000008000b80                RCC_SYSCLKConfig
+                0x0000000008000bb8                RCC_GetSYSCLKSource
+                0x0000000008000bd4                RCC_HCLKConfig
+                0x0000000008000c0c                RCC_PCLK1Config
+                0x0000000008000c44                RCC_PCLK2Config
+                0x0000000008000c7c                RCC_ITConfig
+                0x0000000008000cc8                RCC_USBCLKConfig
+                0x0000000008000ce4                RCC_ADCCLKConfig
+                0x0000000008000d1c                RCC_LSEConfig
+                0x0000000008000d5c                RCC_LSICmd
+                0x0000000008000d7c                RCC_RTCCLKConfig
+                0x0000000008000da0                RCC_RTCCLKCmd
+                0x0000000008000dc0                RCC_GetClocksFreq
+                0x0000000008000f2c                RCC_AHBPeriphClockCmd
+                0x0000000008000f68                RCC_APB2PeriphClockCmd
+                0x0000000008000fa4                RCC_APB1PeriphClockCmd
+                0x0000000008000fe0                RCC_APB2PeriphResetCmd
+                0x000000000800101c                RCC_APB1PeriphResetCmd
+                0x0000000008001058                RCC_BackupResetCmd
+                0x0000000008001078                RCC_ClockSecuritySystemCmd
+                0x0000000008001098                RCC_MCOConfig
+                0x00000000080010b8                RCC_GetFlagStatus
+                0x000000000800112c                RCC_ClearFlag
+                0x0000000008001148                RCC_GetITStatus
+                0x000000000800117c                RCC_ClearITPendingBit
+ .text          0x000000000800119c      0x5d8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+                0x000000000800119c                GPIO_DeInit
+                0x0000000008001280                GPIO_AFIODeInit
+                0x0000000008001298                GPIO_Init
+                0x0000000008001410                GPIO_StructInit
+                0x0000000008001436                GPIO_ReadInputDataBit
+                0x0000000008001468                GPIO_ReadInputData
+                0x0000000008001480                GPIO_ReadOutputDataBit
+                0x00000000080014b2                GPIO_ReadOutputData
+                0x00000000080014ca                GPIO_SetBits
+                0x00000000080014e6                GPIO_ResetBits
+                0x0000000008001502                GPIO_WriteBit
+                0x0000000008001530                GPIO_Write
+                0x000000000800154c                GPIO_PinLockConfig
+                0x000000000800158e                GPIO_EventOutputConfig
+                0x00000000080015d8                GPIO_EventOutputCmd
+                0x00000000080015f8                GPIO_PinRemapConfig
+                0x00000000080016d8                GPIO_EXTILineConfig
+                0x0000000008001758                GPIO_ETH_MediaInterfaceConfig
+ .text          0x0000000008001774     0x1d94 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+                0x0000000008001774                TIM_DeInit
+                0x00000000080019a0                TIM_TimeBaseInit
+                0x0000000008001a98                TIM_OC1Init
+                0x0000000008001bb0                TIM_OC2Init
+                0x0000000008001cc0                TIM_OC3Init
+                0x0000000008001dcc                TIM_OC4Init
+                0x0000000008001e9c                TIM_ICInit
+                0x0000000008001f44                TIM_PWMIConfig
+                0x0000000008001ffc                TIM_BDTRConfig
+                0x000000000800204a                TIM_TimeBaseStructInit
+                0x000000000800207c                TIM_OCStructInit
+                0x00000000080020be                TIM_ICStructInit
+                0x00000000080020ee                TIM_BDTRStructInit
+                0x000000000800212a                TIM_Cmd
+                0x0000000008002168                TIM_CtrlPWMOutputs
+                0x00000000080021b2                TIM_ITConfig
+                0x00000000080021f8                TIM_GenerateEvent
+                0x0000000008002214                TIM_DMAConfig
+                0x000000000800223c                TIM_DMACmd
+                0x0000000008002282                TIM_InternalClockConfig
+                0x00000000080022a4                TIM_ITRxExternalClockConfig
+                0x00000000080022d2                TIM_TIxExternalClockConfig
+                0x000000000800232e                TIM_ETRClockMode1Config
+                0x000000000800238c                TIM_ETRClockMode2Config
+                0x00000000080023ca                TIM_ETRConfig
+                0x000000000800241c                TIM_PrescalerConfig
+                0x0000000008002442                TIM_CounterModeConfig
+                0x0000000008002478                TIM_SelectInputTrigger
+                0x00000000080024ae                TIM_EncoderInterfaceConfig
+                0x0000000008002544                TIM_ForcedOC1Config
+                0x000000000800257a                TIM_ForcedOC2Config
+                0x00000000080025b4                TIM_ForcedOC3Config
+                0x00000000080025ea                TIM_ForcedOC4Config
+                0x0000000008002624                TIM_ARRPreloadConfig
+                0x0000000008002662                TIM_SelectCOM
+                0x00000000080026a0                TIM_SelectCCDMA
+                0x00000000080026de                TIM_CCPreloadControl
+                0x000000000800271c                TIM_OC1PreloadConfig
+                0x0000000008002752                TIM_OC2PreloadConfig
+                0x000000000800278c                TIM_OC3PreloadConfig
+                0x00000000080027c2                TIM_OC4PreloadConfig
+                0x00000000080027fc                TIM_OC1FastConfig
+                0x0000000008002832                TIM_OC2FastConfig
+                0x000000000800286c                TIM_OC3FastConfig
+                0x00000000080028a2                TIM_OC4FastConfig
+                0x00000000080028dc                TIM_ClearOC1Ref
+                0x0000000008002912                TIM_ClearOC2Ref
+                0x000000000800294c                TIM_ClearOC3Ref
+                0x0000000008002982                TIM_ClearOC4Ref
+                0x00000000080029bc                TIM_OC1PolarityConfig
+                0x00000000080029f2                TIM_OC1NPolarityConfig
+                0x0000000008002a28                TIM_OC2PolarityConfig
+                0x0000000008002a62                TIM_OC2NPolarityConfig
+                0x0000000008002a9c                TIM_OC3PolarityConfig
+                0x0000000008002ad6                TIM_OC3NPolarityConfig
+                0x0000000008002b10                TIM_OC4PolarityConfig
+                0x0000000008002b4a                TIM_CCxCmd
+                0x0000000008002b9e                TIM_CCxNCmd
+                0x0000000008002bf2                TIM_SelectOCxM
+                0x0000000008002ca2                TIM_UpdateDisableConfig
+                0x0000000008002ce0                TIM_UpdateRequestConfig
+                0x0000000008002d1e                TIM_SelectHallSensor
+                0x0000000008002d5c                TIM_SelectOnePulseMode
+                0x0000000008002d92                TIM_SelectOutputTrigger
+                0x0000000008002dc8                TIM_SelectSlaveMode
+                0x0000000008002dfe                TIM_SelectMasterSlaveMode
+                0x0000000008002e34                TIM_SetCounter
+                0x0000000008002e50                TIM_SetAutoreload
+                0x0000000008002e6c                TIM_SetCompare1
+                0x0000000008002e88                TIM_SetCompare2
+                0x0000000008002ea4                TIM_SetCompare3
+                0x0000000008002ec0                TIM_SetCompare4
+                0x0000000008002ede                TIM_SetIC1Prescaler
+                0x0000000008002f14                TIM_SetIC2Prescaler
+                0x0000000008002f4e                TIM_SetIC3Prescaler
+                0x0000000008002f84                TIM_SetIC4Prescaler
+                0x0000000008002fbe                TIM_SetClockDivision
+                0x0000000008002ff4                TIM_GetCapture1
+                0x000000000800300c                TIM_GetCapture2
+                0x0000000008003024                TIM_GetCapture3
+                0x000000000800303c                TIM_GetCapture4
+                0x0000000008003056                TIM_GetCounter
+                0x000000000800306e                TIM_GetPrescaler
+                0x0000000008003086                TIM_GetFlagStatus
+                0x00000000080030bc                TIM_ClearFlag
+                0x00000000080030dc                TIM_GetITStatus
+                0x000000000800312e                TIM_ClearITPendingBit
+ .text          0x0000000008003508       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+ .text.Reset_Handler
+                0x000000000800351c       0x44 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x000000000800351c                Reset_Handler
+ .text.Default_Handler
+                0x0000000008003560        0x2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+                0x0000000008003560                USBWakeUp_IRQHandler
+                0x0000000008003560                DebugMon_Handler
+                0x0000000008003560                TIM1_CC_IRQHandler
+                0x0000000008003560                HardFault_Handler
+                0x0000000008003560                SysTick_Handler
+                0x0000000008003560                PVD_IRQHandler
+                0x0000000008003560                PendSV_Handler
+                0x0000000008003560                NMI_Handler
+                0x0000000008003560                EXTI3_IRQHandler
+                0x0000000008003560                EXTI0_IRQHandler
+                0x0000000008003560                I2C2_EV_IRQHandler
+                0x0000000008003560                UsageFault_Handler
+                0x0000000008003560                ADC1_2_IRQHandler
+                0x0000000008003560                SPI1_IRQHandler
+                0x0000000008003560                TAMPER_IRQHandler
+                0x0000000008003560                DMA1_Channel4_IRQHandler
+                0x0000000008003560                USART3_IRQHandler
+                0x0000000008003560                RTC_IRQHandler
+                0x0000000008003560                DMA1_Channel7_IRQHandler
+                0x0000000008003560                CAN1_RX1_IRQHandler
+                0x0000000008003560                TIM4_IRQHandler
+                0x0000000008003560                I2C1_EV_IRQHandler
+                0x0000000008003560                DMA1_Channel6_IRQHandler
+                0x0000000008003560                TIM3_IRQHandler
+                0x0000000008003560                RCC_IRQHandler
+                0x0000000008003560                TIM1_TRG_COM_IRQHandler
+                0x0000000008003560                DMA1_Channel1_IRQHandler
+                0x0000000008003560                Default_Handler
+                0x0000000008003560                EXTI15_10_IRQHandler
+                0x0000000008003560                EXTI9_5_IRQHandler
+                0x0000000008003560                SPI2_IRQHandler
+                0x0000000008003560                MemManage_Handler
+                0x0000000008003560                SVC_Handler
+                0x0000000008003560                DMA1_Channel5_IRQHandler
+                0x0000000008003560                EXTI4_IRQHandler
+                0x0000000008003560                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000008003560                USB_HP_CAN1_TX_IRQHandler
+                0x0000000008003560                DMA1_Channel3_IRQHandler
+                0x0000000008003560                TIM1_UP_IRQHandler
+                0x0000000008003560                WWDG_IRQHandler
+                0x0000000008003560                TIM2_IRQHandler
+                0x0000000008003560                TIM1_BRK_IRQHandler
+                0x0000000008003560                EXTI1_IRQHandler
+                0x0000000008003560                RTCAlarm_IRQHandler
+                0x0000000008003560                USART2_IRQHandler
+                0x0000000008003560                I2C2_ER_IRQHandler
+                0x0000000008003560                DMA1_Channel2_IRQHandler
+                0x0000000008003560                CAN1_SCE_IRQHandler
+                0x0000000008003560                FLASH_IRQHandler
+                0x0000000008003560                BusFault_Handler
+                0x0000000008003560                USART1_IRQHandler
+                0x0000000008003560                I2C1_ER_IRQHandler
+                0x0000000008003560                EXTI2_IRQHandler
+ *(.rodata*)
+ *fill*         0x0000000008003562        0x2 
+ .rodata        0x0000000008003564       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+                0x0000000008003564                PwmChannelsConfig
+                0x0000000008003584                PwmDriverConfig
+ *(.glue_7)
+ .glue_7        0x000000000800358c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x000000000800358c        0x0 linker stubs
+
+.vfp11_veneer   0x000000000800358c        0x0
+ .vfp11_veneer  0x000000000800358c        0x0 linker stubs
+
+.v4_bx          0x000000000800358c        0x0
+ .v4_bx         0x000000000800358c        0x0 linker stubs
+
+.iplt           0x000000000800358c        0x0
+ .iplt          0x000000000800358c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+
+.rel.dyn        0x000000000800358c        0x0
+ .rel.iplt      0x000000000800358c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+                0x000000000800358c                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000800358c                . = ALIGN (0x4)
+                0x000000000800358c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000000000800358c                __exidx_end = .
+                0x000000000800358c                . = ALIGN (0x4)
+                0x000000000800358c                _etext = .
+
+.data           0x0000000020000000       0x28 load address 0x000000000800358c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .data          0x0000000020000000       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+                0x0000000020000000                SystemCoreClock
+                0x0000000020000004                AHBPrescTable
+ .data          0x0000000020000014       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+ *(.data.*)
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _edata = .
+                0x000000000800358c                _sidata = LOADADDR (.data)
+
+.igot.plt       0x0000000020000028        0x0 load address 0x00000000080035b4
+ .igot.plt      0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+
+.bss            0x0000000020000028       0x18 load address 0x00000000080035b4
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _sbss = .
+ *(.bss*)
+ .bss           0x0000000020000028       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+                0x0000000020000028                g_version_info
+                0x0000000020000030                g_power_result
+                0x0000000020000031                g_power_state
+                0x0000000020000034                g_test_magic
+ .bss           0x0000000020000038        0x8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .bss           0x0000000020000040        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+ *(COMMON)
+                0x0000000020000040                . = ALIGN (0x4)
+                0x0000000020000040                _ebss = .
+
+/DISCARD/
+ *(.note*)
+ *(.comment*)
+OUTPUT(/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/pwm_api_test.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .ARM.attributes
+                0x000000000000005a       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .ARM.attributes
+                0x0000000000000087       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .ARM.attributes
+                0x000000000000010e       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .ARM.attributes
+                0x000000000000013b       0x21 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_info     0x0000000000000000     0x4337
+ .debug_info    0x0000000000000000      0x1b6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_info    0x00000000000001b6      0x9fa /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_info    0x0000000000000bb0      0x496 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_info    0x0000000000001046      0x4ba /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_info    0x0000000000001500      0x8f7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_info    0x0000000000001df7      0x732 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_info    0x0000000000002529     0x1dec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_info    0x0000000000004315       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_abbrev   0x0000000000000000      0xb3e
+ .debug_abbrev  0x0000000000000000       0xae /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_abbrev  0x00000000000000ae      0x25b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_abbrev  0x0000000000000309      0x115 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_abbrev  0x000000000000041e      0x180 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_abbrev  0x000000000000059e      0x1d6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_abbrev  0x0000000000000774      0x1ec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_abbrev  0x0000000000000960      0x1cc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_abbrev  0x0000000000000b2c       0x12 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_aranges  0x0000000000000000      0x108
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_aranges
+                0x0000000000000020       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_aranges
+                0x0000000000000040       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_aranges
+                0x0000000000000060       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_aranges
+                0x0000000000000080       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_aranges
+                0x00000000000000c0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_aranges
+                0x00000000000000e0       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_macro    0x0000000000000000     0xc479
+ .debug_macro   0x0000000000000000       0xf2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x00000000000000f2      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000b58       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000bc1       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000c1e       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000c40       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000cce       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000d1f      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000e22       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000000e8c      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x000000000000106b       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000001087       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x00000000000010a9       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000001166      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000001e66     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000009d19       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000009d29       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x0000000000009d5e      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_macro   0x000000000000a469       0xf6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x000000000000a55f       0x40 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x000000000000a59f      0x174 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_macro   0x000000000000a713      0x239 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000a94c       0x64 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000a9b0       0x18 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000a9c8       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000a9fd       0x34 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000aa31       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000aa47       0x97 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000aade      0x341 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000ae1f       0xfd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000af1c       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000af2c       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000af42       0x43 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000af85       0x34 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000afb9       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000afc9       0x58 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b021      0x182 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b1a3       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b1b3       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b1cf       0x52 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b221       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b243       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b253       0x52 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b2a5       0xd5 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b37a       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b396       0x3d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b3d3       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b3e9      0x16f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b558       0xc8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_macro   0x000000000000b620      0x1e7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000b807      0x3dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000bbe3      0x122 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x000000000000bd05      0x2a6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x000000000000bfab      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_macro   0x000000000000c38d       0xec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+
+.debug_line     0x0000000000000000     0x2d5b
+ .debug_line    0x0000000000000000      0x360 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_line    0x0000000000000360      0x617 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_line    0x0000000000000977      0x44a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_line    0x0000000000000dc1      0x458 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_line    0x0000000000001219      0x6be /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_line    0x00000000000018d7      0x604 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_line    0x0000000000001edb      0xdc4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+ .debug_line    0x0000000000002c9f       0xbc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+
+.debug_str      0x0000000000000000    0x43169
+ .debug_str     0x0000000000000000    0x3955b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+                                      0x396c2 (size before relaxing)
+ .debug_str     0x000000000003955b      0x90e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+                                      0x3a026 (size before relaxing)
+ .debug_str     0x0000000000039e69     0x38c8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+                                      0x3d347 (size before relaxing)
+ .debug_str     0x000000000003d731      0x1c9 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+                                      0x34d3b (size before relaxing)
+ .debug_str     0x000000000003d8fa     0x29ff /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+                                      0x3761c (size before relaxing)
+ .debug_str     0x00000000000402f9     0x22a0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+                                      0x38cfc (size before relaxing)
+ .debug_str     0x0000000000042599      0xb61 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+                                      0x3bfa5 (size before relaxing)
+ .debug_str     0x00000000000430fa       0x6f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o
+                                         0xac (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1994
+ .debug_frame   0x0000000000000000       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/pwm_api_test_main.o
+ .debug_frame   0x0000000000000028      0x2b4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm.o
+ .debug_frame   0x00000000000002dc       0x30 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/Pwm_Lcfg.o
+ .debug_frame   0x000000000000030c       0x98 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/system_stm32f10x.o
+ .debug_frame   0x00000000000003a4      0x4f4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_rcc.o
+ .debug_frame   0x0000000000000898      0x2d0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_gpio.o
+ .debug_frame   0x0000000000000b68      0xe2c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/stm32f10x_tim.o
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/obj/startup_stm32f10x_md.o

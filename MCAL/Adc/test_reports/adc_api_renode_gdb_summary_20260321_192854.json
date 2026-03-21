@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-03-21T19:28:54.776749",
+  "status": "PASS",
+  "exit_code": 0,
+  "scenario_summary": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "traceability_summary": {
+    "total_requirements": 158,
+    "passed_requirements": 158,
+    "failed_requirements": 0,
+    "not_covered_requirements": 0
+  },
+  "failed_scenarios": [],
+  "build_success": true
+}

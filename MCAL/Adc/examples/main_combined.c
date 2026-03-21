@@ -1,47 +1,68 @@
 /**********************************************************
  * @file    main_combined.c
- * @brief   Example application using ADC with both IRQ and DMA
- * @details Đã được viết lại để phù hợp với kiến trúc 
- *          callback AUTOSAR mới, gọi chung tất cả Group.
+ * @brief   Ví dụ kết hợp Group SW + Group HW/DMA + power-state API
+ * @details Mục tiêu: smoke test toàn bộ API chính của ADC driver.
+ * @version 2.0
+ * @date    2026-03-21
+ * @author  HALA Academy
  **********************************************************/
 
 #include "Adc.h"
 #include "Adc_Cfg.h"
-#include "stm32f10x.h"
 
-volatile uint32_t g_eoc_irq_count = 0;
-volatile uint32_t g_dma_tc_count = 0;
+volatile Adc_ValueGroupType g_group0_buffer[4];
+volatile Adc_ValueGroupType g_group1_buffer[8];
+volatile Adc_ValueGroupType g_readback0[4];
+volatile Adc_ValueGroupType g_readback1[8];
+volatile Adc_ValueGroupType *g_last_stream_ptr = (Adc_ValueGroupType *)0;
+volatile Adc_StreamNumSampleType g_last_stream_count = 0U;
 
-Adc_ValueGroupType myGroup0Buffer[2];
-Adc_ValueGroupType myGroup1Buffer[2];
+volatile Adc_PowerStateRequestResultType g_power_result = ADC_SERVICE_ACCEPTED;
+volatile Adc_PowerStateType g_power_state = ADC_FULL_POWER;
 
-void MyAdcGroup0_Notification(void)
+void Adc_Group0_Notification(void)
 {
-    g_eoc_irq_count++;
+    /* Hook debug tại đây nếu cần */
 }
 
-void MyAdcGroup1_DmaComplete(void)
+void Adc_Group1_DmaComplete(void)
 {
-    g_dma_tc_count++;
+    /* Hook debug tại đây nếu cần */
 }
 
 int main(void)
 {
-    Adc_ConfigType AdcConfig;
-    Adc_Init(&AdcConfig);
-    
-    Adc_SetupResultBuffer(0, myGroup0Buffer);
-    Adc_SetupResultBuffer(1, myGroup1Buffer);
-    
-    Adc_EnableGroupNotification(0); /* Enable NVIC EOC cho Group 0 */
-    /* Group 1 tự động xài DMA NVIC vì đã config trong AdcGroupConfig */
+    Std_VersionInfoType versionInfo;
 
-    while (1) {
-        Adc_StartGroupConversion(0);
-        Adc_StartGroupConversion(1);
-        
-        for(volatile int i=0; i<50000; i++);
+    /* 1) Init ADC + setup buffer */
+    Adc_Init(&AdcDriverConfig);
+    (void)Adc_SetupResultBuffer(0U, (Adc_ValueGroupType *)g_group0_buffer);
+    (void)Adc_SetupResultBuffer(1U, (Adc_ValueGroupType *)g_group1_buffer);
+
+    /* 2) Notification + HW trigger */
+    Adc_EnableGroupNotification(0U);
+    Adc_EnableHardwareTrigger(1U);
+
+    /* 3) Chạy conversion thử */
+    Adc_StartGroupConversion(0U);
+    Adc_StartGroupConversion(1U);
+    (void)Adc_ReadGroup(0U, (Adc_ValueGroupType *)g_readback0);
+    (void)Adc_ReadGroup(1U, (Adc_ValueGroupType *)g_readback1);
+    g_last_stream_count = Adc_GetStreamLastPointer(1U, (Adc_ValueGroupType **)&g_last_stream_ptr);
+
+    /* 4) Version + power-state API */
+    Adc_GetVersionInfo(&versionInfo);
+    (void)Adc_PreparePowerState(ADC_LOW_POWER_STATE, (Adc_PowerStateRequestResultType *)&g_power_result);
+    (void)Adc_SetPowerState((Adc_PowerStateRequestResultType *)&g_power_result);
+    (void)Adc_GetCurrentPowerState((Adc_PowerStateType *)&g_power_state,
+                                   (Adc_PowerStateRequestResultType *)&g_power_result);
+    Adc_Main_PowerTransitionManager();
+
+    while (1)
+    {
+        for (volatile uint32 i = 0U; i < 200000U; i++)
+        {
+            __asm volatile("nop");
+        }
     }
-    
-    return 0;
 }

@@ -1,0 +1,782 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x2a6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x0000000000000000      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .group         0x0000000000000000        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_macro   0x0000000000000000      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .comment       0x0000000000000000       0x4a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+LOAD /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+                0x0000000020005000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x10c
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+                0x0000000008000000                g_pfnVectors
+
+.text           0x000000000800010c     0x34c0
+                0x000000000800010c                _stext = .
+ *(.text*)
+ .text          0x000000000800010c       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+                0x000000000800010c                main
+ .text          0x0000000008000134       0x30 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+                0x0000000008000134                Pwm_Example_PortInit
+ .text          0x0000000008000164      0x638 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+                0x00000000080002d4                Pwm_Init
+                0x0000000008000394                Pwm_DeInit
+                0x0000000008000430                Pwm_SetDutyCycle
+                0x0000000008000476                Pwm_SetPeriodAndDuty
+                0x00000000080004cc                Pwm_SetOutputToIdle
+                0x00000000080004f8                Pwm_GetOutputState
+                0x0000000008000592                Pwm_DisableNotification
+                0x00000000080005be                Pwm_EnableNotification
+                0x00000000080005f0                Pwm_GetVersionInfo
+                0x000000000800062c                Pwm_SetPowerState
+                0x0000000008000694                Pwm_GetCurrentPowerState
+                0x00000000080006e4                Pwm_GetTargetPowerState
+                0x0000000008000734                Pwm_PreparePowerState
+                0x0000000008000788                Pwm_Main_PowerTransitionManager
+ .text          0x000000000800079c        0xc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+                0x000000000800079c                Pwm_Channel0_Notification
+ .text          0x00000000080007a8      0x258 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+                0x00000000080007a8                SystemInit
+                0x0000000008000810                SystemCoreClockUpdate
+ .text          0x0000000008000a00      0x7dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+                0x0000000008000a00                RCC_DeInit
+                0x0000000008000a5c                RCC_HSEConfig
+                0x0000000008000ab8                RCC_WaitForHSEStartUp
+                0x0000000008000b08                RCC_AdjustHSICalibrationValue
+                0x0000000008000b44                RCC_HSICmd
+                0x0000000008000b64                RCC_PLLConfig
+                0x0000000008000ba0                RCC_PLLCmd
+                0x0000000008000bc0                RCC_SYSCLKConfig
+                0x0000000008000bf8                RCC_GetSYSCLKSource
+                0x0000000008000c14                RCC_HCLKConfig
+                0x0000000008000c4c                RCC_PCLK1Config
+                0x0000000008000c84                RCC_PCLK2Config
+                0x0000000008000cbc                RCC_ITConfig
+                0x0000000008000d08                RCC_USBCLKConfig
+                0x0000000008000d24                RCC_ADCCLKConfig
+                0x0000000008000d5c                RCC_LSEConfig
+                0x0000000008000d9c                RCC_LSICmd
+                0x0000000008000dbc                RCC_RTCCLKConfig
+                0x0000000008000de0                RCC_RTCCLKCmd
+                0x0000000008000e00                RCC_GetClocksFreq
+                0x0000000008000f6c                RCC_AHBPeriphClockCmd
+                0x0000000008000fa8                RCC_APB2PeriphClockCmd
+                0x0000000008000fe4                RCC_APB1PeriphClockCmd
+                0x0000000008001020                RCC_APB2PeriphResetCmd
+                0x000000000800105c                RCC_APB1PeriphResetCmd
+                0x0000000008001098                RCC_BackupResetCmd
+                0x00000000080010b8                RCC_ClockSecuritySystemCmd
+                0x00000000080010d8                RCC_MCOConfig
+                0x00000000080010f8                RCC_GetFlagStatus
+                0x000000000800116c                RCC_ClearFlag
+                0x0000000008001188                RCC_GetITStatus
+                0x00000000080011bc                RCC_ClearITPendingBit
+ .text          0x00000000080011dc      0x5d8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+                0x00000000080011dc                GPIO_DeInit
+                0x00000000080012c0                GPIO_AFIODeInit
+                0x00000000080012d8                GPIO_Init
+                0x0000000008001450                GPIO_StructInit
+                0x0000000008001476                GPIO_ReadInputDataBit
+                0x00000000080014a8                GPIO_ReadInputData
+                0x00000000080014c0                GPIO_ReadOutputDataBit
+                0x00000000080014f2                GPIO_ReadOutputData
+                0x000000000800150a                GPIO_SetBits
+                0x0000000008001526                GPIO_ResetBits
+                0x0000000008001542                GPIO_WriteBit
+                0x0000000008001570                GPIO_Write
+                0x000000000800158c                GPIO_PinLockConfig
+                0x00000000080015ce                GPIO_EventOutputConfig
+                0x0000000008001618                GPIO_EventOutputCmd
+                0x0000000008001638                GPIO_PinRemapConfig
+                0x0000000008001718                GPIO_EXTILineConfig
+                0x0000000008001798                GPIO_ETH_MediaInterfaceConfig
+ .text          0x00000000080017b4     0x1d94 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+                0x00000000080017b4                TIM_DeInit
+                0x00000000080019e0                TIM_TimeBaseInit
+                0x0000000008001ad8                TIM_OC1Init
+                0x0000000008001bf0                TIM_OC2Init
+                0x0000000008001d00                TIM_OC3Init
+                0x0000000008001e0c                TIM_OC4Init
+                0x0000000008001edc                TIM_ICInit
+                0x0000000008001f84                TIM_PWMIConfig
+                0x000000000800203c                TIM_BDTRConfig
+                0x000000000800208a                TIM_TimeBaseStructInit
+                0x00000000080020bc                TIM_OCStructInit
+                0x00000000080020fe                TIM_ICStructInit
+                0x000000000800212e                TIM_BDTRStructInit
+                0x000000000800216a                TIM_Cmd
+                0x00000000080021a8                TIM_CtrlPWMOutputs
+                0x00000000080021f2                TIM_ITConfig
+                0x0000000008002238                TIM_GenerateEvent
+                0x0000000008002254                TIM_DMAConfig
+                0x000000000800227c                TIM_DMACmd
+                0x00000000080022c2                TIM_InternalClockConfig
+                0x00000000080022e4                TIM_ITRxExternalClockConfig
+                0x0000000008002312                TIM_TIxExternalClockConfig
+                0x000000000800236e                TIM_ETRClockMode1Config
+                0x00000000080023cc                TIM_ETRClockMode2Config
+                0x000000000800240a                TIM_ETRConfig
+                0x000000000800245c                TIM_PrescalerConfig
+                0x0000000008002482                TIM_CounterModeConfig
+                0x00000000080024b8                TIM_SelectInputTrigger
+                0x00000000080024ee                TIM_EncoderInterfaceConfig
+                0x0000000008002584                TIM_ForcedOC1Config
+                0x00000000080025ba                TIM_ForcedOC2Config
+                0x00000000080025f4                TIM_ForcedOC3Config
+                0x000000000800262a                TIM_ForcedOC4Config
+                0x0000000008002664                TIM_ARRPreloadConfig
+                0x00000000080026a2                TIM_SelectCOM
+                0x00000000080026e0                TIM_SelectCCDMA
+                0x000000000800271e                TIM_CCPreloadControl
+                0x000000000800275c                TIM_OC1PreloadConfig
+                0x0000000008002792                TIM_OC2PreloadConfig
+                0x00000000080027cc                TIM_OC3PreloadConfig
+                0x0000000008002802                TIM_OC4PreloadConfig
+                0x000000000800283c                TIM_OC1FastConfig
+                0x0000000008002872                TIM_OC2FastConfig
+                0x00000000080028ac                TIM_OC3FastConfig
+                0x00000000080028e2                TIM_OC4FastConfig
+                0x000000000800291c                TIM_ClearOC1Ref
+                0x0000000008002952                TIM_ClearOC2Ref
+                0x000000000800298c                TIM_ClearOC3Ref
+                0x00000000080029c2                TIM_ClearOC4Ref
+                0x00000000080029fc                TIM_OC1PolarityConfig
+                0x0000000008002a32                TIM_OC1NPolarityConfig
+                0x0000000008002a68                TIM_OC2PolarityConfig
+                0x0000000008002aa2                TIM_OC2NPolarityConfig
+                0x0000000008002adc                TIM_OC3PolarityConfig
+                0x0000000008002b16                TIM_OC3NPolarityConfig
+                0x0000000008002b50                TIM_OC4PolarityConfig
+                0x0000000008002b8a                TIM_CCxCmd
+                0x0000000008002bde                TIM_CCxNCmd
+                0x0000000008002c32                TIM_SelectOCxM
+                0x0000000008002ce2                TIM_UpdateDisableConfig
+                0x0000000008002d20                TIM_UpdateRequestConfig
+                0x0000000008002d5e                TIM_SelectHallSensor
+                0x0000000008002d9c                TIM_SelectOnePulseMode
+                0x0000000008002dd2                TIM_SelectOutputTrigger
+                0x0000000008002e08                TIM_SelectSlaveMode
+                0x0000000008002e3e                TIM_SelectMasterSlaveMode
+                0x0000000008002e74                TIM_SetCounter
+                0x0000000008002e90                TIM_SetAutoreload
+                0x0000000008002eac                TIM_SetCompare1
+                0x0000000008002ec8                TIM_SetCompare2
+                0x0000000008002ee4                TIM_SetCompare3
+                0x0000000008002f00                TIM_SetCompare4
+                0x0000000008002f1e                TIM_SetIC1Prescaler
+                0x0000000008002f54                TIM_SetIC2Prescaler
+                0x0000000008002f8e                TIM_SetIC3Prescaler
+                0x0000000008002fc4                TIM_SetIC4Prescaler
+                0x0000000008002ffe                TIM_SetClockDivision
+                0x0000000008003034                TIM_GetCapture1
+                0x000000000800304c                TIM_GetCapture2
+                0x0000000008003064                TIM_GetCapture3
+                0x000000000800307c                TIM_GetCapture4
+                0x0000000008003096                TIM_GetCounter
+                0x00000000080030ae                TIM_GetPrescaler
+                0x00000000080030c6                TIM_GetFlagStatus
+                0x00000000080030fc                TIM_ClearFlag
+                0x000000000800311c                TIM_GetITStatus
+                0x000000000800316e                TIM_ClearITPendingBit
+ .text          0x0000000008003548       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+ .text.Reset_Handler
+                0x000000000800355c       0x44 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+                0x000000000800355c                Reset_Handler
+ .text.Default_Handler
+                0x00000000080035a0        0x2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+                0x00000000080035a0                USBWakeUp_IRQHandler
+                0x00000000080035a0                DebugMon_Handler
+                0x00000000080035a0                TIM1_CC_IRQHandler
+                0x00000000080035a0                HardFault_Handler
+                0x00000000080035a0                SysTick_Handler
+                0x00000000080035a0                PVD_IRQHandler
+                0x00000000080035a0                PendSV_Handler
+                0x00000000080035a0                NMI_Handler
+                0x00000000080035a0                EXTI3_IRQHandler
+                0x00000000080035a0                EXTI0_IRQHandler
+                0x00000000080035a0                I2C2_EV_IRQHandler
+                0x00000000080035a0                UsageFault_Handler
+                0x00000000080035a0                ADC1_2_IRQHandler
+                0x00000000080035a0                SPI1_IRQHandler
+                0x00000000080035a0                TAMPER_IRQHandler
+                0x00000000080035a0                DMA1_Channel4_IRQHandler
+                0x00000000080035a0                USART3_IRQHandler
+                0x00000000080035a0                RTC_IRQHandler
+                0x00000000080035a0                DMA1_Channel7_IRQHandler
+                0x00000000080035a0                CAN1_RX1_IRQHandler
+                0x00000000080035a0                TIM4_IRQHandler
+                0x00000000080035a0                I2C1_EV_IRQHandler
+                0x00000000080035a0                DMA1_Channel6_IRQHandler
+                0x00000000080035a0                TIM3_IRQHandler
+                0x00000000080035a0                RCC_IRQHandler
+                0x00000000080035a0                TIM1_TRG_COM_IRQHandler
+                0x00000000080035a0                DMA1_Channel1_IRQHandler
+                0x00000000080035a0                Default_Handler
+                0x00000000080035a0                EXTI15_10_IRQHandler
+                0x00000000080035a0                EXTI9_5_IRQHandler
+                0x00000000080035a0                SPI2_IRQHandler
+                0x00000000080035a0                MemManage_Handler
+                0x00000000080035a0                SVC_Handler
+                0x00000000080035a0                DMA1_Channel5_IRQHandler
+                0x00000000080035a0                EXTI4_IRQHandler
+                0x00000000080035a0                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080035a0                USB_HP_CAN1_TX_IRQHandler
+                0x00000000080035a0                DMA1_Channel3_IRQHandler
+                0x00000000080035a0                TIM1_UP_IRQHandler
+                0x00000000080035a0                WWDG_IRQHandler
+                0x00000000080035a0                TIM2_IRQHandler
+                0x00000000080035a0                TIM1_BRK_IRQHandler
+                0x00000000080035a0                EXTI1_IRQHandler
+                0x00000000080035a0                RTCAlarm_IRQHandler
+                0x00000000080035a0                USART2_IRQHandler
+                0x00000000080035a0                I2C2_ER_IRQHandler
+                0x00000000080035a0                DMA1_Channel2_IRQHandler
+                0x00000000080035a0                CAN1_SCE_IRQHandler
+                0x00000000080035a0                FLASH_IRQHandler
+                0x00000000080035a0                BusFault_Handler
+                0x00000000080035a0                USART1_IRQHandler
+                0x00000000080035a0                I2C1_ER_IRQHandler
+                0x00000000080035a0                EXTI2_IRQHandler
+ *(.rodata*)
+ *fill*         0x00000000080035a2        0x2 
+ .rodata        0x00000000080035a4       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+                0x00000000080035a4                PwmChannelsConfig
+                0x00000000080035c4                PwmDriverConfig
+ *(.glue_7)
+ .glue_7        0x00000000080035cc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080035cc        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080035cc        0x0
+ .vfp11_veneer  0x00000000080035cc        0x0 linker stubs
+
+.v4_bx          0x00000000080035cc        0x0
+ .v4_bx         0x00000000080035cc        0x0 linker stubs
+
+.iplt           0x00000000080035cc        0x0
+ .iplt          0x00000000080035cc        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+
+.rel.dyn        0x00000000080035cc        0x0
+ .rel.iplt      0x00000000080035cc        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+                0x00000000080035cc                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080035cc                . = ALIGN (0x4)
+                0x00000000080035cc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000000080035cc                __exidx_end = .
+                0x00000000080035cc                . = ALIGN (0x4)
+                0x00000000080035cc                _etext = .
+
+.data           0x0000000020000000       0x28 load address 0x00000000080035cc
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .data          0x0000000020000000        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .data          0x0000000020000000       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+                0x0000000020000000                SystemCoreClock
+                0x0000000020000004                AHBPrescTable
+ .data          0x0000000020000014       0x14 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .data          0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+ *(.data.*)
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _edata = .
+                0x00000000080035cc                _sidata = LOADADDR (.data)
+
+.igot.plt       0x0000000020000028        0x0 load address 0x00000000080035f4
+ .igot.plt      0x0000000020000028        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+
+.bss            0x0000000020000028        0xc load address 0x00000000080035f4
+                0x0000000020000028                . = ALIGN (0x4)
+                0x0000000020000028                _sbss = .
+ *(.bss*)
+ .bss           0x0000000020000028        0x4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+                0x0000000020000028                g_case01_counter
+ .bss           0x000000002000002c        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .bss           0x000000002000002c        0x8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .bss           0x0000000020000034        0x0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+ *(COMMON)
+                0x0000000020000034                . = ALIGN (0x4)
+                0x0000000020000034                _ebss = .
+
+/DISCARD/
+ *(.note*)
+ *(.comment*)
+OUTPUT(/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/case_01_init_deinit.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .ARM.attributes
+                0x000000000000005a       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .ARM.attributes
+                0x0000000000000087       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .ARM.attributes
+                0x00000000000000b4       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .ARM.attributes
+                0x00000000000000e1       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .ARM.attributes
+                0x000000000000010e       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .ARM.attributes
+                0x000000000000013b       0x2d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .ARM.attributes
+                0x0000000000000168       0x21 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+
+.debug_info     0x0000000000000000     0x47fd
+ .debug_info    0x0000000000000000      0x46a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_info    0x000000000000046a      0x212 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_info    0x000000000000067c      0x9fa /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_info    0x0000000000001076      0x496 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_info    0x000000000000150c      0x4ba /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_info    0x00000000000019c6      0x8f7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_info    0x00000000000022bd      0x732 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_info    0x00000000000029ef     0x1dec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_info    0x00000000000047db       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+
+.debug_abbrev   0x0000000000000000      0xca5
+ .debug_abbrev  0x0000000000000000      0x118 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_abbrev  0x0000000000000118       0xfd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_abbrev  0x0000000000000215      0x25b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_abbrev  0x0000000000000470      0x115 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_abbrev  0x0000000000000585      0x180 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_abbrev  0x0000000000000705      0x1d6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_abbrev  0x00000000000008db      0x1ec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_abbrev  0x0000000000000ac7      0x1cc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_abbrev  0x0000000000000c93       0x12 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+
+.debug_aranges  0x0000000000000000      0x128
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_aranges
+                0x0000000000000020       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_aranges
+                0x0000000000000040       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_aranges
+                0x0000000000000060       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_aranges
+                0x0000000000000080       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_aranges
+                0x00000000000000c0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_aranges
+                0x00000000000000e0       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_aranges
+                0x0000000000000100       0x28 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+
+.debug_macro    0x0000000000000000     0xc561
+ .debug_macro   0x0000000000000000       0xfc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x00000000000000fc      0xa66 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000b62       0x69 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000bcb       0x5d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000c28       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000c4a       0x8e /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000cd8       0x51 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000d29      0x103 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000e2c       0x6a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000000e96      0x1df /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000001075       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000001091       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x00000000000010b3       0xbd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000001170      0xd00 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000001e70     0x7eb3 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000009d23       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000009d33       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x0000000000009d68      0x70b /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_macro   0x000000000000a473       0xde /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x000000000000a551      0x2a6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x000000000000a7f7      0x3e2 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_macro   0x000000000000abd9       0xf6 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x000000000000accf       0x40 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x000000000000ad0f      0x174 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_macro   0x000000000000ae83      0x239 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b0bc       0x64 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b120       0x18 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b138       0x35 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b16d       0x34 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b1a1       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b1b7       0x97 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b24e      0x341 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b58f       0xfd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b68c       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b69c       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b6b2       0x43 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b6f5       0x34 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b729       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b739       0x58 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b791      0x182 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b913       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b923       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b93f       0x52 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b991       0x22 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b9b3       0x10 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000b9c3       0x52 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000ba15       0xd5 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000baea       0x1c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000bb06       0x3d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000bb43       0x16 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000bb59      0x16f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_macro   0x000000000000bcc8       0xc8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_macro   0x000000000000bd90      0x1e7 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000bf77      0x3dc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_macro   0x000000000000c353      0x122 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_macro   0x000000000000c475       0xec /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+
+.debug_line     0x0000000000000000     0x30ed
+ .debug_line    0x0000000000000000      0x396 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_line    0x0000000000000396      0x35c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_line    0x00000000000006f2      0x617 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_line    0x0000000000000d09      0x44a /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_line    0x0000000000001153      0x458 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_line    0x00000000000015ab      0x6be /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_line    0x0000000000001c69      0x604 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_line    0x000000000000226d      0xdc4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+ .debug_line    0x0000000000003031       0xbc /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+
+.debug_str      0x0000000000000000    0x431dd
+ .debug_str     0x0000000000000000    0x39688 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+                                      0x3980a (size before relaxing)
+ .debug_str     0x0000000000039688     0x3d3d /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+                                      0x3888d (size before relaxing)
+ .debug_str     0x000000000003d3c5      0x7cb /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+                                      0x3a026 (size before relaxing)
+ .debug_str     0x000000000003db90     0x38b8 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+                                      0x3d347 (size before relaxing)
+ .debug_str     0x0000000000041448      0x1c9 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+                                      0x34d3b (size before relaxing)
+ .debug_str     0x0000000000041611      0xb3f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+                                      0x3761c (size before relaxing)
+ .debug_str     0x0000000000042150      0x4bd /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+                                      0x38cfc (size before relaxing)
+ .debug_str     0x000000000004260d      0xb61 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+                                      0x3bfa5 (size before relaxing)
+ .debug_str     0x000000000004316e       0x6f /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o
+                                         0xac (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x19cc
+ .debug_frame   0x0000000000000000       0x2c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/main.o
+ .debug_frame   0x000000000000002c       0x34 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/pwm_example_port.o
+ .debug_frame   0x0000000000000060      0x2b4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm.o
+ .debug_frame   0x0000000000000314       0x30 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/Pwm_Lcfg.o
+ .debug_frame   0x0000000000000344       0x98 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/system_stm32f10x.o
+ .debug_frame   0x00000000000003dc      0x4f4 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_rcc.o
+ .debug_frame   0x00000000000008d0      0x2d0 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_gpio.o
+ .debug_frame   0x0000000000000ba0      0xe2c /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/stm32f10x_tim.o
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/obj/startup_stm32f10x_md.o

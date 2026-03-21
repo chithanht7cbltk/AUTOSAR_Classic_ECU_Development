@@ -1,0 +1,7231 @@
+{
+  "summary": {
+    "total_requirements": 158,
+    "passed_requirements": 158,
+    "failed_requirements": 0,
+    "not_covered_requirements": 0
+  },
+  "requirements": [
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00057",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00058",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00075",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00100",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00101",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00110",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00111",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00112",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00113",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00114",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00116",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00120",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00121",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00122",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00126",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00128",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00129",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00130",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00131",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00136",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00137",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00144",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00145",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00152",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00154",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00155",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00157",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00164",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00165",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00166",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00214",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00215",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00216",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00218",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00219",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00220",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00221",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00222",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00224",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00225",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00226",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00228",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00241",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00260",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00265",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00266",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00273",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00281",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00282",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00283",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00295",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00296",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00297",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00298",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00299",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00300",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00301",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00302",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00304",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00305",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00321",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00325",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00326",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00327",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00328",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00329",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00330",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00331",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00349",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00353",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00358",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00359",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00360",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00361",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "deinit_disables_adon",
+        "disable_group_notification",
+        "disable_hardware_trigger_group1",
+        "enable_group_notification",
+        "enable_hardware_trigger_group1",
+        "init_enables_adc_unit",
+        "invalid_group_negative",
+        "power_get_target",
+        "power_prepare_set_get_current",
+        "power_set_without_prepare",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 17,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00366",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "covered_by_scenarios": [
+        "deinit_disables_adon"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00368",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00369",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00374",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00375",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00376",
+      "apis": [
+        "Adc_GetVersionInfo"
+      ],
+      "covered_by_scenarios": [
+        "version_info"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00385",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00386",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00387",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00388",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "covered_by_scenarios": [
+        "read_group_after_start",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00418",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "covered_by_scenarios": [
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00425",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00429",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 7,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00432",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00436",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "covered_by_scenarios": [
+        "invalid_group_negative",
+        "start_group_conversion_sw",
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00437",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00438",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "covered_by_scenarios": [
+        "stop_group_conversion"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00458",
+      "apis": [
+        "Adc_GetVersionInfo"
+      ],
+      "covered_by_scenarios": [
+        "version_info"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00475",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00476",
+      "apis": [
+        "Adc_GetCurrentPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00477",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00478",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00479",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_manager_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00481",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00482",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00483",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00484",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00485",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00486",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00487",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00488",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00489",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00490",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current",
+        "power_set_without_prepare"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00491",
+      "apis": [
+        "Adc_GetCurrentPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00492",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00493",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00494",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00495",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00496",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00497",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00498",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "covered_by_scenarios": [
+        "power_get_target",
+        "power_prepare_set_get_current"
+      ],
+      "passed_scenarios": 2,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00499",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_manager_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00500",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_manager_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00501",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_manager_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_00502",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "covered_by_scenarios": [
+        "main_power_transition_manager_safe"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "adc_isr_handler_callback",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "invalid_group_negative",
+        "read_group_after_start",
+        "setup_result_buffer_group0",
+        "start_group_conversion_sw",
+        "stop_group_conversion",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 10,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_91001",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "adc_dma_isr_handler_callbacks",
+        "disable_hardware_trigger_group1",
+        "enable_hardware_trigger_group1",
+        "stream_last_pointer_group1"
+      ],
+      "passed_scenarios": 4,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_91002",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "covered_by_scenarios": [
+        "disable_hardware_trigger_group1"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_91003",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "adc_isr_handler_callback",
+        "disable_group_notification",
+        "enable_group_notification"
+      ],
+      "passed_scenarios": 3,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    },
+    {
+      "requirement_id": "SWS_Adc_91004",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "covered_by_scenarios": [
+        "disable_group_notification"
+      ],
+      "passed_scenarios": 1,
+      "failed_scenarios": 0,
+      "status": "PASS"
+    }
+  ],
+  "scenario_requirement_rows": [
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "init_enables_adc_unit",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "setup_result_buffer_group0",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00220",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00221",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00222",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00224",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00225",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00226",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00301",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00305",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00325",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00374",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00436",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "start_group_conversion_sw",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00075",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00113",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00122",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00152",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00296",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00329",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00330",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00331",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00359",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00369",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00388",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "read_group_after_start",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00126",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00155",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00164",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00220",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00221",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00222",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00224",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00225",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00226",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00241",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00260",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00283",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00295",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00301",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00305",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00325",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00360",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00368",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00374",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00385",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00386",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00436",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00437",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00438",
+      "apis": [
+        "Adc_StopGroupConversion"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stop_group_conversion",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00114",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00120",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00128",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00136",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00144",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00265",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00273",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00281",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00297",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00321",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00349",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00353",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00425",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00432",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91001",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "enable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00114",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00116",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00120",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00121",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00128",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00129",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00136",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00137",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00144",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00145",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00157",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00265",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00266",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00273",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00281",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00282",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00297",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00298",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00304",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00321",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00349",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00353",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00361",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00425",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00429",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00432",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91001",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91002",
+      "apis": [
+        "Adc_DisableHardwareTrigger"
+      ],
+      "scenario": "disable_hardware_trigger_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00057",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00100",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00130",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00165",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00299",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91003",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "enable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00057",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00058",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00100",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00101",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00130",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00131",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00165",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00166",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00299",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00300",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91003",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91004",
+      "apis": [
+        "Adc_DisableGroupNotification"
+      ],
+      "scenario": "disable_group_notification",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00075",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00113",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00114",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00120",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00122",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00128",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00136",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00144",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00152",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00214",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00215",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00216",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00218",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00219",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00265",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00273",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00281",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00296",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00297",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00302",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00321",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00326",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00327",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00328",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00329",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00330",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00331",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00349",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00353",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00359",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00369",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00375",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00387",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00388",
+      "apis": [
+        "Adc_ReadGroup"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00418",
+      "apis": [
+        "Adc_GetStreamLastPointer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00425",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00432",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91001",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "stream_last_pointer_group1",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00376",
+      "apis": [
+        "Adc_GetVersionInfo"
+      ],
+      "scenario": "version_info",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00458",
+      "apis": [
+        "Adc_GetVersionInfo"
+      ],
+      "scenario": "version_info",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00110",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00111",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00112",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00154",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00228",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00358",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00366",
+      "apis": [
+        "Adc_DeInit"
+      ],
+      "scenario": "deinit_disables_adon",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00057",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00100",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00130",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00165",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00299",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91003",
+      "apis": [
+        "Adc_EnableGroupNotification"
+      ],
+      "scenario": "adc_isr_handler_callback",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00114",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00120",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00128",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00136",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00144",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00265",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00273",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00281",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00297",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00321",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00349",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00353",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00425",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00432",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91001",
+      "apis": [
+        "Adc_EnableHardwareTrigger"
+      ],
+      "scenario": "adc_dma_isr_handler_callbacks",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00475",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00481",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00482",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00483",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00484",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00485",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00486",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00487",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00488",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00489",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00490",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_set_without_prepare",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00475",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00476",
+      "apis": [
+        "Adc_GetCurrentPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00478",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00481",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00482",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00483",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00484",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00485",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00486",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00487",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00488",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00489",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00490",
+      "apis": [
+        "Adc_SetPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00491",
+      "apis": [
+        "Adc_GetCurrentPowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00494",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00495",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00496",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00497",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00498",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_prepare_set_get_current",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00477",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00478",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00492",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00493",
+      "apis": [
+        "Adc_GetTargetPowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00494",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00495",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00496",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00497",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00498",
+      "apis": [
+        "Adc_PreparePowerState"
+      ],
+      "scenario": "power_get_target",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00479",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_manager_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00499",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_manager_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00500",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_manager_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00501",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_manager_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00502",
+      "apis": [
+        "Adc_Main_PowerTransitionManager"
+      ],
+      "scenario": "main_power_transition_manager_safe",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00054",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00056",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00061",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00077",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00107",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00125",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00133",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00146",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00156",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00220",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00221",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00222",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00224",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00225",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00226",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00246",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00247",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00248",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00249",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00250",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00259",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00294",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00301",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00305",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00307",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00325",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00346",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00348",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00351",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00365",
+      "apis": [
+        "Adc_Init"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00367",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00374",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00420",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00421",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00422",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00423",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00424",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00426",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00427",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00428",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00431",
+      "apis": [
+        "Adc_StartGroupConversion"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00433",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00434",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00436",
+      "apis": [
+        "Adc_GetGroupStatus"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_00457",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    },
+    {
+      "requirement_id": "SWS_Adc_91000",
+      "apis": [
+        "Adc_SetupResultBuffer"
+      ],
+      "scenario": "invalid_group_negative",
+      "scenario_passed": true
+    }
+  ]
+}

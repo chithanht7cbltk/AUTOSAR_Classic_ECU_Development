@@ -1,0 +1,594 @@
+{
+  "generated_at": "2026-03-21T18:28:04.976706",
+  "environment": {
+    "repl": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/stm32f103_full.repl",
+    "renode": "/usr/local/bin/renode",
+    "gdb": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gdb",
+    "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+    "gdb_port": 3333,
+    "monitor_port": 12345,
+    "renode_log": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/renode.log"
+  },
+  "build": {
+    "success": true,
+    "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/build/pwm_api_test.elf",
+    "stdout": "",
+    "stderr": ""
+  },
+  "summary": {
+    "total": 19,
+    "passed": 1,
+    "failed": 18
+  },
+  "scenarios": [
+    {
+      "name": "init_default_values",
+      "description": "Pwm_Init phải set ARR/CCR theo cấu hình mặc định cho 2 kênh.",
+      "apis": [
+        "Pwm_Init"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim2_arr",
+          "expr": "TIM2->ARR",
+          "expected": 999,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "tim2_ccr1",
+          "expr": "TIM2->CCR1",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "tim3_arr",
+          "expr": "TIM3->ARR",
+          "expected": 999,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "tim3_ccr2",
+          "expr": "TIM3->CCR2",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "set_duty_ch0_half",
+      "description": "Pwm_SetDutyCycle channel 0 với 50%.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim2_ccr1",
+          "expr": "TIM2->CCR1",
+          "expected": 499,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetDutyCycle\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "set_duty_ch1_full",
+      "description": "Pwm_SetDutyCycle channel 1 với 100%.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim3_ccr2",
+          "expr": "TIM3->CCR2",
+          "expected": 999,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000116 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetDutyCycle\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "set_period_and_duty",
+      "description": "Pwm_SetPeriodAndDuty phải cập nhật ARR/CCR kênh variable period.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPeriodAndDuty"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim2_arr",
+          "expr": "TIM2->ARR",
+          "expected": 2000,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "tim2_ccr1",
+          "expr": "TIM2->CCR1",
+          "expected": 1000,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetPeriodAndDuty\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "set_output_to_idle",
+      "description": "Pwm_SetOutputToIdle phải đưa duty về 0.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle",
+        "Pwm_SetOutputToIdle"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim2_ccr1",
+          "expr": "TIM2->CCR1",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000116 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetDutyCycle\" in current context.\nNo symbol \"Pwm_SetOutputToIdle\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "get_output_state_high_low",
+      "description": "Pwm_GetOutputState trả HIGH/LOW theo CCER bit enable.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "state_high",
+          "expr": "$s1",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "state_low",
+          "expr": "$s2",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"Pwm_GetOutputState\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"Pwm_GetOutputState\" in current context.\nInvalid cast.\nInvalid cast.\n"
+    },
+    {
+      "name": "enable_notification",
+      "description": "Pwm_EnableNotification bật bit DIER CC1IE.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "dier_cc1",
+          "expr": "((TIM2->DIER & 0x0002u) != 0)",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_EnableNotification\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "disable_notification",
+      "description": "Pwm_DisableNotification xóa bit DIER CC1IE.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_EnableNotification",
+        "Pwm_DisableNotification"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "dier_cc1",
+          "expr": "((TIM2->DIER & 0x0002u) != 0)",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000118 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_EnableNotification\" in current context.\nNo symbol \"Pwm_DisableNotification\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "deinit_disables_counter",
+      "description": "Pwm_DeInit phải tắt counter timer.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_DeInit"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "tim2_cen",
+          "expr": "((TIM2->CR1 & 0x0001u) != 0)",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "tim3_cen",
+          "expr": "((TIM3->CR1 & 0x0001u) != 0)",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_DeInit\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\n"
+    },
+    {
+      "name": "version_info",
+      "description": "Pwm_GetVersionInfo trả đúng phiên bản cấu hình cứng trong driver.",
+      "apis": [
+        "Pwm_GetVersionInfo"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "vendor",
+          "expr": "g_version_info.vendorID",
+          "expected": 4660,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "module",
+          "expr": "g_version_info.moduleID",
+          "expected": 43981,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "sw_major",
+          "expr": "g_version_info.sw_major_version",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_GetVersionInfo\" in current context.\nNo symbol \"g_version_info\" in current context.\nNo symbol \"g_version_info\" in current context.\nNo symbol \"g_version_info\" in current context.\n"
+    },
+    {
+      "name": "invalid_channel_set_duty_no_change",
+      "description": "SetDuty với channel invalid không làm thay đổi CCR hiện tại.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetDutyCycle"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "before",
+          "expr": "$before",
+          "expected": 249,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "after",
+          "expr": "$after",
+          "expected": 249,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000112 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetDutyCycle\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nNo symbol \"Pwm_SetDutyCycle\" in current context.\nNo symbol \"TIM_TypeDef\" in current context.\nInvalid cast.\nInvalid cast.\n"
+    },
+    {
+      "name": "invalid_channel_get_output_state",
+      "description": "GetOutputState với channel invalid trả PWM_LOW.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_GetOutputState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "rv",
+          "expr": "$rv",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:32\n32\t        __asm volatile(\"nop\");\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_GetOutputState\" in current context.\nInvalid cast.\n"
+    },
+    {
+      "name": "power_set_without_prepare",
+      "description": "SetPowerState trước PreparePowerState phải lỗi sequence.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_SetPowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 2,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000116 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_SetPowerState\" in current context.\nInvalid cast.\nNo symbol \"g_power_result\" in current context.\n"
+    },
+    {
+      "name": "power_prepare_set_ok",
+      "description": "Prepare + Set power state thành công.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_PreparePowerState",
+        "Pwm_SetPowerState",
+        "Pwm_GetCurrentPowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "r0",
+          "expr": "$r0",
+          "expected": 0,
+          "actual": 536870912,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "r1",
+          "expr": "$r1",
+          "expected": 0,
+          "actual": 1073876992,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "r2",
+          "expr": "$r2",
+          "expected": 0,
+          "actual": 536870912,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "state",
+          "expr": "g_power_state",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 0,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__r0=536870912\n__CHK__r1=1073876992\n__CHK__r2=536870912\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_PreparePowerState\" in current context.\nNo symbol \"Pwm_SetPowerState\" in current context.\nNo symbol \"Pwm_GetCurrentPowerState\" in current context.\nNo symbol \"g_power_state\" in current context.\nNo symbol \"g_power_result\" in current context.\n"
+    },
+    {
+      "name": "power_get_target",
+      "description": "GetTargetPowerState trả đúng mode đã prepare.",
+      "apis": [
+        "Pwm_Init",
+        "Pwm_PreparePowerState",
+        "Pwm_GetTargetPowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "r0",
+          "expr": "$r0",
+          "expected": 0,
+          "actual": 536870912,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "r1",
+          "expr": "$r1",
+          "expected": 0,
+          "actual": 1073876992,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "state",
+          "expr": "g_power_state",
+          "expected": 2,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000112 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__r0=536870912\n__CHK__r1=1073876992\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Init\" in current context.\nNo symbol \"Pwm_PreparePowerState\" in current context.\nNo symbol \"Pwm_GetTargetPowerState\" in current context.\nNo symbol \"g_power_state\" in current context.\n"
+    },
+    {
+      "name": "power_prepare_uninit",
+      "description": "PreparePowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_PreparePowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000118 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_PreparePowerState\" in current context.\nInvalid cast.\nNo symbol \"g_power_result\" in current context.\n"
+    },
+    {
+      "name": "power_get_current_uninit",
+      "description": "GetCurrentPowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_GetCurrentPowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000114 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_GetCurrentPowerState\" in current context.\nInvalid cast.\nNo symbol \"g_power_result\" in current context.\n"
+    },
+    {
+      "name": "power_get_target_uninit",
+      "description": "GetTargetPowerState khi chưa init phải trả PWM_NOT_INIT.",
+      "apis": [
+        "Pwm_GetTargetPowerState"
+      ],
+      "passed": false,
+      "checks": [
+        {
+          "label": "ret",
+          "expr": "$ret",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        },
+        {
+          "label": "result",
+          "expr": "g_power_result",
+          "expected": 1,
+          "actual": null,
+          "comparator": "eq",
+          "passed": false
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_GetTargetPowerState\" in current context.\nInvalid cast.\nNo symbol \"g_power_result\" in current context.\n"
+    },
+    {
+      "name": "main_power_transition_uninit_safe",
+      "description": "Main_PowerTransitionManager khi chưa init phải return an toàn.",
+      "apis": [
+        "Pwm_Main_PowerTransitionManager"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "label": "ok",
+          "expr": "$ok",
+          "expected": 1,
+          "actual": 1,
+          "comparator": "eq",
+          "passed": true
+        }
+      ],
+      "gdb_exit_code": 0,
+      "gdb_stdout": "0x08000118 in main () at /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/tests/renode/pwm_api_test_main.c:31\n31\t        g_test_magic++;\n__CHK__ok=1\n[Inferior 1 (Remote target) detached]\n",
+      "gdb_stderr": "�No symbol \"Pwm_Main_PowerTransitionManager\" in current context.\n"
+    }
+  ]
+}

@@ -1,39 +1,47 @@
 /**********************************************************
  * @file    main_irq.c
- * @brief   Example application using ADC with Interrupts
- * @details This example demonstrates how to configure and use
- *          the ADC driver with End Of Conversion (EOC) Interrupts
- *          based on the new AUTOSAR pattern.
+ * @brief   Ví dụ ADC Group 0 dùng EOC IRQ notification
+ * @details Ví dụ này minh họa luồng chuẩn:
+ *          - Port_Init() cấu hình chân analog ở tầng Port Driver
+ *          - Adc_Init() chỉ cấu hình ADC peripheral
+ *          - Bật notification + start conversion bằng software trigger
+ * @version 2.0
+ * @date    2026-03-21
+ * @author  HALA Academy
  **********************************************************/
 
 #include "Adc.h"
 #include "Adc_Cfg.h"
-#include "stm32f10x.h"
 
-/* Buffer nhận dữ liệu ADC */
-Adc_ValueGroupType myGroup0Buffer[2];
+volatile Adc_ValueGroupType g_group0_buffer[4];
+volatile uint32 g_irq_count = 0U;
+
+/**********************************************************
+ * @brief   Override callback weak cho Group 0
+ **********************************************************/
+void Adc_Group0_Notification(void)
+{
+    g_irq_count++;
+}
 
 int main(void)
 {
-    /* PortInit() - Giả định Port đã config GPIO */
-    
-    /* 1. Init ADC với cấu hình (dummy config vì dùng extern array AdcGroupConfig) */
-    Adc_ConfigType AdcConfig;
-    Adc_Init(&AdcConfig);
-    
-    /* 2. Setup buffer cho group 0 */
-    Adc_SetupResultBuffer(0, myGroup0Buffer);
-    
-    /* 3. Enable notification và start conversion */
-    Adc_EnableGroupNotification(0);
+    Adc_ValueGroupType readback[4];
 
-    while (1) {
-        /* Bắt đầu ADC (Thay thế cho hardware timer trong ví dụ này) */
-        Adc_StartGroupConversion(0);
-        
-        /* Delay loop giả lập */
-        for(volatile int i=0; i<500000; i++);
+    /* GPIO analog phải được setup ở Port Driver trước bước này */
+    Adc_Init(&AdcDriverConfig);
+
+    (void)Adc_SetupResultBuffer(0U, (Adc_ValueGroupType *)g_group0_buffer);
+    Adc_EnableGroupNotification(0U);
+
+    while (1)
+    {
+        Adc_StartGroupConversion(0U);
+        (void)Adc_ReadGroup(0U, readback);
+
+        for (volatile uint32 i = 0U; i < 100000U; i++)
+        {
+            __asm volatile("nop");
+        }
     }
-    
-    return 0;
 }

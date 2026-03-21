@@ -1,38 +1,59 @@
 /**********************************************************
  * @file    main_dma.c
- * @brief   Example application using ADC with DMA Support
- * @details Đã được viết lại để phù hợp với kiến trúc 
- *          callback AUTOSAR mới của Adc_Cfg Group 1.
+ * @brief   Ví dụ ADC Group 1 dùng DMA + hardware trigger API
+ * @details Ví dụ minh họa API streaming:
+ *          - SetupResultBuffer cho group DMA
+ *          - EnableHardwareTrigger/DisableHardwareTrigger
+ *          - GetStreamLastPointer để lấy vùng dữ liệu mới nhất
+ * @version 2.0
+ * @date    2026-03-21
+ * @author  HALA Academy
  **********************************************************/
 
 #include "Adc.h"
 #include "Adc_Cfg.h"
-#include "stm32f10x.h"
 
-/* Buffer nhận dữ liệu ADC (2 kênh, mỗi kênh 1 value) */
-Adc_ValueGroupType myGroup1Buffer[2];
+volatile Adc_ValueGroupType g_group1_stream[8];
+volatile Adc_ValueGroupType *g_last_ptr = (Adc_ValueGroupType *)0;
+volatile Adc_StreamNumSampleType g_last_count = 0U;
+volatile uint32 g_dma_half_count = 0U;
+volatile uint32 g_dma_done_count = 0U;
+
+/**********************************************************
+ * @brief   Override callback weak DMA half
+ **********************************************************/
+void Adc_Group1_DmaHalf(void)
+{
+    g_dma_half_count++;
+}
+
+/**********************************************************
+ * @brief   Override callback weak DMA complete
+ **********************************************************/
+void Adc_Group1_DmaComplete(void)
+{
+    g_dma_done_count++;
+}
 
 int main(void)
 {
-    /* Bỏ qua Port_Init() GPIO do giả lập AUTOSAR */
-    
-    /* 1. Init ADC. Sẽ quét AdcGroupConfig[] để khởi tạo cả Group 0 và 1 */
-    Adc_ConfigType AdcConfig;
-    Adc_Init(&AdcConfig);
-    
-    /* 2. Setup DMA target memory cho group 1 
-       Lưu ý: Group 1 theo Adc_Cfg.c đang là DMA Mode, 2 kênh */
-    Adc_SetupResultBuffer(1, myGroup1Buffer);
-    
-    /* (Group 1 notification cho DMA không cần EnableGroupNotification như EOC) */
+    Adc_ValueGroupType readback[8];
 
-    while (1) {
-        /* 3. Phát xung Start ADC (Do cấu hình Software Trigger hoặc None) */
-        Adc_StartGroupConversion(1);
-        
-        /* Chờ quá trình DMA diễn ra */
-        for(volatile int i=0; i<500000; i++);
+    /* GPIO analog phải được setup ở Port Driver trước bước này */
+    Adc_Init(&AdcDriverConfig);
+
+    (void)Adc_SetupResultBuffer(1U, (Adc_ValueGroupType *)g_group1_stream);
+    Adc_EnableHardwareTrigger(1U);
+
+    while (1)
+    {
+        Adc_StartGroupConversion(1U);
+        (void)Adc_ReadGroup(1U, readback);
+        g_last_count = Adc_GetStreamLastPointer(1U, (Adc_ValueGroupType **)&g_last_ptr);
+
+        for (volatile uint32 i = 0U; i < 100000U; i++)
+        {
+            __asm volatile("nop");
+        }
     }
-    
-    return 0;
 }

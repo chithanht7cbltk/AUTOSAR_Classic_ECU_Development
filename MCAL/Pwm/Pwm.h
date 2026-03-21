@@ -66,6 +66,31 @@ typedef enum
 } Pwm_ChannelClassType;
 
 /**********************************************************
+ * @enum    Pwm_PowerStateRequestResultType
+ * @brief   Kết quả yêu cầu chuyển trạng thái nguồn của PWM
+ **********************************************************/
+typedef enum
+{
+    PWM_SERVICE_ACCEPTED = 0x00, /**< Yêu cầu dịch vụ được chấp nhận */
+    PWM_NOT_INIT = 0x01,         /**< Module PWM chưa được khởi tạo */
+    PWM_SEQUENCE_ERROR = 0x02,   /**< Thứ tự gọi API không hợp lệ */
+    PWM_HW_FAILURE = 0x03,       /**< Lỗi phần cứng khi chuyển trạng thái nguồn */
+    PWM_POWER_STATE_NOT_SUPP = 0x04, /**< Trạng thái nguồn yêu cầu không được hỗ trợ */
+    PWM_TRANS_NOT_POSSIBLE = 0x05     /**< Không thể chuyển trực tiếp giữa hai trạng thái */
+} Pwm_PowerStateRequestResultType;
+
+/**********************************************************
+ * @typedef Pwm_PowerStateType
+ * @brief   Kiểu dữ liệu biểu diễn trạng thái nguồn PWM
+ **********************************************************/
+typedef uint8 Pwm_PowerStateType;
+
+/**********************************************************
+ * @brief   Trạng thái nguồn đầy đủ của PWM
+ **********************************************************/
+#define PWM_FULL_POWER ((Pwm_PowerStateType)0x00U)
+
+/**********************************************************
  * @struct  Pwm_ChannelConfigType
  * @brief   Cấu trúc cấu hình cho từng kênh PWM
  **********************************************************/
@@ -108,14 +133,14 @@ void Pwm_DeInit(void);
 
 /**********************************************************
  * @brief   Cài đặt duty cycle cho kênh PWM
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  * @param   DutyCycle: Tỷ lệ (0x0000 - 0x8000, ứng với 0%-100%)
  **********************************************************/
 void Pwm_SetDutyCycle(Pwm_ChannelType ChannelNumber, uint16 DutyCycle);
 
 /**********************************************************
  * @brief   Đặt period và duty cycle cho kênh PWM (nếu hỗ trợ)
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  * @param   Period: Chu kỳ PWM (tính bằng tick timer)
  * @param   DutyCycle: Duty cycle (0x0000 - 0x8000)
  **********************************************************/
@@ -123,26 +148,26 @@ void Pwm_SetPeriodAndDuty(Pwm_ChannelType ChannelNumber, Pwm_PeriodType Period, 
 
 /**********************************************************
  * @brief   Đưa kênh PWM về trạng thái idle
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  **********************************************************/
 void Pwm_SetOutputToIdle(Pwm_ChannelType ChannelNumber);
 
 /**********************************************************
  * @brief   Đọc trạng thái đầu ra hiện tại của kênh PWM
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  * @return  PWM_HIGH hoặc PWM_LOW
  **********************************************************/
 Pwm_OutputStateType Pwm_GetOutputState(Pwm_ChannelType ChannelNumber);
 
 /**********************************************************
  * @brief   Tắt thông báo ngắt cho kênh PWM
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  **********************************************************/
 void Pwm_DisableNotification(Pwm_ChannelType ChannelNumber);
 
 /**********************************************************
  * @brief   Bật thông báo ngắt cạnh lên/xuống/cả 2 cho kênh PWM
- * @param   ChannelNumber: Số thứ tự kênh PWM
+ * @param   ChannelNumber: ID kênh PWM logic (index trong cấu hình)
  * @param   Notification:  Loại cạnh cần thông báo
  **********************************************************/
 void Pwm_EnableNotification(Pwm_ChannelType ChannelNumber, Pwm_EdgeNotificationType Notification);
@@ -152,5 +177,45 @@ void Pwm_EnableNotification(Pwm_ChannelType ChannelNumber, Pwm_EdgeNotificationT
  * @param   versioninfo: Con trỏ tới cấu trúc Std_VersionInfoType để nhận thông tin phiên bản
  **********************************************************/
 void Pwm_GetVersionInfo(Std_VersionInfoType *versioninfo);
+
+/**********************************************************
+ * @brief   Thiết lập trạng thái nguồn đã chuẩn bị cho module PWM
+ * @param   Result: Con trỏ nhận kết quả yêu cầu chuyển trạng thái nguồn
+ * @return  E_OK nếu thành công, E_NOT_OK nếu thất bại
+ **********************************************************/
+Std_ReturnType Pwm_SetPowerState(Pwm_PowerStateRequestResultType *Result);
+
+/**********************************************************
+ * @brief   Lấy trạng thái nguồn hiện tại của module PWM
+ * @param   CurrentPowerState: Con trỏ nhận trạng thái nguồn hiện tại
+ * @param   Result: Con trỏ nhận kết quả dịch vụ
+ * @return  E_OK nếu đọc thành công, E_NOT_OK nếu thất bại
+ **********************************************************/
+Std_ReturnType Pwm_GetCurrentPowerState(Pwm_PowerStateType *CurrentPowerState,
+                                        Pwm_PowerStateRequestResultType *Result);
+
+/**********************************************************
+ * @brief   Lấy trạng thái nguồn mục tiêu của module PWM
+ * @param   TargetPowerState: Con trỏ nhận trạng thái nguồn mục tiêu
+ * @param   Result: Con trỏ nhận kết quả dịch vụ
+ * @return  E_OK nếu đọc thành công, E_NOT_OK nếu thất bại
+ **********************************************************/
+Std_ReturnType Pwm_GetTargetPowerState(Pwm_PowerStateType *TargetPowerState,
+                                       Pwm_PowerStateRequestResultType *Result);
+
+/**********************************************************
+ * @brief   Chuẩn bị chuyển module PWM sang trạng thái nguồn yêu cầu
+ * @param   PowerState: Trạng thái nguồn mục tiêu
+ * @param   Result: Con trỏ nhận kết quả dịch vụ
+ * @return  E_OK nếu chuẩn bị thành công, E_NOT_OK nếu thất bại
+ **********************************************************/
+Std_ReturnType Pwm_PreparePowerState(Pwm_PowerStateType PowerState,
+                                     Pwm_PowerStateRequestResultType *Result);
+
+/**********************************************************
+ * @brief   Hàm nền quản lý tiến trình chuyển trạng thái nguồn PWM
+ * @details Hàm này được gọi theo chu kỳ khi bật chế độ chuyển trạng thái nguồn bất đồng bộ.
+ **********************************************************/
+void Pwm_Main_PowerTransitionManager(void);
 
 #endif /* PWM_H */

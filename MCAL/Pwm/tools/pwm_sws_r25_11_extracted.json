@@ -1,0 +1,1076 @@
+{
+  "document": {
+    "source_pdf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/AUTOSAR_CP_SWS_PWMDriver.pdf",
+    "title": "Specification of PWM Driver",
+    "release": "R25-11",
+    "document_id": "37",
+    "page_count": 65,
+    "generated_at_utc": "2026-03-21T11:11:30.842954+00:00"
+  },
+  "scope": {
+    "limitations": [
+      "PWM SWS does not cover PWM emulation on GPIO (SWS_Pwm_00001).",
+      "Power-state control APIs require ownership of underlying HW peripheral."
+    ],
+    "dependencies": [
+      {
+        "module": "PORT Driver",
+        "description": "T o set the port pin functionality . PWM141"
+      },
+      {
+        "module": "MCU Driver",
+        "description": "T o set prescaler, system clock and PLL. PWM142"
+      },
+      {
+        "module": "DET",
+        "description": "Default Error T racer in Development mode. PWM143"
+      }
+    ],
+    "time_unit": "ticks (SWS_Pwm_00070)",
+    "duty_cycle_format": {
+      "width": "16-bit",
+      "scaling": "0x0000=0%, 0x8000=100%"
+    },
+    "reentrancy_rule": "All APIs except Init/DeInit/GetVersionInfo are reentrant for different channels (SWS_Pwm_00088)."
+  },
+  "apis": [
+    {
+      "section": "8.3.1",
+      "title": "Pwm_Init",
+      "name": "Pwm_Init",
+      "definition_requirement": "SWS_Pwm_00095",
+      "service_id_hex": "0x00",
+      "syntax": "void Pwm_Init ( const Pwm_ConfigType * ConfigPtr )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "None",
+      "description": "Service for PWM initialization.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00007",
+        "SWS_Pwm_00052",
+        "SWS_Pwm_00062",
+        "SWS_Pwm_00093",
+        "SWS_Pwm_00095",
+        "SWS_Pwm_00116",
+        "SWS_Pwm_00118",
+        "SWS_Pwm_00121",
+        "SWS_Pwm_10009",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_20009",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_30009"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00101",
+        "SRS_SPAL_12057",
+        "SRS_SPAL_12125"
+      ]
+    },
+    {
+      "section": "8.3.2",
+      "title": "Pwm_DeInit",
+      "name": "Pwm_DeInit",
+      "definition_requirement": "SWS_Pwm_00096",
+      "service_id_hex": "0x01",
+      "syntax": "void Pwm_DeInit ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "None",
+      "description": "Service for PWM De-Initialization.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00010",
+        "SWS_Pwm_00011",
+        "SWS_Pwm_00012",
+        "SWS_Pwm_00096",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10080",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20080"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_BSW_00336",
+        "SRS_Pwm_12381",
+        "SRS_SPAL_12163"
+      ]
+    },
+    {
+      "section": "8.3.3",
+      "title": "Pwm_SetDutyCycle",
+      "name": "Pwm_SetDutyCycle",
+      "definition_requirement": "SWS_Pwm_91000",
+      "service_id_hex": "0x02",
+      "syntax": "void Pwm_SetDutyCycle ( Pwm_ChannelType ChannelNumber, uint16 DutyCycle )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "None",
+      "description": "Service sets the duty cycle of the PWM channel.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00013",
+        "SWS_Pwm_00014",
+        "SWS_Pwm_00016",
+        "SWS_Pwm_00017",
+        "SWS_Pwm_00018",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10082",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20082",
+        "SWS_Pwm_91000"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_Pwm_12295",
+        "SRS_Pwm_12382"
+      ]
+    },
+    {
+      "section": "8.3.4",
+      "title": "Pwm_SetPeriodAndDuty",
+      "name": "Pwm_SetPeriodAndDuty",
+      "definition_requirement": "SWS_Pwm_91001",
+      "service_id_hex": "0x03",
+      "syntax": "void Pwm_SetPeriodAndDuty ( Pwm_ChannelType ChannelNumber, Pwm_PeriodType Period, uint16 DutyCycle )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "None",
+      "description": "Service sets the period and the duty cycle of a PWM channel",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00019",
+        "SWS_Pwm_00020",
+        "SWS_Pwm_00041",
+        "SWS_Pwm_00045",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00058",
+        "SWS_Pwm_00059",
+        "SWS_Pwm_00076",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00150",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10083",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20083",
+        "SWS_Pwm_91001"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_Pwm_12297",
+        "SRS_Pwm_12389"
+      ]
+    },
+    {
+      "section": "8.3.5",
+      "title": "Pwm_SetOutputToIdle",
+      "name": "Pwm_SetOutputToIdle",
+      "definition_requirement": "SWS_Pwm_91002",
+      "service_id_hex": "0x04",
+      "syntax": "void Pwm_SetOutputToIdle ( Pwm_ChannelType ChannelNumber )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "None",
+      "description": "Service sets the PWM output to the configured Idle state.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00021",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_00119",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10084",
+        "SWS_Pwm_10086",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20084",
+        "SWS_Pwm_20086",
+        "SWS_Pwm_91002"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_Pwm_12358"
+      ]
+    },
+    {
+      "section": "8.3.6",
+      "title": "Pwm_GetOutputState",
+      "name": "Pwm_GetOutputState",
+      "definition_requirement": "SWS_Pwm_00100",
+      "service_id_hex": "0x05",
+      "syntax": "Pwm_OutputStateType Pwm_GetOutputState ( Pwm_ChannelType ChannelNumber )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "Pwm_OutputStateType PWM_HIGH The PWM output state is high PWM_LOW The PWM output state is low",
+      "description": "Service to read the internal state of the PWM output signal.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00022",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00100",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10085",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20085",
+        "SWS_Pwm_30051"
+      ],
+      "upstream_requirements": [
+        "SRS_BSW_00171",
+        "SRS_BSW_00323",
+        "SRS_BSW_00386",
+        "SRS_Pwm_12385"
+      ]
+    },
+    {
+      "section": "8.3.7",
+      "title": "Pwm_DisableNotification",
+      "name": "Pwm_DisableNotification",
+      "definition_requirement": "SWS_Pwm_91003",
+      "service_id_hex": "0x06",
+      "syntax": "void Pwm_DisableNotification ( Pwm_ChannelType ChannelNumber )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "None",
+      "description": "Service to disable the PWM signal edge notification.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00023",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10112",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20112",
+        "SWS_Pwm_91003"
+      ],
+      "upstream_requirements": [
+        "SRS_Pwm_12299",
+        "SRS_Pwm_12378"
+      ]
+    },
+    {
+      "section": "8.3.8",
+      "title": "Pwm_EnableNotification",
+      "name": "Pwm_EnableNotification",
+      "definition_requirement": "SWS_Pwm_91004",
+      "service_id_hex": "0x07",
+      "syntax": "void Pwm_EnableNotification ( Pwm_ChannelType ChannelNumber, Pwm_EdgeNotificationType Notification )",
+      "sync_async": "Asynchronous",
+      "reentrancy": "Reentrant for different channel numbers",
+      "return_value": "None",
+      "description": "Service to enable the PWM signal edge notification according to notification parameter.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00024",
+        "SWS_Pwm_00047",
+        "SWS_Pwm_00081",
+        "SWS_Pwm_00117",
+        "SWS_Pwm_10051",
+        "SWS_Pwm_10113",
+        "SWS_Pwm_20051",
+        "SWS_Pwm_20113",
+        "SWS_Pwm_91004"
+      ],
+      "upstream_requirements": [
+        "SRS_Pwm_12299",
+        "SRS_Pwm_12378"
+      ]
+    },
+    {
+      "section": "8.3.9",
+      "title": "Pwm_SetPowerState",
+      "name": "Pwm_SetPowerState",
+      "definition_requirement": "SWS_Pwm_00166",
+      "service_id_hex": "0x09",
+      "syntax": "Std_ReturnType Pwm_SetPowerState ( Pwm_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Power Mode changed E_NOT_OK: request rejected",
+      "description": "This API configures the Pwm module so that it enters the already prepared power state, chosen between a predefined set of configured ones.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00166",
+        "SWS_Pwm_00167",
+        "SWS_Pwm_00168",
+        "SWS_Pwm_00169",
+        "SWS_Pwm_00170",
+        "SWS_Pwm_00171",
+        "SWS_Pwm_00172",
+        "SWS_Pwm_00173",
+        "SWS_Pwm_00194",
+        "SWS_Pwm_00195",
+        "SWS_Pwm_00196"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.10",
+      "title": "Pwm_GetCurrentPowerState",
+      "name": "Pwm_GetCurrentPowerState",
+      "definition_requirement": "SWS_Pwm_00177",
+      "service_id_hex": "0x0a",
+      "syntax": "Std_ReturnType Pwm_GetCurrentPowerState ( Pwm_PowerStateType* CurrentPowerState, Pwm_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Mode could be read E_NOT_OK: Service is rejected",
+      "description": "This API returns the current power state of the PWM HW unit.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00177",
+        "SWS_Pwm_00178",
+        "SWS_Pwm_00179"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.11",
+      "title": "Pwm_GetTargetPowerState",
+      "name": "Pwm_GetTargetPowerState",
+      "definition_requirement": "SWS_Pwm_00180",
+      "service_id_hex": "0x0b",
+      "syntax": "Std_ReturnType Pwm_GetTargetPowerState ( Pwm_PowerStateType* TargetPowerState, Pwm_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Mode could be read E_NOT_OK: Service is rejected",
+      "description": "This API returns the T arget power state of the PWM HW unit.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00180",
+        "SWS_Pwm_00181",
+        "SWS_Pwm_00182"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.12",
+      "title": "Pwm_PreparePowerState",
+      "name": "Pwm_PreparePowerState",
+      "definition_requirement": "SWS_Pwm_00183",
+      "service_id_hex": "0x0c",
+      "syntax": "Std_ReturnType Pwm_PreparePowerState ( Pwm_PowerStateType PowerState, Pwm_PowerStateRequestResultType* Result )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "return_value": "Std_ReturnType E_OK: Preparation process started E_NOT_OK: Service is rejected",
+      "description": "This API starts the needed process to allow the PWM HW module to enter the requested power state.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00183",
+        "SWS_Pwm_00184",
+        "SWS_Pwm_00185",
+        "SWS_Pwm_00186",
+        "SWS_Pwm_00187",
+        "SWS_Pwm_00188"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.3.13",
+      "title": "Pwm_GetVersionInfo",
+      "name": "Pwm_GetVersionInfo",
+      "definition_requirement": "SWS_Pwm_00103",
+      "service_id_hex": "0x08",
+      "syntax": "void Pwm_GetVersionInfo ( Std_VersionInfoType* versioninfo )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Reentrant",
+      "return_value": "None",
+      "description": "Service returns the version information of this module.",
+      "available_via": "Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00103"
+      ],
+      "upstream_requirements": []
+    },
+    {
+      "section": "8.5.1",
+      "title": "Pwm_Main_PowerTransitionManager",
+      "name": "Pwm_Main_PowerTransitionManager",
+      "definition_requirement": "SWS_Pwm_00189",
+      "service_id_hex": "0x0d",
+      "syntax": "void Pwm_Main_PowerTransitionManager ( void )",
+      "sync_async": null,
+      "reentrancy": null,
+      "return_value": null,
+      "description": "This API is cyclically called and supervises the power state transitions, checking for the readiness of the module and issuing the callbacks IoHwAb_Pwm_NotifyReadyForPower State<Mode> (see PwmPowerStateReadyCbkRef configuration parameter).",
+      "available_via": "SchM_Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00189",
+        "SWS_Pwm_00190",
+        "SWS_Pwm_00191",
+        "SWS_Pwm_00192",
+        "SWS_Pwm_00193"
+      ],
+      "upstream_requirements": []
+    }
+  ],
+  "configurable_interfaces": [
+    {
+      "name": "Pwm_Notification_<#Channel>",
+      "syntax": "void Pwm_Notification_<#Channel> ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "PWM user implementation dependant",
+      "description": "The Pwm module shall call the function Pwm_Notification_<#Channel> accordingly to the last call of Pwm_EnableNotification for channel <#Channel>.",
+      "available_via": "Pwm_Externals.h",
+      "requirement_ids": [
+        "SWS_Pwm_00025",
+        "SWS_Pwm_00026",
+        "SWS_Pwm_10115",
+        "SWS_Pwm_20115",
+        "SWS_Pwm_30115",
+        "SWS_Pwm_91005"
+      ]
+    },
+    {
+      "name": "IoHwAb_Pwm_NotifyReadyForPowerState<#Mode>",
+      "syntax": "void IoHwAb_Pwm_NotifyReadyForPowerState<#Mode> ( void )",
+      "sync_async": "Synchronous",
+      "reentrancy": "Non Reentrant",
+      "description": "The API shall be invoked by the PWM Driver when the requested power state preparation for mode <#Mode> is completed.",
+      "available_via": "IoHwAb_Pwm.h",
+      "requirement_ids": [
+        "SWS_Pwm_00199"
+      ]
+    }
+  ],
+  "errors": {
+    "development": [
+      {
+        "name": "PWM_E_INIT_FAILED",
+        "value": "0x10"
+      },
+      {
+        "name": "PWM_E_UNINIT",
+        "value": "0x11"
+      },
+      {
+        "name": "PWM_E_PARAM_CHANNEL",
+        "value": "0x12"
+      },
+      {
+        "name": "PWM_E_PERIOD_UNCHANGEABLE",
+        "value": "0x13"
+      },
+      {
+        "name": "PWM_E_ALREADY_INITIALIZED",
+        "value": "0x14"
+      },
+      {
+        "name": "PWM_E_PARAM_POINTER",
+        "value": "0x15"
+      },
+      {
+        "name": "PWM_E_POWER_STATE_NOT_SUPPORTED",
+        "value": "0x17"
+      },
+      {
+        "name": "PWM_E_TRANSITION_NOT_POSSIBLE",
+        "value": "0x18"
+      },
+      {
+        "name": "PWM_E_PERIPHERAL_NOT_PREPARED",
+        "value": "0x19"
+      }
+    ],
+    "runtime": [
+      {
+        "name": "PWM_E_NOT_DISENGAGED",
+        "value": "0x16"
+      }
+    ],
+    "production": [],
+    "extended_production": [],
+    "development_requirement_ids": [
+      "SWS_Pwm_00174",
+      "SWS_Pwm_00175",
+      "SWS_Pwm_00176",
+      "SWS_Pwm_00201",
+      "SWS_Pwm_20002",
+      "SWS_Pwm_30002",
+      "SWS_Pwm_40002",
+      "SWS_Pwm_50002"
+    ],
+    "runtime_requirement_ids": [
+      "SWS_Pwm_00200",
+      "SWS_Pwm_00202"
+    ]
+  },
+  "configuration": {
+    "containers": [
+      {
+        "id": "ECUC_Pwm_00148",
+        "definition_type": "EcucModuleDef",
+        "definition_name": "Pwm",
+        "container_name": "Multiplicity Dependency PwmChannelConfigSet 1 This container contains the configuration parameters and sub containers of the AUTOSAR Pwm module. PwmConfigurationOfOptApi Services 1 – PwmGeneral 1 –",
+        "parameter_name": null,
+        "parent_container": null,
+        "multiplicity": "Dependency PwmChannelConfigSet 1 This container contains the configuration parameters and sub containers of the AUTOSAR Pwm module. PwmConfigurationOfOptApi Services 1 – PwmGeneral 1 –",
+        "type": null,
+        "description": "Configuration of Pwm (Pulse Width Modulation) module."
+      },
+      {
+        "id": "ECUC_Pwm_00004",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "PwmGeneral",
+        "container_name": "PwmGeneral",
+        "parameter_name": "Multiplicity ECUC ID PwmDevErrorDetect 1 [ECUC_Pwm_00131] PwmDutycycleUpdatedEndperiod 1 [ECUC_Pwm_00132] PwmIndex 1 [ECUC_Pwm_00139] PwmLowPowerStatesSupport 0..1 [ECUC_Pwm_00142] PwmNotificationSupported 1 [ECUC_Pwm_00133] PwmPeriodUpdatedEndperiod 1 [ECUC_Pwm_00134] PwmPowerStateAsynchTransitionMode 0..1 [ECUC_Pwm_00143] PwmEcucPartitionRef 0..* [ECUC_Pwm_00149] PwmKernelEcucPartitionRef 0..1 [ECUC_Pwm_00150]",
+        "parent_container": "Pwm",
+        "multiplicity": "1",
+        "type": null,
+        "description": "–"
+      },
+      {
+        "id": "ECUC_Pwm_00144",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "PwmPowerState Config",
+        "container_name": "PwmPowerStateConfig",
+        "parameter_name": "Multiplicity ECUC ID PwmPowerState 1 [ECUC_Pwm_00146] PwmPowerStateReadyCbkRef 1 [ECUC_Pwm_00145]",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "0..*",
+        "type": null,
+        "description": "Each instance of this parameter defines a power state and the callback to be called when this power state is reached."
+      },
+      {
+        "id": "ECUC_Pwm_00027",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "PwmChannel",
+        "container_name": "PwmChannel",
+        "parameter_name": "Multiplicity ECUC ID PwmChannelClass 0..1 [ECUC_Pwm_00136] PwmChannelId 1 [ECUC_Pwm_00137] PwmDutycycleDefault 1 [ECUC_Pwm_00138] PwmIdleState 1 [ECUC_Pwm_00122] PwmNotification 0..1 [ECUC_Pwm_00123] PwmPeriodDefault 1 [ECUC_Pwm_00124] PwmPolarity 1 [ECUC_Pwm_00125] PwmChannelEcucPartitionRef 0..* [ECUC_Pwm_00151] PwmMcuClockReferencePoint 1 [ECUC_Pwm_00147]",
+        "parent_container": "PwmChannelConfigSet",
+        "multiplicity": "1..*",
+        "type": null,
+        "description": "Configuration of an individual PWM channel. ▽ 55 of 65 Document ID 37: AUTOSAR_CP_SWS_PWMDriver Specification of PWM Driver AUTOSAR CP R25-11 △"
+      },
+      {
+        "id": "ECUC_Pwm_00140",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "PwmChannel ConfigSet",
+        "container_name": "PwmChannelConfigSet",
+        "parameter_name": null,
+        "parent_container": "Pwm",
+        "multiplicity": "1",
+        "type": null,
+        "description": "This container contains the configuration parameters and sub containers of the AUTOSAR Pwm module."
+      },
+      {
+        "id": "ECUC_Pwm_00126",
+        "definition_type": "EcucParamConfContainerDef",
+        "definition_name": "PwmConfigurationOfOptApiServices",
+        "container_name": "PwmConfigurationOfOptApiServices",
+        "parameter_name": "Multiplicity ECUC ID PwmDeInitApi 1 [ECUC_Pwm_00141] PwmGetOutputState 1 [ECUC_Pwm_00127] PwmSetDutyCycle 1 [ECUC_Pwm_00128] PwmSetOutputToIdle 1 [ECUC_Pwm_00129] PwmSetPeriodAndDuty 1 [ECUC_Pwm_00130] PwmVersionInfoApi 1 [ECUC_Pwm_00135]",
+        "parent_container": "Pwm",
+        "multiplicity": "1",
+        "type": null,
+        "description": "–"
+      }
+    ],
+    "parameters": [
+      {
+        "id": "ECUC_Pwm_00131",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmDevErrorDetect",
+        "container_name": null,
+        "parameter_name": "PwmDevErrorDetect",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switches the development error detection and notification on or off. • true: detection and notification is enabled. • false: detection and notification is disabled."
+      },
+      {
+        "id": "ECUC_Pwm_00132",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmDutycycleUpdatedEndperiod",
+        "container_name": null,
+        "parameter_name": "PwmDutycycleUpdatedEndperiod",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switch for enabling the update of the duty cycle parameter at the end of the current period. TRUE: update of duty cycle is done at the end of period of currently generated waveform (current waveform is finished). FALSE: update of duty cycle is done immediately (just after service call, current waveform is cut)."
+      },
+      {
+        "id": "ECUC_Pwm_00139",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "PwmIndex",
+        "container_name": null,
+        "parameter_name": "PwmIndex",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef",
+        "description": "Specifies the InstanceId of this module instance. If only one instance is present it shall have the Id 0."
+      },
+      {
+        "id": "ECUC_Pwm_00142",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmLowPowerStates Support",
+        "container_name": null,
+        "parameter_name": "PwmLowPowerStatesSupport",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "0..1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes all power state management related APIs (PWM_SetPowerState, PWM_GetCurrentPowerState, PWM_GetTargetPowerState, PWM_PreparePowerState, PWM_Main_PowerT ransitionManager), indicating if the HW offers low power state management."
+      },
+      {
+        "id": "ECUC_Pwm_00133",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmNotificationSupported",
+        "container_name": null,
+        "parameter_name": "PwmNotificationSupported",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switch to indicate that the notifications are supported"
+      },
+      {
+        "id": "ECUC_Pwm_00134",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmPeriodUpdated Endperiod",
+        "container_name": null,
+        "parameter_name": "PwmPeriodUpdatedEndperiod",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switch for enabling the update of the period parameter at the end of the current period. TRUE: update of period/duty cycle is done at the end of period of currently generated waveform (current waveform is finished). FALSE: update of period/duty cycle is done immediately (just after service call, current waveform is cut)."
+      },
+      {
+        "id": "ECUC_Pwm_00143",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmPowerState AsynchTransitionMode",
+        "container_name": null,
+        "parameter_name": "PwmPowerStateAsynchTransitionMode",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "0..1",
+        "type": "EcucBooleanParamDef",
+        "description": "Enables / disables support of the PWM Driver to the asynchronous power state transition."
+      },
+      {
+        "id": "ECUC_Pwm_00149",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "PwmEcucPartitionRef",
+        "container_name": null,
+        "parameter_name": "PwmEcucPartitionRef",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "0..*",
+        "type": "Reference to EcucPartition",
+        "description": "Maps the PWM driver to zero or multiple ECUC partitions to make the driver API available in the according partition."
+      },
+      {
+        "id": "ECUC_Pwm_00150",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "PwmKernelEcucPartition Ref",
+        "container_name": null,
+        "parameter_name": "PwmKernelEcucPartitionRef",
+        "parent_container": "PwmGeneral",
+        "multiplicity": "0..1 ▽ 53 of 65 Document ID 37: AUTOSAR_CP_SWS_PWMDriver Specification of PWM Driver AUTOSAR CP R25-11 △",
+        "type": "Reference to EcucPartition",
+        "description": "Maps the PWM kernel to zero or one ECUC partitions to assign the driver kernel to a certain core. The ECUC partition referenced is a subset of the ECUC partitions where the PWM driver is mapped to."
+      },
+      {
+        "id": "ECUC_Pwm_00146",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "PwmPowerState",
+        "container_name": null,
+        "parameter_name": "PwmPowerState",
+        "parent_container": "PwmPowerStateConfig",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef (Symbolic Name generated for this parameter)",
+        "description": "Each instance of this parameter describes a different power state supported by the PWM HW. It should be defined by the HW supplier and used by the PWMDriver to reference specific HW configurations which set the PWM HW module in the referenced power state. At least the power mode corresponding to full power state shall be always configured."
+      },
+      {
+        "id": "ECUC_Pwm_00145",
+        "definition_type": "EcucFunctionNameDef",
+        "definition_name": "PwmPowerStateReady CbkRef",
+        "container_name": null,
+        "parameter_name": "PwmPowerStateReadyCbkRef",
+        "parent_container": "PwmPowerStateConfig",
+        "multiplicity": "1",
+        "type": "EcucFunctionNameDef",
+        "description": "Each instance of this parameter contains a reference to a power mode callback defined in a CDD or IoHwAbs component."
+      },
+      {
+        "id": "ECUC_Pwm_00136",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "PwmChannel Class",
+        "container_name": null,
+        "parameter_name": "PwmChannelClass",
+        "parent_container": "PwmChannel",
+        "multiplicity": "0..1",
+        "type": "Multiplicity 0..1",
+        "description": "Class of PWM Channel. ImplementationT ype: Pwm_ChannelClassType"
+      },
+      {
+        "id": "ECUC_Pwm_00137",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "PwmChannelId",
+        "container_name": null,
+        "parameter_name": "PwmChannelId",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef (Symbolic Name generated for this parameter)",
+        "description": "Channel Id of the PWM channel. This value will be assigned to the symbolic name derived of the PwmChannel container short name."
+      },
+      {
+        "id": "ECUC_Pwm_00138",
+        "definition_type": "EcucIntegerParamDef",
+        "definition_name": "PwmDutycycleDefault",
+        "container_name": null,
+        "parameter_name": "PwmDutycycleDefault",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "EcucIntegerParamDef",
+        "description": "Value of duty cycle used for Initialization 0, represents 0% 0x8000 represents 100%"
+      },
+      {
+        "id": "ECUC_Pwm_00122",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "PwmIdleState",
+        "container_name": null,
+        "parameter_name": "PwmIdleState",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef PWM_HIGH The PWM channel output will be set to high ( 3 or 5 V ) in idle state.",
+        "description": "The parameter PWM_IDLE_ST A TE represents the output state of the PWM after the signal is stopped (e.g. call of Pwm_SetOutputToIdle)."
+      },
+      {
+        "id": "ECUC_Pwm_00123",
+        "definition_type": "EcucFunctionNameDef",
+        "definition_name": "PwmNotification",
+        "container_name": null,
+        "parameter_name": "PwmNotification",
+        "parent_container": "PwmChannel",
+        "multiplicity": "0..1",
+        "type": "EcucFunctionNameDef",
+        "description": "Definition of the Callback function."
+      },
+      {
+        "id": "ECUC_Pwm_00124",
+        "definition_type": "EcucFloatParamDef",
+        "definition_name": "PwmPeriodDefault",
+        "container_name": null,
+        "parameter_name": "PwmPeriodDefault",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "EcucFloatParamDef",
+        "description": "Value of period used for Initialization.(in seconds)."
+      },
+      {
+        "id": "ECUC_Pwm_00125",
+        "definition_type": "EcucEnumerationParamDef",
+        "definition_name": "PwmPolarity",
+        "container_name": null,
+        "parameter_name": "PwmPolarity",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "EcucEnumerationParamDef ▽ 58 of 65 Document ID 37: AUTOSAR_CP_SWS_PWMDriver Specification of PWM Driver AUTOSAR CP R25-11 △ PWM_HIGH The PWM channel output is high at the beginning of the cycle and then goes low when the duty count is reached.",
+        "description": "Defines the starting polarity of each PWM channel."
+      },
+      {
+        "id": "ECUC_Pwm_00151",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "PwmChannelEcucPartition Ref",
+        "container_name": null,
+        "parameter_name": "PwmChannelEcucPartitionRef",
+        "parent_container": "PwmChannel",
+        "multiplicity": "0..*",
+        "type": "Reference to EcucPartition",
+        "description": "Maps a PWM channel to zero or multiple ECUC partitions to limit the access to this channe. The ECUC partitions referenced are a subset of the ECUC partitions where the PWM driver is mapped to."
+      },
+      {
+        "id": "ECUC_Pwm_00147",
+        "definition_type": "EcucReferenceDef",
+        "definition_name": "PwmMcuClockReference Point",
+        "container_name": null,
+        "parameter_name": "PwmMcuClockReferencePoint",
+        "parent_container": "PwmChannel",
+        "multiplicity": "1",
+        "type": "Reference to McuClockReferencePoint",
+        "description": "This parameter contains reference to the McuClockReferencePoint"
+      },
+      {
+        "id": "ECUC_Pwm_00141",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmDeInitApi",
+        "container_name": null,
+        "parameter_name": "PwmDeInitApi",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Adds / removes the service Pwm_DeInit() from the code."
+      },
+      {
+        "id": "ECUC_Pwm_00127",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmGetOutputState",
+        "container_name": null,
+        "parameter_name": "PwmGetOutputState",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "–"
+      },
+      {
+        "id": "ECUC_Pwm_00128",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmSetDutyCycle",
+        "container_name": null,
+        "parameter_name": "PwmSetDutyCycle",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "–"
+      },
+      {
+        "id": "ECUC_Pwm_00129",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmSetOutputToIdle",
+        "container_name": null,
+        "parameter_name": "PwmSetOutputToIdle",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "–"
+      },
+      {
+        "id": "ECUC_Pwm_00130",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmSetPeriodAndDuty",
+        "container_name": null,
+        "parameter_name": "PwmSetPeriodAndDuty",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "–"
+      },
+      {
+        "id": "ECUC_Pwm_00135",
+        "definition_type": "EcucBooleanParamDef",
+        "definition_name": "PwmVersionInfoApi",
+        "container_name": null,
+        "parameter_name": "PwmVersionInfoApi",
+        "parent_container": "PwmConfigurationOfOptApiServices",
+        "multiplicity": "1",
+        "type": "EcucBooleanParamDef",
+        "description": "Switch to indicate that the Pwm_ GetVersionInfo is supported"
+      }
+    ],
+    "derived": {
+      "optional_api_switches": [
+        "PwmDeInitApi",
+        "PwmGetOutputState",
+        "PwmSetDutyCycle",
+        "PwmSetOutputToIdle",
+        "PwmSetPeriodAndDuty",
+        "PwmVersionInfoApi"
+      ],
+      "general_switches": [
+        "PwmDevErrorDetect",
+        "PwmDutycycleUpdatedEndperiod",
+        "PwmEcucPartitionRef",
+        "PwmIndex",
+        "PwmKernelEcucPartitionRef",
+        "PwmLowPowerStatesSupport",
+        "PwmNotificationSupported",
+        "PwmPeriodUpdatedEndperiod",
+        "PwmPowerStateAsynchTransitionMode"
+      ],
+      "channel_parameters": [
+        "PwmChannelClass",
+        "PwmChannelEcucPartitionRef",
+        "PwmChannelId",
+        "PwmDutycycleDefault",
+        "PwmIdleState",
+        "PwmMcuClockReferencePoint",
+        "PwmNotification",
+        "PwmPeriodDefault",
+        "PwmPolarity"
+      ]
+    }
+  },
+  "important_requirements": [
+    {
+      "id": "SWS_Pwm_00001",
+      "present_in_document": true,
+      "summary": "Scope excludes PWM emulation on GPIO."
+    },
+    {
+      "id": "SWS_Pwm_00007",
+      "present_in_document": true,
+      "summary": "Pwm_Init initializes internal variables and configured HW."
+    },
+    {
+      "id": "SWS_Pwm_00010",
+      "present_in_document": true,
+      "summary": "Pwm_DeInit de-initializes module."
+    },
+    {
+      "id": "SWS_Pwm_00011",
+      "present_in_document": true,
+      "summary": "Pwm_DeInit sets outputs to idle state."
+    },
+    {
+      "id": "SWS_Pwm_00012",
+      "present_in_document": true,
+      "summary": "Pwm_DeInit disables interrupts/notifications."
+    },
+    {
+      "id": "SWS_Pwm_00013",
+      "present_in_document": true,
+      "summary": "Set duty cycle service behavior."
+    },
+    {
+      "id": "SWS_Pwm_00017",
+      "present_in_document": true,
+      "summary": "Duty update at end of period when configured."
+    },
+    {
+      "id": "SWS_Pwm_00019",
+      "present_in_document": true,
+      "summary": "Set period and duty service behavior."
+    },
+    {
+      "id": "SWS_Pwm_00021",
+      "present_in_document": true,
+      "summary": "Set output to idle immediate behavior."
+    },
+    {
+      "id": "SWS_Pwm_00022",
+      "present_in_document": true,
+      "summary": "Get output state service behavior."
+    },
+    {
+      "id": "SWS_Pwm_00023",
+      "present_in_document": true,
+      "summary": "Disable notification behavior."
+    },
+    {
+      "id": "SWS_Pwm_00024",
+      "present_in_document": true,
+      "summary": "Enable notification behavior."
+    },
+    {
+      "id": "SWS_Pwm_00025",
+      "present_in_document": true,
+      "summary": "Driver shall invoke configured channel notification callback."
+    },
+    {
+      "id": "SWS_Pwm_00026",
+      "present_in_document": true,
+      "summary": "ISR clears interrupt flag for notification."
+    },
+    {
+      "id": "SWS_Pwm_00041",
+      "present_in_document": true,
+      "summary": "Period change only for VARIABLE_PERIOD channels."
+    },
+    {
+      "id": "SWS_Pwm_00045",
+      "present_in_document": true,
+      "summary": "DET check for PERIOD_UNCHANGEABLE in SetPeriodAndDuty."
+    },
+    {
+      "id": "SWS_Pwm_00047",
+      "present_in_document": true,
+      "summary": "DET check for invalid ChannelNumber."
+    },
+    {
+      "id": "SWS_Pwm_00052",
+      "present_in_document": true,
+      "summary": "Init disables all notifications."
+    },
+    {
+      "id": "SWS_Pwm_00058",
+      "present_in_document": true,
+      "summary": "Duty cycle interface width is 16-bit."
+    },
+    {
+      "id": "SWS_Pwm_00059",
+      "present_in_document": true,
+      "summary": "Duty scaling: 0x0000=0%, 0x8000=100%."
+    },
+    {
+      "id": "SWS_Pwm_00070",
+      "present_in_document": true,
+      "summary": "API time unit is ticks."
+    },
+    {
+      "id": "SWS_Pwm_00088",
+      "present_in_document": true,
+      "summary": "Reentrant for different channels (except Init/DeInit/GetVersionInfo)."
+    },
+    {
+      "id": "SWS_Pwm_00117",
+      "present_in_document": true,
+      "summary": "Any API except Init before initialization raises PWM_E_UNINIT."
+    },
+    {
+      "id": "SWS_Pwm_00201",
+      "present_in_document": true,
+      "summary": "Development errors and codes."
+    },
+    {
+      "id": "SWS_Pwm_00202",
+      "present_in_document": true,
+      "summary": "Runtime errors and codes."
+    },
+    {
+      "id": "SWS_Pwm_10051",
+      "present_in_document": true,
+      "summary": "When DET enabled, report development errors to DET."
+    },
+    {
+      "id": "SWS_Pwm_20051",
+      "present_in_document": true,
+      "summary": "When DET enabled, skip operation on development error."
+    }
+  ],
+  "stm32f103_spl_hints": {
+    "target": "stm32f103_spl",
+    "hardware_backends": [
+      "TIM1",
+      "TIM2",
+      "TIM3",
+      "TIM4"
+    ],
+    "api_coverage_from_sws": [
+      "Pwm_Init",
+      "Pwm_DeInit",
+      "Pwm_SetDutyCycle",
+      "Pwm_SetPeriodAndDuty",
+      "Pwm_SetOutputToIdle",
+      "Pwm_GetOutputState",
+      "Pwm_DisableNotification",
+      "Pwm_EnableNotification",
+      "Pwm_SetPowerState",
+      "Pwm_GetCurrentPowerState",
+      "Pwm_GetTargetPowerState",
+      "Pwm_PreparePowerState",
+      "Pwm_GetVersionInfo",
+      "Pwm_Main_PowerTransitionManager"
+    ],
+    "recommended_compile_switches": [
+      "PwmDeInitApi",
+      "PwmGetOutputState",
+      "PwmSetDutyCycle",
+      "PwmSetOutputToIdle",
+      "PwmSetPeriodAndDuty",
+      "PwmVersionInfoApi"
+    ],
+    "implementation_notes": [
+      "Use timer preload/shadow registers (ARR/CCR preload) to satisfy end-of-period update behavior.",
+      "Scale duty as ((period * duty) >> 15) where 0x8000 means 100%.",
+      "Keep channel-class checks to enforce VARIABLE_PERIOD-only period updates.",
+      "Map DET development errors and runtime errors to the corresponding service IDs.",
+      "Provide ISR hook per channel to clear CCxIF and dispatch Pwm_Notification_<#Channel>.",
+      "If low-power support is not used on STM32F103, set PwmLowPowerStatesSupport=false and gate power APIs."
+    ]
+  },
+  "extraction_stats": {
+    "api_count": 14,
+    "configurable_interface_count": 2,
+    "ecuc_container_count": 6,
+    "ecuc_parameter_count": 26,
+    "requirement_id_count": 146
+  }
+}

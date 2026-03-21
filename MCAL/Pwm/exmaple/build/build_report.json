@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-03-21T18:45:06.903918",
+  "tool": "Pwm/exmaple/build_examples.py",
+  "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "cases": [
+    {
+      "group": "advanced",
+      "case": "case_04_notification",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/advanced/case_04_notification/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/advanced/case_04_notification/case_04_notification.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "advanced",
+      "case": "case_05_power_state",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/advanced/case_05_power_state/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/advanced/case_05_power_state/case_05_power_state.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "basic",
+      "case": "case_01_init_deinit",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/basic/case_01_init_deinit/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_01_init_deinit/case_01_init_deinit.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "basic",
+      "case": "case_02_duty_sweep",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/basic/case_02_duty_sweep/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_02_duty_sweep/case_02_duty_sweep.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "basic",
+      "case": "case_03_period_and_duty",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/basic/case_03_period_and_duty/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/basic/case_03_period_and_duty/case_03_period_and_duty.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "integration",
+      "case": "case_08_full_api_smoke",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/integration/case_08_full_api_smoke/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/integration/case_08_full_api_smoke/case_08_full_api_smoke.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "negative",
+      "case": "case_06_invalid_channel",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/negative/case_06_invalid_channel/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/negative/case_06_invalid_channel/case_06_invalid_channel.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    },
+    {
+      "group": "negative",
+      "case": "case_07_power_uninit",
+      "main_file": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/negative/case_07_power_uninit/main.c",
+      "elf": "/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/MCAL/Pwm/exmaple/build/negative/case_07_power_uninit/case_07_power_uninit.elf",
+      "passed": true,
+      "gcc": "/Users/phamvanvu/Projects/Embedded/ARM-Toolchain/arm-toolchain/bin/arm-none-eabi-gcc",
+      "compile_stdout": "",
+      "compile_stderr": "",
+      "link_stdout": "",
+      "link_stderr": ""
+    }
+  ]
+}
