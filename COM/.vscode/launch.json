@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Renode: Debug Node TX (Port 3333)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "external",
+            "gdbPath": "arm-none-eabi-gdb",
+            "gdbTarget": "localhost:3333",
+            "executable": "${workspaceFolder}/node_tx.elf",
+            "cwd": "${workspaceFolder}",
+            "runToEntryPoint": "main"
+        },
+        {
+            "name": "Renode: Debug Node RX (Port 3334)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "external",
+            "gdbPath": "arm-none-eabi-gdb",
+            "gdbTarget": "localhost:3334",
+            "executable": "${workspaceFolder}/node_rx.elf",
+            "cwd": "${workspaceFolder}",
+            "runToEntryPoint": "main"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Renode: Debug Dual Nodes",
+            "configurations": ["Renode: Debug Node TX (Port 3333)", "Renode: Debug Node RX (Port 3334)"]
+        }
+    ]
+}

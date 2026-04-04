@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Make: build",
+      "type": "shell",
+      "command": "make",
+      "args": [],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Make: clean",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "none",
+      "problemMatcher": []
+    },
+    {
+      "label": "Make: rebuild",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean", "all"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": ["$gcc"],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Renode: cleanup",
+      "type": "shell",
+      "command": "pkill -f 'Renode' 2>/dev/null; lsof -ti:3333 | xargs kill -9 2>/dev/null; sleep 0.5; echo '✅ Port 3333 cleaned'",
+      "options": { "cwd": "${workspaceFolder}" },
+      "presentation": { "reveal": "silent", "panel": "shared" }
+    },
+    {
+      "label": "Renode: start COM",
+      "type": "shell",
+      "command": "/Applications/Renode.app/Contents/MacOS/renode",
+      "args": [
+        "--console",
+        "--disable-gui",
+        "-e",
+        "i @scripts/stm32_com.resc"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": ".*" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*Renode, version.*",
+          "endsPattern": ".*Renode ready for GDB connection.*"
+        }
+      },
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "COM: Renode prepare",
+      "dependsOn": ["Renode: cleanup", "Make: rebuild", "Renode: start COM"],
+      "dependsOrder": "sequence"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+19:29:43.5691 [INFO] Loaded monitor commands from: /Applications/Renode.app/Contents/MacOS/scripts/monitor.py
+[0mRenode, version 1.16.0 (6c22cb92-202511240223)
+
+[31;1m(monitor) [0minclude @/Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/scripts/stm32_com.resc;  start
+19:29:43.6028 [INFO] Including script(s): /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/scripts/stm32_com.resc
+19:29:43.6128 [INFO] System bus created.
+19:29:44.2036 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+19:29:44.4155 [INFO] sysbus: Loaded SVD: /var/folders/gf/gn7n2rcn3lg87vmyhs88n8kr0000gp/T/renode-97323/8c5684e0-e12d-4874-b759-bf84b0e44843.tmp. Name: STM32F103. Description: STM32F103.
+19:29:44.4461 [INFO] sysbus: Loading block of 10432 bytes length at 0x8000000.
+19:29:44.4540 [INFO] sysbus: Loading block of 125 bytes length at 0x80028C0.
+19:29:44.4796 [INFO] stm32: CPUs: ["stm32.cpu"] were added to a new GDB server created on port :3333
+19:29:44.4797 [INFO] stm32: GDB server with all CPUs started on port :3333
+Renode ready for GDB connection on port 3333. Use 'start' to begin simulation.
+Starting emulation...
+19:29:44.5303 [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+19:29:44.5370 [INFO] cpu: Setting initial values: PC = 0x8002725, SP = 0x80000E0.
+19:29:44.5382 [INFO] stm32: Machine started.
+19:29:44.5587 [WARNING] gpioPortC: Unhandled write to offset 0x4. Unhandled bits: [22] when writing value 0x44244444. Tags: CNF13 (0x0).
+19:29:44.5593 [WARNING] gpioPortA: Unhandled write to offset 0x4. Unhandled bits: [18-19] when writing value 0x444B4444. Tags: CNF12 (0x2).
+19:29:44.5614 [WARNING] gpioPortA: Unhandled write to offset 0x0. Unhandled bits: [10-11] when writing value 0x44444B44. Tags: CNF2 (0x2).
+19:29:44.5638 [WARNING] usart2: Unhandled write to offset 0x10. Unhandled bits: [14] when writing value 0x4000. Tags: LINEN (0x1).
+19:29:44.5638 [WARNING] usart2: Unhandled write to offset 0x10. Unhandled bits: [5] when writing value 0x20. Tags: RESERVED (0x1).
+19:29:44.5676 [WARNING] usart2: Unhandled write to offset 0xC. Unhandled bits: [0] when writing value 0x200D. Tags: SBK (0x1).
+[33;1m(stm32) [0m19:29:44.6423 [WARNING] usart2: Unhandled write to offset 0xC. Unhandled bits: [0] when writing value 0x200D. Tags: SBK (0x1). (2)
+19:29:44.6424 [INFO] stm32: Machine paused.
+19:29:44.6548 [INFO] stm32: Disposed.
+19:29:44.6552 [INFO] usart2: [host: 0,22s (+0,22s)|virt: 0,1s (+0,1s)] UPP\UPP\UPP\

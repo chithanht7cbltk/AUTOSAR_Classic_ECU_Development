@@ -1,0 +1,37 @@
+20:26:51.6580 [INFO] Loaded monitor commands from: /Applications/Renode.app/Contents/MacOS/scripts/monitor.py
+20:26:51.6683 [INFO] Monitor available in telnet mode on port 1234
+20:26:51.7467 [INFO] Including script(s): /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/scripts/stm32_interactive_cantp.resc
+20:26:51.8134 [INFO] System bus created.
+20:26:52.4945 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+20:26:52.6956 [INFO] sysbus: Loaded SVD: /var/folders/gf/gn7n2rcn3lg87vmyhs88n8kr0000gp/T/renode-33075/c5f418b8-acd4-4040-8a3d-9acf8f12efcc.tmp. Name: STM32F103. Description: STM32F103.
+20:26:52.7154 [INFO] sysbus: Loading block of 9398 bytes length at 0x8000000.
+20:26:52.7226 [INFO] sysbus: Loading block of 20 bytes length at 0x80024B6.
+20:26:52.7227 [INFO] sysbus: Loading block of 341 bytes length at 0x80024CC.
+20:26:52.7585 [INFO] Old file /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/tx_uart.log moved to /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/tx_uart.log.5
+20:26:52.7684 [INFO] Node_TX: CPUs: ["Node_TX.cpu"] were added to a new GDB server created on port :3333
+20:26:52.7684 [INFO] Node_TX: GDB server with all CPUs started on port :3333
+20:26:52.7685 [INFO] System bus created.
+20:26:53.1044 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+20:26:53.1685 [INFO] Node_RX/sysbus: Loaded SVD: /var/folders/gf/gn7n2rcn3lg87vmyhs88n8kr0000gp/T/renode-33075/c728b937-c363-4276-a5bf-62fbc4fde6e2.tmp. Name: STM32F103. Description: STM32F103.
+20:26:53.1747 [INFO] Node_RX/sysbus: Loading block of 9146 bytes length at 0x8000000.
+20:26:53.1761 [INFO] Node_RX/sysbus: Loading block of 20 bytes length at 0x80023BA.
+20:26:53.1761 [INFO] Node_RX/sysbus: Loading block of 337 bytes length at 0x80023D0.
+20:26:53.1783 [INFO] Old file /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/rx_uart.log moved to /Users/phamvanvu/HALAAcademy/01_Courses/AUTOSAR_Classic/COM/rx_uart.log.3
+20:26:53.1799 [INFO] Node_RX: CPUs: ["Node_RX.cpu"] were added to a new GDB server created on port :3334
+20:26:53.1799 [INFO] Node_RX: GDB server with all CPUs started on port :3334
+20:26:53.1835 [INFO] Node_TX/cpu: Guessing VectorTableOffset value to be 0x8000000.
+20:26:53.1901 [INFO] Node_TX/cpu: Setting initial values: PC = 0x80022D9, SP = 0x20005000.
+20:26:53.1913 [INFO] Node_TX: Machine started.
+20:26:53.1914 [INFO] Node_RX/cpu: Guessing VectorTableOffset value to be 0x8000000.
+20:26:53.1923 [INFO] Node_RX/cpu: Setting initial values: PC = 0x8002201, SP = 0x20005000.
+20:26:53.1926 [INFO] Node_RX: Machine started.
+20:26:53.2127 [WARNING] Node_RX/gpioPortA: Unhandled write to offset 0x4. Unhandled bits: [6-7] when writing value 0x444444B4. Tags: CNF9 (0x2).
+20:26:53.2128 [WARNING] Node_TX/gpioPortA: Unhandled write to offset 0x4. Unhandled bits: [6-7] when writing value 0x444444B4. Tags: CNF9 (0x2).
+20:26:53.2171 [WARNING] Node_TX/gpioPortA: Unhandled write to offset 0x4. Unhandled bits: [18-19] when writing value 0x444B4474. Tags: CNF12 (0x2).
+20:26:53.2172 [WARNING] Node_RX/gpioPortA: Unhandled write to offset 0x4. Unhandled bits: [18-19] when writing value 0x444B4474. Tags: CNF12 (0x2).
+20:26:53.2287 [WARNING] Node_RX/gpioPortA: Unhandled write to offset 0x0. Unhandled bits: [10-11] when writing value 0x44444B44. Tags: CNF2 (0x2).
+20:26:53.2288 [WARNING] Node_TX/gpioPortA: Unhandled write to offset 0x0. Unhandled bits: [10-11] when writing value 0x44444B44. Tags: CNF2 (0x2).
+20:26:53.2289 [WARNING] Node_RX/usart2: Unhandled write to offset 0x10. Unhandled bits: [14] when writing value 0x4000. Tags: LINEN (0x1).
+20:26:53.2290 [WARNING] Node_TX/usart2: Unhandled write to offset 0x10. Unhandled bits: [14] when writing value 0x4000. Tags: LINEN (0x1).
+20:26:53.2290 [WARNING] Node_RX/usart2: Unhandled write to offset 0x10. Unhandled bits: [5] when writing value 0x20. Tags: RESERVED (0x1).
+20:26:53.2290 [WARNING] Node_TX/usart2: Unhandled write to offset 0x10. Unhandled bits: [5] when writing value 0x20. Tags: RESERVED (0x1).

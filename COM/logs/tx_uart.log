@@ -1,0 +1,5 @@
+
+--- Node TX Booted ---
+Waiting for GDB to set trigger_tx = 1 ...
+[Node TX] Initiated CanTp Diagnostics transmission of 20 bytes!
+[Node TX] Transmission sent.

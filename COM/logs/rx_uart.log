@@ -1,0 +1,5 @@
+
+--- Node RX Booted ---
+Waiting for CanTp diagnostic packets on CAN bus...
+
+[Node RX] Received CanTp Payload (20 bytes): 11 22 33 44 55 66 77 88 99 AA BB CC DD EE FF 01 02 03 04 05 
